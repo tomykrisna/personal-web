@@ -10,6 +10,10 @@ import {PortfolioSignalService} from '../../../services/portfolio.signal';
 import {Project} from '../../../services/portfolio.dto';
 import {FirebaseTimestampPipe} from '../../../pipes/firebasetimestamp.pipe';
 import {FormsModule} from '@angular/forms';
+import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
+import {Button} from 'primeng/button';
+import {GalleriaModule} from 'primeng/galleria';
+import {Image} from 'primeng/image';
 
 @Component({
   selector: 'app-sidebar',
@@ -22,6 +26,9 @@ import {FormsModule} from '@angular/forms';
     RouterLink,
     FirebaseTimestampPipe,
     FormsModule,
+    Button,
+    GalleriaModule,
+    Image,
   ],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.scss',
@@ -53,16 +60,35 @@ export class SidebarComponent implements OnInit {
     description: '',
     url: '',
     title: '',
-    stack:[]
+    stack: []
 
   }
 
+  descriptionDetail!: SafeHtml
+
   emailText = ''
   currentIndex = 0;
+
+  responsiveOptions: any[] = [
+    {
+      breakpoint: '991px',
+      numVisible: 4
+    },
+    {
+      breakpoint: '767px',
+      numVisible: 3
+    },
+    {
+      breakpoint: '575px',
+      numVisible: 1
+    }
+  ];
+
   constructor(
     private renderer: Renderer2,
     public classManager: ClassManagerService,
-    public portfolioSignalService: PortfolioSignalService
+    public portfolioSignalService: PortfolioSignalService,
+    private sanitizer: DomSanitizer
   ) {
   }
 
@@ -73,6 +99,7 @@ export class SidebarComponent implements OnInit {
 
   openModel(data: Project) {
     this.portfolioDetail = data
+    this.descriptionDetail = this.sanitizer.bypassSecurityTrustHtml(data.description)
     this.isModelOpen = true;
   }
 
@@ -103,8 +130,6 @@ export class SidebarComponent implements OnInit {
   }
 
 
-
-
   prevSlide() {
     const total = this.portfolioDetail.image.length;
     if (this.currentIndex > 0) {
@@ -130,7 +155,7 @@ export class SidebarComponent implements OnInit {
   }
 
 
-  sendEmail(){
+  sendEmail() {
     const email = 'tommykrisna7@gmail.com';
     const mailto = `mailto:${email}?body=${encodeURIComponent(this.emailText)}`;
     window.open(mailto, '_blank');

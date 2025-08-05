@@ -951,20 +951,21 @@
   <div class="custom-model-inner">
     <div class="close-btn" (click)="closeModel()">×</div>
     <div class="custom-model-wrap">
-      <div class="pop-up-content-wrap">
+      <div class="pop-up-content-wrap" style="max-height: 75vh">
         <div class="row">
           <div class="col-lg-12">
             <div class="opend-section">
               <div class="row">
                 <div class="col-lg-12">
                   <div class="boxes-area">
-                    <div class="slider-container">
-                      <div class="slider" id="imageSlider">
-                        <img *ngFor="let img of portfolioDetail.image" [src]="img" alt="Portfolio image"/>
-                      </div>
-                      <button class="prev" (click)="prevSlide()">❮</button>
-                      <button class="next" (click)="nextSlide()">❯</button>
-                    </div>
+                    <p-galleria [value]="portfolioDetail.image" [showItemNavigators]="true" [showThumbnails]="false" [showIndicators]="true" [showItemNavigatorsOnHover]="true" [circular]="true"[responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
+                      <ng-template #item let-item>
+                        <img [src]="item" style="width: 100%; display: block;" />
+                      </ng-template>
+                      <ng-template #thumbnail let-item>
+                        <img [src]="item" style="display: block;" />
+                      </ng-template>
+                    </p-galleria>
                     <div class="content">
                       <div class="tags-area">
                         <a
@@ -989,7 +990,7 @@
                           {{ stack }}
                         </span>
                       </div>
-                      <p>{{ portfolioDetail.description }}</p>
+                      <div [innerHTML]="descriptionDetail"></div>
                       <div class="btn-area1" style="margin-top:10px">
                         <a href="{{portfolioDetail.url}}" target="_blank" class="vl-btn1">Link</a>
                       </div>
