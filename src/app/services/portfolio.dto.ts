@@ -12,6 +12,7 @@ export interface Project {
   title: string
   url: string
   name: string
+  stack:string[]
 }
 
 export interface Date {

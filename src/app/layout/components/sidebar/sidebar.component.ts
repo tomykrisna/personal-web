@@ -8,6 +8,8 @@ import aos from 'aos';
 import {CounterDirective} from '../../../directives/counter.directive';
 import {PortfolioSignalService} from '../../../services/portfolio.signal';
 import {Project} from '../../../services/portfolio.dto';
+import {FirebaseTimestampPipe} from '../../../pipes/firebasetimestamp.pipe';
+import {FormsModule} from '@angular/forms';
 
 @Component({
   selector: 'app-sidebar',
@@ -18,9 +20,11 @@ import {Project} from '../../../services/portfolio.dto';
     RouterOutlet,
     ScrollToModule,
     RouterLink,
+    FirebaseTimestampPipe,
+    FormsModule,
   ],
   templateUrl: './sidebar.component.html',
-  styles: ``,
+  styleUrl: './sidebar.component.scss',
   providers: [ScrollToService],
 })
 export class SidebarComponent implements OnInit {
@@ -48,10 +52,13 @@ export class SidebarComponent implements OnInit {
     },
     description: '',
     url: '',
-    title: ''
+    title: '',
+    stack:[]
 
   }
 
+  emailText = ''
+  currentIndex = 0;
   constructor(
     private renderer: Renderer2,
     public classManager: ClassManagerService,
@@ -93,5 +100,39 @@ export class SidebarComponent implements OnInit {
 
   setActiveLink(sectionId: string): void {
     this.currentSection = sectionId;
+  }
+
+
+
+
+  prevSlide() {
+    const total = this.portfolioDetail.image.length;
+    if (this.currentIndex > 0) {
+      this.currentIndex--;
+      this.updateSlider();
+    }
+  }
+
+  nextSlide() {
+    const total = this.portfolioDetail.image.length;
+    if (this.currentIndex < total - 1) {
+      this.currentIndex++;
+      this.updateSlider();
+    }
+  }
+
+  updateSlider() {
+    const slider = document.getElementById('imageSlider');
+    if (slider) {
+      const width = slider.clientWidth;
+      slider.style.transform = `translateX(-${this.currentIndex * width}px)`;
+    }
+  }
+
+
+  sendEmail(){
+    const email = 'tommykrisna7@gmail.com';
+    const mailto = `mailto:${email}?body=${encodeURIComponent(this.emailText)}`;
+    window.open(mailto, '_blank');
   }
 }
