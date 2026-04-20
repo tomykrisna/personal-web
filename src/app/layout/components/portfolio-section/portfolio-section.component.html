@@ -1,0 +1,32 @@
+<div class="portfolio-section-area portfolio-premium">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="portfolio-header heading1">
+          <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sublogo1.svg" alt="">My Portfolio</h5>
+          <div class="space24"></div>
+          <h1 data-aos="fade-left" data-aos-duration="1000">Curated Product Delivery</h1>
+          <h1 class="head" data-aos="fade-left" data-aos-duration="1100">at
+            <span>Production Scale</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-premium__masonry" *ngIf="mappedProjects.length; else noProjectState">
+      <div class="portfolio-premium__column" *ngFor="let column of groupedProjects; trackBy: trackByColumnIndex">
+        <app-portfolio-card
+          *ngFor="let project of column; trackBy: trackByProjectId"
+          [project]="project"
+          (viewDetails)="openProject($event)"
+        ></app-portfolio-card>
+      </div>
+    </div>
+
+    <ng-template #noProjectState>
+      <div class="portfolio-premium__empty">
+        <p>Portfolio projects are being prepared. Please check back soon.</p>
+      </div>
+    </ng-template>
+  </div>
+</div>

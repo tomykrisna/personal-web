@@ -1,0 +1,36 @@
+.portfolio-premium {
+  .portfolio-header {
+    margin-bottom: 2rem;
+  }
+}
+
+.portfolio-premium__masonry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.portfolio-premium__column {
+  flex: 1;
+  min-width: 0;
+}
+
+.portfolio-premium__empty {
+  border-radius: 16px;
+  padding: 1.25rem;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(10, 16, 28, 0.5);
+}
+
+@media (max-width: 1199px) {
+  .portfolio-premium__masonry {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio-premium__column {
+    width: 100%;
+  }
+}

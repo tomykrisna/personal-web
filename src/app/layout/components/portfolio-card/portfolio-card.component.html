@@ -1,0 +1,16 @@
+<article class="portfolio-card" role="button" tabindex="0" (click)="onOpenDetails()" (keydown.enter)="onOpenDetails()">
+  <div class="portfolio-card__media">
+    <img [src]="project.coverImage" [alt]="project.displayTitle" loading="lazy" decoding="async"/>
+  </div>
+
+  <div class="portfolio-card__overlay">
+    <p class="portfolio-card__label">{{ project.name || 'Featured Project' }}</p>
+    <h3>{{ project.displayTitle }}</h3>
+
+    <div class="portfolio-card__stack">
+      <span *ngFor="let stack of project.stack | slice:0:4">{{ stack }}</span>
+    </div>
+
+    <p class="portfolio-card__cta">View Details</p>
+  </div>
+</article>

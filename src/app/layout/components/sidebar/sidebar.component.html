@@ -533,79 +533,10 @@
           </div>
           <div class="space30"></div>
           <div id="list-item-5">
-            <!--===== PORTFOLIO AREA STARTS =======-->
-            <div class="portfolio-section-area">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="portfolio-header heading1">
-                      <h5 data-aos="fade-left" data-aos-duration="800"><img
-                        src="assets/img/icons/sublogo1.svg" alt="">My Portfolio</h5>
-                      <div class="space24"></div>
-                      <h1 data-aos="fade-left" data-aos-duration="1000">Let’s Turn Problems</h1>
-                      <!--                      <div class="space24"></div>-->
-                      <h1 class="head" data-aos="fade-left" data-aos-duration="1100">into
-                        <span>Product</span>
-                      </h1>
-                    </div>
-                  </div>
-                  <div class="space50"></div>
-                  <div *ngFor="let item of portfolioSignalService.data$().project" class="col-lg-12"
-                       data-aos="fade-left" data-aos-duration="1000">
-                    <div class="portfolio-boxarea click-here" (click)="openModel(item)">
-                      <div class="img1">
-                        <a href="javascript:void(0)">
-                          <img src="{{item.image[0]}}"
-                               alt="">
-                        </a>
-                      </div>
-                      <div class="space24"></div>
-                      <a href="javascript:void(0)">{{ item.name }}</a>
-                    </div>
-                  </div>
-
-                  <!--                  <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1100">-->
-                  <!--                    <div class="portfolio-boxarea2 click-here" (click)="openModel()">-->
-                  <!--                      <div class="img1">-->
-                  <!--                        <a href="javascript:void(0)">-->
-                  <!--                          <img src="assets/img/all-images/portfolio/portfolio-img3.png"-->
-                  <!--                               alt="">-->
-                  <!--                        </a>-->
-                  <!--                      </div>-->
-                  <!--                      <div class="space24"></div>-->
-                  <!--                      <a href="javascript:void(0)">Academy - Sales Career</a>-->
-                  <!--                    </div>-->
-                  <!--                  </div>-->
-
-                  <!--                  <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1200">-->
-                  <!--                    <div class="portfolio-boxarea2 click-here" (click)="openModel()">-->
-                  <!--                      <div class="img1">-->
-                  <!--                        <a href="javascript:void(0)">-->
-                  <!--                          <img src="assets/img/all-images/portfolio/portfolio-img4.png"-->
-                  <!--                               alt="">-->
-                  <!--                        </a>-->
-                  <!--                      </div>-->
-                  <!--                      <div class="space24"></div>-->
-                  <!--                      <a href="javascript:void(0)">Leadlogic- Dashboard Design</a>-->
-                  <!--                    </div>-->
-                  <!--                  </div>-->
-
-                  <!--                  <div class="col-lg-12" data-aos="fade-left" data-aos-duration="1100">-->
-                  <!--                    <div class="portfolio-boxarea click-here" (click)="openModel()">-->
-                  <!--                      <div class="img1">-->
-                  <!--                        <a href="javascript:void(0)">-->
-                  <!--                          <img src="assets/img/all-images/portfolio/portfolio-img2.png"-->
-                  <!--                               alt="">-->
-                  <!--                        </a>-->
-                  <!--                      </div>-->
-                  <!--                      <div class="space24"></div>-->
-                  <!--                      <a href="javascript:void(0)">Reelup - E commercer Video Platform</a>-->
-                  <!--                    </div>-->
-                  <!--                  </div>-->
-                </div>
-              </div>
-            </div>
-            <!--===== PORTFOLIO AREA ENDS =======-->
+            <app-portfolio-section
+              [projects]="portfolioSignalService.data$().project || []"
+              (projectSelected)="openPortfolioDetail($event)"
+            ></app-portfolio-section>
           </div>
           <div class="space30"></div>
           <!--          <div id="list-item-6">-->
@@ -1016,102 +947,8 @@
   </div>
 </div>
 
-
-<div class="custom-model-main" [class.model-open]="isModelOpen">
-  <div class="custom-model-inner">
-    <div class="close-btn" (click)="closeModel()">×</div>
-    <div class="custom-model-wrap">
-      <div class="pop-up-content-wrap" style="max-height: 75vh">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="opend-section">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="boxes-area">
-                    <p-galleria [value]="portfolioDetail.image" [showItemNavigators]="true" [showThumbnails]="false"
-                                [showIndicators]="true" [showItemNavigatorsOnHover]="true" [circular]="true"
-                                [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
-                      <ng-template #item let-item>
-                        <img [src]="item" style="width: 100%; display: block;"/>
-                      </ng-template>
-                      <ng-template #thumbnail let-item>
-                        <img [src]="item" style="display: block;"/>
-                      </ng-template>
-                    </p-galleria>
-                    <div class="content">
-                      <div class="tags-area">
-                        <a
-                          href="javascript:void(0);">{{ portfolioDetail.date | firebaseTimestamp | date:'dd MMM yyyy' }}</a>
-                        <!--                        <a href="javascript:void(0);">Alex Ross</a>-->
-                      </div>
-                      <a href="javascript:void(0);">{{ portfolioDetail.title }}</a>
-                      <div
-                        style="display: flex; flex-wrap: wrap; gap: 8px; margin: 0.5rem 0; color: white; padding: 0.5rem; border-radius: 0.25rem;">
-                        <span
-                          *ngFor="let stack of portfolioDetail.stack"
-                          style="
-                            background-color: #FFAE00;
-                            color: #1E3A8A;
-                            font-size: 0.75rem;
-                            font-weight: 500;
-                            margin-right: 0.5rem;
-                            padding: 2px 8px;
-                            border-radius: 0.25rem;
-                            text-transform: uppercase;
-                          ">
-                          {{ stack }}
-                        </span>
-                      </div>
-                      <div [innerHTML]="descriptionDetail"></div>
-                      <div class="btn-area1" style="margin-top:10px">
-                        <a href="{{portfolioDetail.url}}" target="_blank" class="vl-btn1">Link</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!--                <div class="col-lg-5">-->
-                <!--                  <div class="contact-from-area" data-aos="flip-right" data-aos-duration="1000">-->
-                <!--                    <h3>Leave A Message</h3>-->
-                <!--                    <form action="https://api.web3forms.com/submit" method="POST">-->
-                <!--                      <input type="hidden" name="access_key"-->
-                <!--                             value="0cd32fff-eda2-4da3-be43-37d47fbb396b">-->
-
-                <!--                      <div class="input">-->
-                <!--                        <input type="text" placeholder="Full Name">-->
-                <!--                      </div>-->
-                <!--                      <div class="input">-->
-                <!--                        <input type="number" placeholder="Phone Number" required>-->
-                <!--                      </div>-->
-                <!--                      <div class="input">-->
-                <!--                        <input type="email" placeholder="Email Address" required>-->
-                <!--                      </div>-->
-                <!--                      <div class="input">-->
-                <!--                        <select name="country" id="country" class="country-area nice-select6">-->
-                <!--                          <option value="1" data-display="Service Type">Service Type</option>-->
-                <!--                          <option value="">Belgium</option>-->
-                <!--                          <option value="">Brezil</option>-->
-                <!--                          <option value="">Argentina</option>-->
-                <!--                          <option value="">Bangladesh</option>-->
-                <!--                          <option value="">Germany</option>-->
-                <!--                        </select>-->
-                <!--                      </div>-->
-                <!--                      <div class="input">-->
-                <!--                        <textarea placeholder="Message" required></textarea>-->
-                <!--                      </div>-->
-                <!--                      <div class="space32"></div>-->
-                <!--                      <div class="btn-area text-end" data-aos="fade-up" data-aos-duration="1200">-->
-                <!--                        <button type="submit" class="vl-btn1">submit now</button>-->
-                <!--                      </div>-->
-                <!--                    </form>-->
-                <!--                  </div>-->
-                <!--                </div>-->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="bg-overlay"></div>
-</div>
+<app-portfolio-detail-modal
+  [isOpen]="!!selectedPortfolioProject"
+  [project]="selectedPortfolioProject"
+  (close)="closePortfolioDetail()"
+></app-portfolio-detail-modal>

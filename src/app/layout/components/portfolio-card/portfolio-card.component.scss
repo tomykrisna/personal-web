@@ -1,0 +1,104 @@
+:host {
+  display: block;
+}
+
+.portfolio-card {
+  position: relative;
+  margin-bottom: 1.2rem;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #0d111a;
+  cursor: pointer;
+  break-inside: avoid;
+  transform: translateZ(0);
+  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+
+  &:focus-visible {
+    outline: 2px solid #ffae00;
+    outline-offset: 2px;
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 174, 0, 0.5);
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.45);
+  }
+
+  &:hover .portfolio-card__overlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.portfolio-card__media {
+  overflow: hidden;
+}
+
+.portfolio-card__media img {
+  width: 100%;
+  height: auto;
+  min-height: 220px;
+  max-height: 680px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .portfolio-card__media {
+    min-height: 200px;
+  }
+}
+
+.portfolio-card__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.65rem;
+  padding: 1.25rem;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(8px);
+  background: linear-gradient(180deg, rgba(2, 6, 15, 0.15) 10%, rgba(2, 6, 15, 0.9) 100%);
+  transition: opacity 220ms ease, transform 220ms ease;
+
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+}
+
+.portfolio-card__label {
+  margin: 0;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.portfolio-card__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+
+  span {
+    font-size: 0.7rem;
+    line-height: 1;
+    padding: 0.34rem 0.58rem;
+    border-radius: 999px;
+    background: rgba(255, 174, 0, 0.17);
+    border: 1px solid rgba(255, 174, 0, 0.5);
+    color: #ffe7b0;
+  }
+}
+
+.portfolio-card__cta {
+  margin: 0.3rem 0 0;
+  color: #ffae00;
+  font-weight: 600;
+  font-size: 0.82rem;
+}

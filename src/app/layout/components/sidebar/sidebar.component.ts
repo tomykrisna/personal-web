@@ -1,5 +1,5 @@
-import {Component, HostListener, OnInit, Renderer2} from '@angular/core';
-import {RouterLink, RouterOutlet} from '@angular/router';
+import {Component, HostListener, OnDestroy, OnInit} from '@angular/core';
+import {RouterOutlet} from '@angular/router';
 import {GsapRevealDirective} from '../../../directives/gsap-reveal.directive';
 import {CommonModule} from '@angular/common';
 import {ClassManagerService} from '../../../services/classmanaer.service';
@@ -7,13 +7,10 @@ import {ScrollToModule, ScrollToService} from '@nicky-lenaers/ngx-scroll-to'
 import aos from 'aos';
 import {CounterDirective} from '../../../directives/counter.directive';
 import {PortfolioSignalService} from '../../../services/portfolio.signal';
-import {Project} from '../../../services/portfolio.dto';
-import {FirebaseTimestampPipe} from '../../../pipes/firebasetimestamp.pipe';
 import {FormsModule} from '@angular/forms';
-import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
-import {Button} from 'primeng/button';
-import {GalleriaModule} from 'primeng/galleria';
-import {Image} from 'primeng/image';
+import {PortfolioSectionComponent} from '../portfolio-section/portfolio-section.component';
+import {PortfolioDetailModalComponent} from '../portfolio-detail-modal/portfolio-detail-modal.component';
+import {PortfolioProjectViewModel} from '../../../services/portfolio.mapper';
 
 @Component({
   selector: 'app-sidebar',
@@ -23,21 +20,17 @@ import {Image} from 'primeng/image';
     CommonModule,
     RouterOutlet,
     ScrollToModule,
-    RouterLink,
-    FirebaseTimestampPipe,
     FormsModule,
-    Button,
-    GalleriaModule,
-    Image,
+    PortfolioSectionComponent,
+    PortfolioDetailModalComponent
   ],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.scss',
   providers: [ScrollToService],
 })
-export class SidebarComponent implements OnInit {
+export class SidebarComponent implements OnInit, OnDestroy {
   currentSection = 'list-item-1';
   year = new Date().getFullYear();
-  isModelOpen: boolean = false;
   sectionIds = [
     'list-item-1',
     'list-item-2',
@@ -49,46 +42,13 @@ export class SidebarComponent implements OnInit {
     'list-item-8',
   ];
 
-  portfolioDetail: Project = {
-    name: '',
-    image: [],
-    date: {
-      nanoseconds: 0,
-      seconds: 0,
-      type: ''
-    },
-    description: '',
-    url: '',
-    title: '',
-    stack: []
-
-  }
-
-  descriptionDetail!: SafeHtml
-
   emailText = ''
-  currentIndex = 0;
-
-  responsiveOptions: any[] = [
-    {
-      breakpoint: '991px',
-      numVisible: 4
-    },
-    {
-      breakpoint: '767px',
-      numVisible: 3
-    },
-    {
-      breakpoint: '575px',
-      numVisible: 1
-    }
-  ];
+  selectedPortfolioProject: PortfolioProjectViewModel | null = null;
+  private lockedScrollContainer: HTMLElement | null = null;
 
   constructor(
-    private renderer: Renderer2,
     public classManager: ClassManagerService,
-    public portfolioSignalService: PortfolioSignalService,
-    private sanitizer: DomSanitizer
+    public portfolioSignalService: PortfolioSignalService
   ) {
   }
 
@@ -97,10 +57,9 @@ export class SidebarComponent implements OnInit {
     this.portfolioSignalService.getPortfolio()
   }
 
-  openModel(data: Project) {
-    this.portfolioDetail = data
-    this.descriptionDetail = this.sanitizer.bypassSecurityTrustHtml(data.description)
-    this.isModelOpen = true;
+  ngOnDestroy(): void {
+    document.body.style.overflow = '';
+    this.unlockBackgroundScroll();
   }
 
   @HostListener('window:scroll', [])
@@ -121,43 +80,45 @@ export class SidebarComponent implements OnInit {
     }
   }
 
-  closeModel() {
-    this.isModelOpen = false;
-  }
-
   setActiveLink(sectionId: string): void {
     this.currentSection = sectionId;
   }
 
-
-  prevSlide() {
-    const total = this.portfolioDetail.image.length;
-    if (this.currentIndex > 0) {
-      this.currentIndex--;
-      this.updateSlider();
-    }
+  openPortfolioDetail(project: PortfolioProjectViewModel): void {
+    this.selectedPortfolioProject = project;
+    document.body.style.overflow = 'hidden';
+    this.lockBackgroundScroll();
   }
 
-  nextSlide() {
-    const total = this.portfolioDetail.image.length;
-    if (this.currentIndex < total - 1) {
-      this.currentIndex++;
-      this.updateSlider();
-    }
+  closePortfolioDetail(): void {
+    this.selectedPortfolioProject = null;
+    document.body.style.overflow = '';
+    this.unlockBackgroundScroll();
   }
-
-  updateSlider() {
-    const slider = document.getElementById('imageSlider');
-    if (slider) {
-      const width = slider.clientWidth;
-      slider.style.transform = `translateX(-${this.currentIndex * width}px)`;
-    }
-  }
-
 
   sendEmail() {
     const email = 'tommykrisna7@gmail.com';
     const mailto = `mailto:${email}?body=${encodeURIComponent(this.emailText)}`;
     window.open(mailto, '_blank');
+  }
+
+  private lockBackgroundScroll(): void {
+    const container = document.querySelector('.scrollspy-example') as HTMLElement | null;
+
+    if (!container) {
+      return;
+    }
+
+    this.lockedScrollContainer = container;
+    this.lockedScrollContainer.style.overflow = 'hidden';
+  }
+
+  private unlockBackgroundScroll(): void {
+    if (!this.lockedScrollContainer) {
+      return;
+    }
+
+    this.lockedScrollContainer.style.overflow = '';
+    this.lockedScrollContainer = null;
   }
 }

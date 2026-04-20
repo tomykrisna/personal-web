@@ -9,7 +9,12 @@ export class FirebaseService {
   constructor(private firestore: Firestore) {
   }
 
-  getProjects(id: string): Observable<any[]> {
+  getPortfolioProjects(): Observable<any[]> {
+    const projectRef = collection(this.firestore, 'portfolioProjects');
+    return collectionData(projectRef, {idField: 'id'});
+  }
+
+  getLegacyProjects(id: string): Observable<any[]> {
     const projectRef = collection(this.firestore, 'portfolio');
     return collectionData(projectRef, {idField: id});
   }

@@ -2,8 +2,6 @@ import {Component, HostListener} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
 import aos from 'aos';
 import {CursorDirective} from './directives/cursor.directive';
-import {collection, collectionData, Firestore} from '@angular/fire/firestore';
-import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -19,14 +17,7 @@ export class AppComponent {
   duration: number = 550;
   showPreloader: boolean = true;
 
-  constructor(
-    private firestore: Firestore
-  ) {
-
-      console.log('masuk');
-    this.getProjects().subscribe((data) => {
-      console.log('DATA:', data);
-    });
+  constructor() {
   }
 
 
@@ -42,11 +33,6 @@ export class AppComponent {
     setTimeout(() => {
       this.showPreloader = false;
     }, 900);
-  }
-
-  getProjects(): Observable<any[]> {
-    const projectRef = collection(this.firestore, 'portfolio');
-    return collectionData(projectRef, {idField: '3NGx21lNUmjVwy3DeRgW'});
   }
 
   @HostListener('window:scroll', [])

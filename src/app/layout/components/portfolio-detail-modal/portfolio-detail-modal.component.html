@@ -1,0 +1,34 @@
+<section class="portfolio-modal" *ngIf="isOpen && project" aria-modal="true" role="dialog">
+  <div class="portfolio-modal__backdrop" (click)="onClose()"></div>
+
+  <div class="portfolio-modal__panel">
+    <button type="button" class="portfolio-modal__close" aria-label="Close details" (click)="onClose()">×</button>
+
+    <div class="portfolio-modal__hero">
+      <img [src]="project.coverImage" [alt]="project.displayTitle" decoding="async"/>
+    </div>
+
+    <div class="portfolio-modal__content">
+      <p class="portfolio-modal__label">{{ project.name || 'Product Case Study' }}</p>
+      <h2>{{ project.displayTitle }}</h2>
+      <p class="portfolio-modal__date">{{ project.formattedDate }}</p>
+
+      <div class="portfolio-modal__stack">
+        <span *ngFor="let stack of project.stack">{{ stack }}</span>
+      </div>
+
+      <div class="portfolio-modal__description" [innerHTML]="project.description"></div>
+
+      <a *ngIf="hasExternalLink" [href]="project.url" target="_blank" rel="noopener noreferrer" class="portfolio-modal__link">
+        Open Project
+      </a>
+    </div>
+
+    <div class="portfolio-modal__gallery" *ngIf="extraGalleryImages.length">
+      <h3>Project Gallery</h3>
+      <div class="portfolio-modal__gallery-grid">
+        <img *ngFor="let image of extraGalleryImages" [src]="image" [alt]="project.displayTitle" loading="lazy" decoding="async"/>
+      </div>
+    </div>
+  </div>
+</section>

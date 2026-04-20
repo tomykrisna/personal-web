@@ -7,7 +7,12 @@
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy-firebase": "firebase deploy"
+    "deploy-firebase": "firebase deploy",
+    "seed:portfolio": "node tools/portfolio-seed/seed-firestore.mjs --file tools/portfolio-seed/projects.json --collection portfolioProjects",
+    "seed:portfolio:dry": "node tools/portfolio-seed/seed-firestore.mjs --file tools/portfolio-seed/projects.json --collection portfolioProjects --dry-run",
+    "seed:portfolio:images": "node tools/portfolio-seed/upload-storage-images.mjs --file tools/portfolio-seed/projects.json --images-root tools/portfolio-seed/images --collection portfolioProjects",
+    "seed:portfolio:sa": "node tools/portfolio-seed/seed-firestore.mjs --file tools/portfolio-seed/projects.json --collection portfolioProjects --service-account ./service-account.json",
+    "seed:portfolio:images:sa": "node tools/portfolio-seed/upload-storage-images.mjs --file tools/portfolio-seed/projects.json --images-root tools/portfolio-seed/images --collection portfolioProjects --service-account ./service-account.json"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +32,7 @@
     "bootstrap": "^5.3.3",
     "countup.js": "^2.8.0",
     "firebase": "^11.10.0",
+    "firebase-admin": "^13.8.0",
     "gsap": "^3.12.7",
     "primeng": "^20.0.1",
     "rxjs": "~7.8.0",
