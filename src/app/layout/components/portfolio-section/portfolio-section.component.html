@@ -23,6 +23,24 @@
       </div>
     </div>
 
+    <div class="portfolio-premium__pagination" *ngIf="totalPages > 1">
+      <button type="button" class="portfolio-premium__page-btn" [disabled]="!canGoPrev" (click)="goPrevPage()">
+        Prev
+      </button>
+      <button
+        type="button"
+        class="portfolio-premium__page-btn"
+        *ngFor="let page of pageNumbers; trackBy: trackByPage"
+        [class.is-active]="page === currentPage"
+        (click)="goToPage(page)"
+      >
+        {{ page }}
+      </button>
+      <button type="button" class="portfolio-premium__page-btn" [disabled]="!canGoNext" (click)="goNextPage()">
+        Next
+      </button>
+    </div>
+
     <ng-template #noProjectState>
       <div class="portfolio-premium__empty">
         <p>Portfolio projects are being prepared. Please check back soon.</p>
