@@ -1,6 +1,6 @@
 [
   {
-    "summary": "Led end-to-end development of a merchant operations app used for product, inventory, and transaction workflows.",
+    "summary": "Architected and led end-to-end delivery of Youtap BOS — a comprehensive merchant operations platform powering 500K+ merchants across Android, iOS, and Web — handling product management, real-time inventory, and high-volume transaction workflows.",
     "periodLabel": "2021 - Present",
     "stack": [
       "Angular",
@@ -11,7 +11,7 @@
     ],
     "role": "Tech Lead",
     "endDate": "",
-    "description": "<p>Youtap BOS is a business operations platform for merchants across web and mobile. I led architecture and delivery across frontend and backend teams, designed scalable service boundaries, and ensured release quality through code reviews and delivery checkpoints. The system supports core operational features such as product and inventory management, payment integration, and reporting.</p>",
+    "description": "<p>Youtap BOS is an omnichannel business operations platform developed for PT. Mitra Digital Sukses (Salim Group), serving 500K+ merchants across 510+ cities in Indonesia.</p><p>As Tech Lead, I owned the full technical lifecycle — from microservices architecture on NestJS to cross-platform mobile delivery on Ionic/Angular. I designed scalable service boundaries, led a cross-functional engineering team, and maintained a rigorous release quality process across continuous delivery cycles.</p><p>The platform handles core merchant workflows: product catalog management, real-time inventory tracking across multiple warehouse locations, multi-payment gateway integration (70+ providers), transaction processing, and a comprehensive reporting engine that delivers actionable business intelligence to merchants.</p><p>Delivered continuous feature releases maintaining 99.9% uptime for 500K+ daily active merchants.</p>",
     "source": "seed",
     "title": "Youtap BOS (Android & iOS)",
     "createdAt": "2026-04-20T11:10:58.449Z",
@@ -32,7 +32,14 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/BOS%2FScreenshot%202025-07-17%20at%2014.40.18.png?alt=media&token=2d88e31d-065f-471c-8ee0-1813f00922b8",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/BOS%2FScreenshot%202025-07-17%20at%2014.40.38.png?alt=media&token=09033201-88e8-4cf5-b541-7648212008ec"
     ],
-    "highlightProject": true
+    "highlightProject": true,
+    "highlights": [
+      "Served 500,000+ merchants across Android, iOS, and Web",
+      "Integrated 70+ payment providers under a unified API layer",
+      "Real-time inventory sync across multi-warehouse setup",
+      "99.9% uptime maintained through rigorous delivery checkpoints",
+      "Built on NestJS microservices with Angular/Ionic cross-platform frontend"
+    ]
   },
   {
     "summary": "Delivered the web-based BOS experience for merchant operational workflows and business visibility.",
