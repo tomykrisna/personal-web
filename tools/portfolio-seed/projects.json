@@ -42,7 +42,7 @@
     ]
   },
   {
-    "summary": "Delivered the web-based BOS experience for merchant operational workflows and business visibility.",
+    "summary": "Built and maintained the web counterpart of Youtap BOS, delivering the same merchant operations platform through a responsive Angular interface that serves over 500,000 merchants alongside the mobile apps.",
     "periodLabel": "2021 - Present",
     "stack": [
       "Angular",
@@ -52,7 +52,7 @@
     ],
     "role": "Tech Lead",
     "endDate": "",
-    "description": "<p>Youtap BOS Web extends operational control through a responsive browser-based interface for merchants and operations teams. I led team execution and architecture decisions to keep delivery reliable and maintainable across continuous feature updates.</p>",
+    "description": "<p>Youtap BOS Web is the browser-based interface of the Youtap BOS platform, built with Angular and the same NestJS backend powering the mobile apps. It gives merchants and operations teams full control over product management, inventory, transactions, and business reporting on desktop.</p><p>I led the web engineering team, owning architecture decisions and delivery cadence. Since the web app shares services with the mobile apps, I ensured consistent behavior across platforms by establishing shared component libraries, unified API contracts, and cross-team code review practices.</p><p>Shipped continuous UI and feature updates while maintaining <strong>99.9% uptime</strong> across all platforms.</p>",
     "source": "seed",
     "title": "Youtap BOS Web",
     "createdAt": "2026-04-20T11:23:07.024Z",
@@ -73,7 +73,13 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/BOS%2FScreenshot%202025-07-17%20at%2014.40.18.png?alt=media&token=2d88e31d-065f-471c-8ee0-1813f00922b8",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/BOS%2FScreenshot%202025-07-17%20at%2014.40.38.png?alt=media&token=09033201-88e8-4cf5-b541-7648212008ec"
     ],
-    "order": 2
+    "order": 2,
+    "highlights": [
+      "Web interface for the same platform serving 500K+ merchants",
+      "Shared NestJS backend with mobile apps, consistent API layer",
+      "Angular component library shared across web and hybrid mobile",
+      "Responsive design for desktop-first merchant workflows"
+    ]
   },
   {
     "summary": "Built and scaled the internal business portal that powers merchant operations and administration.",
