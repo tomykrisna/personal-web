@@ -1,6 +1,6 @@
 [
   {
-    "summary": "Architected and led end-to-end delivery of Youtap BOS — a comprehensive merchant operations platform powering 500K+ merchants across Android, iOS, and Web — handling product management, real-time inventory, and high-volume transaction workflows.",
+    "summary": "Architected and led end-to-end delivery of Youtap BOS, a comprehensive merchant operations platform powering over 500,000 merchants across Android, iOS, and Web, handling product management, real-time inventory, and high-volume transaction workflows.",
     "periodLabel": "2021 - Present",
     "stack": [
       "Angular",
@@ -11,7 +11,7 @@
     ],
     "role": "Tech Lead",
     "endDate": "",
-    "description": "<p>Youtap BOS is an omnichannel business operations platform developed for PT. Mitra Digital Sukses (Salim Group), serving 500K+ merchants across 510+ cities in Indonesia.</p><p>As Tech Lead, I owned the full technical lifecycle — from microservices architecture on NestJS to cross-platform mobile delivery on Ionic/Angular. I designed scalable service boundaries, led a cross-functional engineering team, and maintained a rigorous release quality process across continuous delivery cycles.</p><p>The platform handles core merchant workflows: product catalog management, real-time inventory tracking across multiple warehouse locations, multi-payment gateway integration (70+ providers), transaction processing, and a comprehensive reporting engine that delivers actionable business intelligence to merchants.</p><p>Delivered continuous feature releases maintaining 99.9% uptime for 500K+ daily active merchants.</p>",
+    "description": "<p>Youtap BOS is an omnichannel business operations platform built for PT. Mitra Digital Sukses under Salim Group, serving <strong>over 500,000 merchants</strong> across 510+ cities in Indonesia.</p><p>As Tech Lead, I owned the full technical lifecycle from microservices architecture on NestJS to cross-platform delivery on Ionic and Angular. I defined service boundaries, led cross-functional engineering teams, and maintained release quality through continuous delivery checkpoints.</p><p>The platform powers critical merchant operations: product catalog management, <strong>real-time inventory tracking</strong> across multiple warehouses, <strong>multi-payment gateway integration</strong> with 70+ providers under a unified API layer, transaction processing, and a reporting engine that delivers actionable business intelligence.</p><p>Shipped continuous feature releases while maintaining <strong>99.9% uptime</strong> for half a million daily active merchants.</p>",
     "source": "seed",
     "title": "Youtap BOS (Android & iOS)",
     "createdAt": "2026-04-20T11:10:58.449Z",
@@ -34,11 +34,11 @@
     ],
     "highlightProject": true,
     "highlights": [
-      "Served 500,000+ merchants across Android, iOS, and Web",
+      "Served over 500,000 merchants across Android, iOS, and Web",
       "Integrated 70+ payment providers under a unified API layer",
       "Real-time inventory sync across multi-warehouse setup",
       "99.9% uptime maintained through rigorous delivery checkpoints",
-      "Built on NestJS microservices with Angular/Ionic cross-platform frontend"
+      "Built on NestJS microservices with Angular and Ionic cross-platform frontend"
     ]
   },
   {
