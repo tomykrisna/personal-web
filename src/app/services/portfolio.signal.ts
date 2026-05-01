@@ -76,7 +76,8 @@ export class PortfolioSignalService {
 
     const mappedProjects: Project[] = seedProjects
       .slice()
-      .map((item) => ({
+      .map((item, index) => ({
+        originalIndex: index,
         rawItem: item,
         project: {
           name: String(item?.company ?? item?.name ?? ''),
@@ -89,22 +90,13 @@ export class PortfolioSignalService {
         } as Project
       }))
       .sort((a, b) => {
-        const aHighlighted = this.isHighlighted(a.rawItem);
-        const bHighlighted = this.isHighlighted(b.rawItem);
-        if (aHighlighted !== bHighlighted) {
-          return aHighlighted ? -1 : 1;
+        const aOrder = Number(a.rawItem?.order ?? Number.MAX_SAFE_INTEGER);
+        const bOrder = Number(b.rawItem?.order ?? Number.MAX_SAFE_INTEGER);
+        if (aOrder !== bOrder) {
+          return aOrder - bOrder;
         }
 
-        const aSortMs = this.extractSortTimestampMs(a.rawItem);
-        const bSortMs = this.extractSortTimestampMs(b.rawItem);
-        if (!Number.isNaN(aSortMs) && !Number.isNaN(bSortMs)) {
-          const dateDiff = bSortMs - aSortMs;
-          if (dateDiff !== 0) {
-            return dateDiff;
-          }
-        }
-
-        return String(a.project?.title ?? '').localeCompare(String(b.project?.title ?? ''));
+        return a.originalIndex - b.originalIndex;
       })
       .map((item) => item.project);
 
@@ -155,33 +147,63 @@ export class PortfolioSignalService {
     return NaN;
   }
 
-  private isHighlighted(item: any): boolean {
-    return Boolean(item?.highlightProject ?? item?.isFeatured ?? false);
-  }
-
-  private parseDateMs(value: unknown): number {
-    if (value === null || value === undefined || value === '') {
-      return NaN;
-    }
-    return Date.parse(String(value));
-  }
-
+  /**
+   * Builds HTML for the detail modal. `summary` / `description` in Firestore or seed JSON may be:
+   * - HTML fragments (e.g. `<p>…</p>`, `<strong>`, `<a href="…">`) — passed through (Angular sanitizes on bind)
+   * - Plain text — escaped and wrapped in paragraphs; double newlines become separate `<p>` blocks
+   */
   private buildDescription(item: any): string {
     const summary = String(item?.summary ?? '').trim();
     const description = String(item?.description ?? '').trim();
+    const summaryPlain = this.plainTextForCompare(summary);
+    const descriptionPlain = this.plainTextForCompare(description);
 
-    if (summary && description && summary !== description) {
-      return `<p>${summary}</p><p>${description}</p>`;
+    if (summaryPlain && descriptionPlain && summaryPlain !== descriptionPlain) {
+      return this.asHtmlFragment(summary) + this.asHtmlFragment(description);
     }
 
     if (description) {
-      return `<p>${description}</p>`;
+      return this.asHtmlFragment(description);
     }
 
     if (summary) {
-      return `<p>${summary}</p>`;
+      return this.asHtmlFragment(summary);
     }
 
     return '<p>No description available yet.</p>';
+  }
+
+  private plainTextForCompare(htmlOrText: string): string {
+    return String(htmlOrText ?? '')
+      .replace(/<[^>]*>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  private escapeHtml(text: string): string {
+    return text
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  /** If the string already looks like HTML, return as-is; otherwise treat as plain text. */
+  private asHtmlFragment(raw: string): string {
+    const t = String(raw ?? '').trim();
+    if (!t) {
+      return '';
+    }
+    if (/^<[a-zA-Z!?]/.test(t)) {
+      return t;
+    }
+    const blocks = t.split(/\n\s*\n/).filter(Boolean);
+    if (blocks.length > 1) {
+      return blocks
+        .map((block) => `<p>${this.escapeHtml(block).replace(/\n/g, '<br />')}</p>`)
+        .join('');
+    }
+    return `<p>${this.escapeHtml(t).replace(/\n/g, '<br />')}</p>`;
   }
 }

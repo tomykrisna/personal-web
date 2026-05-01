@@ -12,7 +12,11 @@
     "seed:portfolio:dry": "node tools/portfolio-seed/seed-firestore.mjs --file tools/portfolio-seed/projects.json --collection portfolioProjects --dry-run",
     "seed:portfolio:images": "node tools/portfolio-seed/upload-storage-images.mjs --file tools/portfolio-seed/projects.json --images-root tools/portfolio-seed/images --collection portfolioProjects",
     "seed:portfolio:sa": "node tools/portfolio-seed/seed-firestore.mjs --file tools/portfolio-seed/projects.json --collection portfolioProjects --service-account ./service-account.json",
-    "seed:portfolio:images:sa": "node tools/portfolio-seed/upload-storage-images.mjs --file tools/portfolio-seed/projects.json --images-root tools/portfolio-seed/images --collection portfolioProjects --service-account ./service-account.json"
+    "seed:portfolio:images:sa": "node tools/portfolio-seed/upload-storage-images.mjs --file tools/portfolio-seed/projects.json --images-root tools/portfolio-seed/images --collection portfolioProjects --service-account ./service-account.json",
+    "export:portfolio": "node tools/portfolio-seed/export-firestore-to-json.mjs",
+    "export:portfolio:sa": "node tools/portfolio-seed/export-firestore-to-json.mjs --service-account ./service-account.json",
+    "export:portfolio:to-seed": "node tools/portfolio-seed/export-firestore-to-json.mjs --out tools/portfolio-seed/projects.json",
+    "export:portfolio:to-seed:sa": "node tools/portfolio-seed/export-firestore-to-json.mjs --out tools/portfolio-seed/projects.json --service-account ./service-account.json"
   },
   "private": true,
   "dependencies": {

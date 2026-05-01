@@ -10,7 +10,9 @@ tools/
     README.md
     portfolio-project.model.ts
     projects.json
+    projects.exported.json
     seed-firestore.mjs
+    export-firestore-to-json.mjs
     upload-storage-images.mjs
     images/
       youtap-bos-mobile/
@@ -32,7 +34,7 @@ Core fields:
 - `slug`, `title`, `company`, `role`
 - `periodLabel`, `startDate`, `endDate`
 - `highlightProject`, `isFeatured`, `order`
-- `stack[]`, `summary`, `description`
+- `stack[]`, `summary`, `description` (HTML allowed in `description` and `summary`: `<p>`, `<strong>`, `<a href="https://...">`, lists, line breaks via `<br />`; plain text is still supported and is escaped when rendered)
 - `image[]`, `url`
 - `createdAt`, `updatedAt`, `source`
 
@@ -54,6 +56,41 @@ Project id resolution order:
 Optional for Storage script:
 
 - `FIREBASE_STORAGE_BUCKET=your-project-id.appspot.com`
+
+## Export Firestore → JSON (sync local file)
+
+Use this when you edited documents in the **Firebase Console** (or want a fresh snapshot) and need [`projects.json`](projects.json) to match before editing in the repo or with AI.
+
+- Default output: [`projects.exported.json`](projects.exported.json) (avoids overwriting [`projects.json`](projects.json) by accident).
+- **`--out tools/portfolio-seed/projects.json`** writes directly to the seed file used by `seed:portfolio`.
+- Timestamps are written as **ISO 8601** strings. Sort order in the file: **`order` ascending**, then `slug`, then `title`.
+- **`--no-pretty`**: single-line JSON (default is indented for easier editing).
+
+```bash
+npm run export:portfolio
+npm run export:portfolio:sa
+```
+
+Write straight to the seed file (then edit / improve copy, then seed):
+
+```bash
+npm run export:portfolio:to-seed
+npm run export:portfolio:to-seed:sa
+```
+
+Manual flags:
+
+```bash
+node tools/portfolio-seed/export-firestore-to-json.mjs --out tools/portfolio-seed/projects.json --collection portfolioProjects --service-account ./service-account.json
+```
+
+### Round-trip: Console or AI → Firestore
+
+1. **Pull:** `npm run export:portfolio:to-seed` (or export to `projects.exported.json` first and compare).
+2. **Edit:** change [`projects.json`](projects.json) locally (or ask an AI to improve `summary` / `description` / etc.). Keep the same field shapes the seed script expects.
+3. **Push:** `npm run seed:portfolio` (or `seed:portfolio:sa`).
+
+**Seed behavior** ([`seed-firestore.mjs`](seed-firestore.mjs)): each document is updated with `set(..., { merge: true })`. Fields present in the JSON payload overwrite the same fields in Firestore; **fields that exist only in Firestore are not removed**. Existing `createdAt` is preserved when the document already exists.
 
 ## Commands
 

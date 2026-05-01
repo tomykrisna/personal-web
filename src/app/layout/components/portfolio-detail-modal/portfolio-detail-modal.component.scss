@@ -112,6 +112,44 @@
 .portfolio-modal__description {
   line-height: 1.75;
   color: rgba(255, 255, 255, 0.9);
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin: 0.85rem 0;
+  }
+
+  strong,
+  b {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  a {
+    color: #ffcb69;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:hover {
+      color: #ffae00;
+    }
+  }
+
+  ul,
+  ol {
+    margin: 0.6rem 0;
+    padding-left: 1.35rem;
+  }
+
+  li {
+    margin: 0.35rem 0;
+  }
 }
 
 .portfolio-modal__link {
