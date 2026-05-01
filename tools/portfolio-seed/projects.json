@@ -167,7 +167,7 @@
     ]
   },
   {
-    "summary": "Delivered online ordering capabilities to extend merchant sales channels and digital transactions.",
+    "summary": "Built Youtap Online Order, the digital ordering module within the BOS ecosystem that enables merchants to accept and manage customer orders through mobile and web channels.",
     "periodLabel": "2021 - Present",
     "stack": [
       "Angular",
@@ -177,7 +177,7 @@
     ],
     "role": "Tech Lead",
     "endDate": "",
-    "description": "<p>Youtap Online Order enables merchants to serve customers through digital ordering channels. I led cross-functional implementation with focus on transaction flow quality, integration reliability, and feature delivery speed. This initiative contributed to operational efficiency and business growth through better digital commerce support.</p>",
+    "description": "<p>Youtap Online Order is the digital ordering module within the Youtap BOS ecosystem, allowing merchants to accept and manage customer orders through mobile and web channels. This extends the BOS platform beyond inventory and payment into the actual customer-facing ordering experience.</p><p>As Tech Lead, I owned the end-to-end delivery of the ordering flow, from menu display and cart management through payment integration and order status tracking. I coordinated with the mobile and backend teams to ensure the ordering experience was consistent across platforms and reliable during high-traffic periods.</p><p>The module integrates with the same NestJS backend and payment gateway layer powering the broader BOS platform, enabling merchants to manage orders alongside their inventory and transactions in one unified dashboard.</p><p>Contributed to operational efficiency for merchants by digitizing the order-to-payment workflow.</p>",
     "source": "seed",
     "title": "Youtap Online Order",
     "url": "",
