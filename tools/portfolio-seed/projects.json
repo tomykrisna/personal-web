@@ -85,14 +85,14 @@
     "summary": "Built and scaled Youtap Portal, the internal operations platform used by Youtap teams to manage merchant onboarding, monitor platform health, and handle administrative workflows across the BOS ecosystem.",
     "periodLabel": "2021 - Present",
     "stack": [
-      "Angular",
-      "Node.js",
       "NestJS",
+      "React",
+      "Golang",
       "MySQL"
     ],
     "role": "Tech Lead",
     "endDate": "",
-    "description": "<p>Youtap Portal is the internal operations dashboard used by Youtap Indonesia to manage merchant lifecycle, platform monitoring, and administrative tasks. While the BOS apps serve merchants directly, this portal empowers the internal ops team to onboard new merchants, resolve issues, and keep the platform running smoothly.</p><p>As Tech Lead, I drove the technical roadmap and cross-team delivery. I introduced role-based access control to separate merchant-facing admins from platform super-admins, built a real-time platform health dashboard, and set up automated alerting for transaction anomalies and system thresholds.</p><p>The portal integrates directly with the same NestJS backend powering BOS Web and Mobile, enabling ops teams to take action on merchant accounts, transactions, and inventory without needing database access.</p><p>Supports hundreds of internal users across operations, finance, and support teams with <strong>99.9% uptime</strong>.</p>",
+    "description": "<p>Youtap Portal is the internal operations dashboard used by Youtap Indonesia to manage merchant lifecycle, platform monitoring, and administrative tasks. While the BOS apps serve merchants directly, this portal empowers the internal ops team to onboard new merchants, resolve issues, and keep the platform running smoothly.</p><p>As Tech Lead, I drove the technical roadmap and cross-team delivery across frontend and backend. The frontend is built with React, while critical backend services are written in Golang for high-performance processing. I introduced role-based access control to separate merchant-facing admins from platform super-admins, built a real-time platform health dashboard, and set up automated alerting for transaction anomalies and system thresholds.</p><p>Supports hundreds of internal users across operations, finance, and support teams with <strong>99.9% uptime</strong>.</p>",
     "source": "seed",
     "title": "Youtap Portal",
     "url": "",
@@ -117,9 +117,9 @@
     ],
     "highlights": [
       "Internal ops platform managing the BOS merchant ecosystem",
+      "React frontend with Golang high-performance backend services",
       "Role-based access control for multi-team access",
       "Real-time platform health and alerting dashboard",
-      "Integrated with the same NestJS backend as BOS Mobile and Web",
       "Supports hundreds of internal users across operations, finance, and support"
     ]
   },
