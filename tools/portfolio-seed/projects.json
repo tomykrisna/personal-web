@@ -124,7 +124,7 @@
     ]
   },
   {
-    "summary": "Enhanced HRIS capabilities across attendance, leave, overtime, and flexible benefit modules for enterprise workforce operations.",
+    "summary": "Contributed to GreatDay HR, a comprehensive HRIS platform serving 3,000+ companies across Asia, covering core HR, recruitment, attendance, payroll, and performance modules.",
     "periodLabel": "2019 - 2021",
     "stack": [
       "Angular",
@@ -137,7 +137,7 @@
     ],
     "role": "Senior Software Developer",
     "endDate": "2021-08-01",
-    "description": "<p>GreatDay HR is a comprehensive HRIS ecosystem for enterprise workforce operations, covering attendance, leave management, overtime, on-duty requests, and flexible benefits. The platform serves a wide range of enterprise clients across Indonesia.</p><p>As Senior Software Developer, I contributed to feature delivery and technical supervision across both mobile and backend components. I led the development of key modules including attendance tracking with geofencing, leave workflow automation, and the flexible benefits administration panel. I also supported requirement analysis, code quality reviews, and release readiness with the engineering team.</p><p>Mobile apps built with Ionic served field employees, while the backend was powered by a microservices architecture using NestJS and Node.js, with Kotlin and Java services handling legacy integrations.</p>",
+    "description": "<p>GreatDay HR is a comprehensive HRIS platform developed by PT People Intelligence Indonesia, serving <strong>3,000+ companies across Asia</strong>. The platform covers core HR, recruitment, attendance, payroll, and performance management modules.</p><p>As Senior Software Developer, I contributed to feature delivery and technical supervision across both mobile and backend components. I led the development of attendance tracking with geofencing, leave workflow automation, and payroll integration modules. I also supported requirement analysis, code quality reviews, and release readiness with the engineering team.</p><p>Mobile apps built with Ionic served field employees, while the backend was powered by a microservices architecture using NestJS and Node.js, with Kotlin and Java services handling legacy system integrations.</p>",
     "source": "seed",
     "title": "GreatDay HR Platform",
     "url": "",
@@ -158,9 +158,10 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20hr%2Funnamed%20(6).jpeg?alt=media&token=f509715c-8998-4520-ab46-1de4df25db44"
     ],
     "highlights": [
-      "Comprehensive HRIS covering attendance, leave, overtime, and flexible benefits",
+      "HRIS platform serving 3,000+ companies across Asia",
       "Attendance tracking with geofencing for field employees",
-      "Leave workflow automation with approval chains",
+      "Leave workflow automation with multi-level approval chains",
+      "Payroll integration with flexible benefits administration",
       "Mobile apps with Ionic for field employees, web admin panel with Angular",
       "Microservices backend with NestJS, Node.js, Kotlin, and Java for legacy integrations"
     ]
