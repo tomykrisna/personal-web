@@ -1096,5 +1096,30 @@
     "description": "<p>Youtap POS Mobile is a next-generation point-of-sale mobile application built with Flutter, powering merchant daily operations across Indonesia's POS ecosystem. The product targets Retail, FnB, and Service business types, and is part of the broader Youtap POS platform that has been adopted by over 500,000 merchants.</p><p>The app covers core POS capabilities including digital cashier functions, product catalog management, cart and checkout flows, split bill handling, barcode scanning, transaction recording, and receipt generation. Merchants can manage multiple users (cashiers), track daily transaction reports, handle payment cancellations, and customize receipts for branding purposes.</p><p>Built with Flutter and Dart targeting both Android and iOS from a single codebase. I implemented core POS screens, integrated with the payment gateway layer, and ensured transaction flows were smooth and reliable for high-frequency merchant use. The app connects to the broader Youtap ecosystem including inventory management, e-menu, and online ordering modules.</p>",
     "order": 40,
     "updatedAt": "2026-05-02T02:48:06.857Z"
+  },
+  {
+    "title": "FIFGROUP Website",
+    "summary": "Official corporate website for PT Federal International Finance (FIFGROUP), a leading non-bank financing company and Astra Group subsidiary.",
+    "description": "<p>Official corporate website for PT Federal International Finance (FIFGROUP), a leading non-bank financing company and subsidiary of Astra Group, consistently ranked among Indonesia's Top 100 Most Valuable Brands. The website serves as the digital front door for multiple business lines: FIFASTRA (motorcycle financing), SPEKTRA (electronics financing), DANASTRA (multipurpose financing), FINATRA (UMKM/business financing), AMITRA (pilgrimage financing), FLEET (corporate fleet financing), and FIFGROUP Card. Led the end-to-end delivery as Developer and Head of Delivery, overseeing development using Angular and Java with PostgreSQL, coordinating cross-functional teams, and ensuring timely deployment and quality standards.</p>",
+    "stack": [
+      "Angular",
+      "Java",
+      "PostgreSQL"
+    ],
+    "role": "Developer & Head of Delivery",
+    "company": "PT Federal International Finance (Astra Group)",
+    "periodLabel": "January 2024 - Present",
+    "startDate": "2024-01-01",
+    "endDate": null,
+    "url": "https://fifgroup.co.id/",
+    "image": [],
+    "imageFolder": "fifgroup-website",
+    "isFeatured": true,
+    "highlightProject": true,
+    "order": 8,
+    "slug": "fifgroup-website",
+    "source": "seed",
+    "createdAt": "2026-05-02T07:45:00.000Z",
+    "updatedAt": "2026-05-02T07:45:00.000Z"
   }
 ]
