@@ -61,6 +61,15 @@ Optional for Storage script:
 
 Use this when you edited documents in the **Firebase Console** (or want a fresh snapshot) and need [`projects.json`](projects.json) to match before editing in the repo or with AI.
 
+The export script **replaces the entire output file** with whatever documents exist in Firestore right now. It does **not** merge with the old JSON.
+
+### Deleting a project (Firestore → `projects.json`)
+
+1. Delete the document in Firestore (Console or Admin SDK), e.g. `portfolioProjects/<slug>`.
+2. Run export to the seed file: `npm run export:portfolio:to-seed` (or `:sa`).
+
+After step 2, [`projects.json`](projects.json) contains **only** the remaining projects—the deleted one is **not** listed anymore. No extra “delete from JSON” step is required as long as you sync after deleting in Firestore.
+
 - Default output: [`projects.exported.json`](projects.exported.json) (avoids overwriting [`projects.json`](projects.json) by accident).
 - **`--out tools/portfolio-seed/projects.json`** writes directly to the seed file used by `seed:portfolio`.
 - Timestamps are written as **ISO 8601** strings. Sort order in the file: **`order` ascending**, then `slug`, then `title`.

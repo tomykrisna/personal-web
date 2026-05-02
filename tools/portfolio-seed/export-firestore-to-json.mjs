@@ -145,7 +145,9 @@ async function exportFirestoreToJson() {
   const json = `${JSON.stringify(sorted, null, space)}\n`;
   await fs.writeFile(outPath, json, 'utf8');
 
-  console.log(`Exported ${sorted.length} documents from ${collectionName} to ${outPath}`);
+  console.log(
+    `Exported ${sorted.length} documents from ${collectionName} to ${outPath} (full snapshot; documents removed in Firestore are not included).`
+  );
 }
 
 exportFirestoreToJson().catch((error) => {

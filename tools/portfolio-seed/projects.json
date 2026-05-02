@@ -1,6 +1,5 @@
 [
   {
-    "summary": "Architected and led end-to-end delivery of Youtap BOS, a comprehensive merchant operations platform powering over 500,000 merchants across Android, iOS, and Web, handling product management, real-time inventory, and high-volume transaction workflows.",
     "periodLabel": "2021 - Present",
     "stack": [
       "Angular",
@@ -11,7 +10,6 @@
     ],
     "role": "Tech Lead",
     "endDate": "",
-    "description": "<p>Youtap BOS is an omnichannel business operations platform built for PT. Mitra Digital Sukses under Salim Group, serving <strong>over 500,000 merchants</strong> across 510+ cities in Indonesia.</p><p>As Tech Lead, I owned the full technical lifecycle from microservices architecture on NestJS to cross-platform delivery on Ionic and Angular. I defined service boundaries, led cross-functional engineering teams, and maintained release quality through continuous delivery checkpoints.</p><p>The platform powers critical merchant operations: product catalog management, <strong>real-time inventory tracking</strong> across multiple warehouses, <strong>multi-payment gateway integration</strong> with 70+ providers under a unified API layer, transaction processing, and a reporting engine that delivers actionable business intelligence.</p><p>Shipped continuous feature releases while maintaining <strong>99.9% uptime</strong> for half a million daily active merchants.</p>",
     "source": "seed",
     "title": "Youtap BOS (Android & iOS)",
     "createdAt": "2026-04-20T11:10:58.449Z",
@@ -21,7 +19,6 @@
     "slug": "youtap-bos-mobile",
     "startDate": "2021-08-01",
     "order": 1,
-    "updatedAt": "2026-04-22T16:19:37.623Z",
     "url": "https://play.google.com/store/apps/details?id=com.youtap.indo.merchant&hl=id",
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/BOS%2Funnamed%20(1).webp?alt=media&token=3e324859-c759-49b6-bcbc-17a42048e27f",
@@ -33,16 +30,11 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/BOS%2FScreenshot%202025-07-17%20at%2014.40.38.png?alt=media&token=09033201-88e8-4cf5-b541-7648212008ec"
     ],
     "highlightProject": true,
-    "highlights": [
-      "Served over 500,000 merchants across Android, iOS, and Web",
-      "Integrated 70+ payment providers under a unified API layer",
-      "Real-time inventory sync across multi-warehouse setup",
-      "99.9% uptime maintained through rigorous delivery checkpoints",
-      "Built on NestJS microservices with Angular and Ionic cross-platform frontend"
-    ]
+    "summary": "Architected and led end-to-end delivery of Youtap BOS, a comprehensive merchant operations platform powering over 500,000 merchants across Android, iOS, and Web, handling product management, real-time inventory, and high-volume transaction workflows.",
+    "description": "<p>Youtap BOS is an omnichannel business operations platform built for PT. Mitra Digital Sukses under Salim Group, serving <strong>over 500,000 merchants</strong> across 510+ cities in Indonesia.</p><p>As Tech Lead, I owned the full technical lifecycle from microservices architecture on NestJS to cross-platform delivery on Ionic and Angular. I defined service boundaries, led cross-functional engineering teams, and maintained release quality through continuous delivery checkpoints.</p><p>The platform powers critical merchant operations: product catalog management, <strong>real-time inventory tracking</strong> across multiple warehouses, <strong>multi-payment gateway integration</strong> with 70+ providers under a unified API layer, transaction processing, and a reporting engine that delivers actionable business intelligence.</p><p>Shipped continuous feature releases while maintaining <strong>99.9% uptime</strong> for half a million daily active merchants.</p>",
+    "updatedAt": "2026-05-02T02:47:42.694Z"
   },
   {
-    "summary": "Built and maintained the web counterpart of Youtap BOS, delivering the same merchant operations platform through a responsive Angular interface that serves over 500,000 merchants alongside the mobile apps.",
     "periodLabel": "2021 - Present",
     "stack": [
       "Angular",
@@ -52,7 +44,6 @@
     ],
     "role": "Tech Lead",
     "endDate": "",
-    "description": "<p>Youtap BOS Web is the browser-based interface of the Youtap BOS platform, built with Angular and the same NestJS backend powering the mobile apps. It gives merchants and operations teams full control over product management, inventory, transactions, and business reporting on desktop.</p><p>I led the web engineering team, owning architecture decisions and delivery cadence. Since the web app shares services with the mobile apps, I ensured consistent behavior across platforms by establishing shared component libraries, unified API contracts, and cross-team code review practices.</p><p>Shipped continuous UI and feature updates while maintaining <strong>99.9% uptime</strong> across all platforms.</p>",
     "source": "seed",
     "title": "Youtap BOS Web",
     "createdAt": "2026-04-20T11:23:07.024Z",
@@ -62,7 +53,6 @@
     "slug": "youtap-bos-web",
     "startDate": "2021-08-01",
     "highlightProject": true,
-    "updatedAt": "2026-04-22T16:19:39.851Z",
     "url": "https://bos.youtap.id/",
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/bos%20web%2FIMG_2546.png?alt=media&token=3f569dd1-e4fe-4785-a409-1dbe6cc85fdb",
@@ -74,25 +64,14 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/BOS%2FScreenshot%202025-07-17%20at%2014.40.38.png?alt=media&token=09033201-88e8-4cf5-b541-7648212008ec"
     ],
     "order": 2,
-    "highlights": [
-      "Web interface for the same platform serving 500K+ merchants",
-      "Shared NestJS backend with mobile apps, consistent API layer",
-      "Angular component library shared across web and hybrid mobile",
-      "Responsive design for desktop-first merchant workflows"
-    ]
+    "summary": "Built and maintained the web counterpart of Youtap BOS, delivering the same merchant operations platform through a responsive Angular interface that serves over 500,000 merchants alongside the mobile apps.",
+    "description": "<p>Youtap BOS Web is the browser-based interface of the Youtap BOS platform, built with Angular and the same NestJS backend powering the mobile apps. It gives merchants and operations teams full control over product management, inventory, transactions, and business reporting on desktop.</p><p>I led the web engineering team, owning architecture decisions and delivery cadence. Since the web app shares services with the mobile apps, I ensured consistent behavior across platforms by establishing shared component libraries, unified API contracts, and cross-team code review practices.</p><p>Shipped continuous UI and feature updates while maintaining <strong>99.9% uptime</strong> across all platforms.</p>",
+    "updatedAt": "2026-05-02T02:47:44.158Z"
   },
   {
-    "summary": "Built and scaled Youtap Portal, the internal operations platform used by Youtap teams to manage merchant onboarding, monitor platform health, and handle administrative workflows across the BOS ecosystem.",
     "periodLabel": "2021 - Present",
-    "stack": [
-      "NestJS",
-      "React",
-      "Golang",
-      "MySQL"
-    ],
     "role": "Tech Lead",
     "endDate": "",
-    "description": "<p>Youtap Portal is the internal operations dashboard used by Youtap Indonesia to manage merchant lifecycle, platform monitoring, and administrative tasks. While the BOS apps serve merchants directly, this portal empowers the internal ops team to onboard new merchants, resolve issues, and keep the platform running smoothly.</p><p>As Tech Lead, I drove the technical roadmap and cross-team delivery across frontend and backend. The frontend is built with React, while critical backend services are written in Golang for high-performance processing. I introduced role-based access control to separate merchant-facing admins from platform super-admins, built a real-time platform health dashboard, and set up automated alerting for transaction anomalies and system thresholds.</p><p>Supports hundreds of internal users across operations, finance, and support teams with <strong>99.9% uptime</strong>.</p>",
     "source": "seed",
     "title": "Youtap Portal",
     "url": "",
@@ -103,7 +82,6 @@
     "slug": "youtap-portal",
     "startDate": "2021-08-01",
     "highlightProject": true,
-    "updatedAt": "2026-04-22T16:19:37.762Z",
     "order": 3,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/portal%20usaha%2FScreenshot%202025-07-17%20at%2014.44.10.png?alt=media&token=c1bc0047-e422-46f2-95d6-a55418bb4afc",
@@ -115,16 +93,17 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/portal%20usaha%2FScreenshot%202025-07-17%20at%2014.45.07.png?alt=media&token=3ff9c1c3-6d79-4f86-925f-8110f65061ea",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/portal%20usaha%2FScreenshot%202025-07-17%20at%2014.45.11.png?alt=media&token=c0edf17a-19ea-4084-93a7-9a6780960044"
     ],
-    "highlights": [
-      "Internal ops platform managing the BOS merchant ecosystem",
-      "React frontend with Golang high-performance backend services",
-      "Role-based access control for multi-team access",
-      "Real-time platform health and alerting dashboard",
-      "Supports hundreds of internal users across operations, finance, and support"
-    ]
+    "summary": "Built and scaled Youtap Portal, the internal operations platform used by Youtap teams to manage merchant onboarding, monitor platform health, and handle administrative workflows across the BOS ecosystem.",
+    "stack": [
+      "NestJS",
+      "React",
+      "Golang",
+      "MySQL"
+    ],
+    "description": "<p>Youtap Portal is the internal operations dashboard used by Youtap Indonesia to manage merchant lifecycle, platform monitoring, and administrative tasks. While the BOS apps serve merchants directly, this portal empowers the internal ops team to onboard new merchants, resolve issues, and keep the platform running smoothly.</p><p>As Tech Lead, I drove the technical roadmap and cross-team delivery across frontend and backend. The frontend is built with React, while critical backend services are written in Golang for high-performance processing. I introduced role-based access control to separate merchant-facing admins from platform super-admins, built a real-time platform health dashboard, and set up automated alerting for transaction anomalies and system thresholds.</p><p>Supports hundreds of internal users across operations, finance, and support teams with <strong>99.9% uptime</strong>.</p>",
+    "updatedAt": "2026-05-02T02:47:44.710Z"
   },
   {
-    "summary": "Contributed to GreatDay HR, a comprehensive HRIS platform serving 3,000+ companies across Asia, covering core HR, recruitment, attendance, payroll, and performance modules.",
     "periodLabel": "2019 - 2021",
     "stack": [
       "Angular",
@@ -137,7 +116,6 @@
     ],
     "role": "Senior Software Developer",
     "endDate": "2021-08-01",
-    "description": "<p>GreatDay HR is a comprehensive HRIS platform developed by PT People Intelligence Indonesia, serving <strong>3,000+ companies across Asia</strong>. The platform covers core HR, recruitment, attendance, payroll, and performance management modules.</p><p>As Senior Software Developer, I contributed to feature delivery and technical supervision across both mobile and backend components. I led the development of attendance tracking with geofencing, leave workflow automation, and payroll integration modules. I also supported requirement analysis, code quality reviews, and release readiness with the engineering team.</p><p>Mobile apps built with Ionic served field employees, while the backend was powered by a microservices architecture using NestJS and Node.js, with Kotlin and Java services handling legacy system integrations.</p>",
     "source": "seed",
     "title": "GreatDay HR Platform",
     "url": "",
@@ -148,7 +126,6 @@
     "slug": "greatday-hr-platform",
     "startDate": "2019-01-01",
     "order": 4,
-    "updatedAt": "2026-04-22T16:19:37.988Z",
     "highlightProject": true,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20hr%2Funnamed%20(1).jpeg?alt=media&token=0fcc9d00-b335-4a66-9413-fcb995235ce1",
@@ -157,17 +134,11 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20hr%2Funnamed%20(5).jpeg?alt=media&token=8ed7bd86-98cf-4a9b-b743-397b9a48933c",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20hr%2Funnamed%20(6).jpeg?alt=media&token=f509715c-8998-4520-ab46-1de4df25db44"
     ],
-    "highlights": [
-      "HRIS platform serving 3,000+ companies across Asia",
-      "Attendance tracking with geofencing for field employees",
-      "Leave workflow automation with multi-level approval chains",
-      "Payroll integration with flexible benefits administration",
-      "Mobile apps with Ionic for field employees, web admin panel with Angular",
-      "Microservices backend with NestJS, Node.js, Kotlin, and Java for legacy integrations"
-    ]
+    "summary": "Contributed to GreatDay HR, a comprehensive HRIS platform serving 3,000+ companies across Asia, covering core HR, recruitment, attendance, payroll, and performance modules.",
+    "description": "<p>GreatDay HR is a comprehensive HRIS platform developed by PT People Intelligence Indonesia, serving <strong>3,000+ companies across Asia</strong>. The platform covers core HR, recruitment, attendance, payroll, and performance management modules.</p><p>As Senior Software Developer, I contributed to feature delivery and technical supervision across both mobile and backend components. I led the development of attendance tracking with geofencing, leave workflow automation, and payroll integration modules. I also supported requirement analysis, code quality reviews, and release readiness with the engineering team.</p><p>Mobile apps built with Ionic served field employees, while the backend was powered by a microservices architecture using NestJS and Node.js, with Kotlin and Java services handling legacy system integrations.</p>",
+    "updatedAt": "2026-05-02T02:47:45.513Z"
   },
   {
-    "summary": "Built Youtap Online Order, the digital ordering module within the BOS ecosystem that enables merchants to accept and manage customer orders through mobile and web channels.",
     "periodLabel": "2021 - Present",
     "stack": [
       "Angular",
@@ -177,7 +148,6 @@
     ],
     "role": "Tech Lead",
     "endDate": "",
-    "description": "<p>Youtap Online Order is the digital ordering module within the Youtap BOS ecosystem, allowing merchants to accept and manage customer orders through mobile and web channels. This extends the BOS platform beyond inventory and payment into the actual customer-facing ordering experience.</p><p>As Tech Lead, I owned the end-to-end delivery of the ordering flow, from menu display and cart management through payment integration and order status tracking. I coordinated with the mobile and backend teams to ensure the ordering experience was consistent across platforms and reliable during high-traffic periods.</p><p>The module integrates with the same NestJS backend and payment gateway layer powering the broader BOS platform, enabling merchants to manage orders alongside their inventory and transactions in one unified dashboard.</p><p>Contributed to operational efficiency for merchants by digitizing the order-to-payment workflow.</p>",
     "source": "seed",
     "title": "Youtap Online Order",
     "url": "",
@@ -188,7 +158,6 @@
     "slug": "youtap-online-order",
     "startDate": "2021-08-01",
     "highlightProject": true,
-    "updatedAt": "2026-04-22T16:19:37.880Z",
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/e-menu%2FScreenshot%202026-04-23%20at%2000.15.31.png?alt=media&token=1c25da9b-626f-4592-8744-4e5cbe23bf8d",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/e-menu%2FScreenshot%202026-04-23%20at%2000.15.40.png?alt=media&token=aa15a225-f066-481a-9866-b6d93a123088",
@@ -196,7 +165,10 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/e-menu%2FScreenshot%202026-04-23%20at%2000.15.54.png?alt=media&token=50f6ac11-41d1-4469-b8b5-5fec94cce1f5",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/e-menu%2FScreenshot%202026-04-23%20at%2000.16.44.png?alt=media&token=21d3b3c6-e774-48c7-baf5-bf1f3187f209"
     ],
-    "order": 4
+    "order": 4,
+    "summary": "Built Youtap Online Order, the digital ordering module within the BOS ecosystem that enables merchants to accept and manage customer orders through mobile and web channels.",
+    "description": "<p>Youtap Online Order is the digital ordering module within the Youtap BOS ecosystem, allowing merchants to accept and manage customer orders through mobile and web channels. This extends the BOS platform beyond inventory and payment into the actual customer-facing ordering experience.</p><p>As Tech Lead, I owned the end-to-end delivery of the ordering flow, from menu display and cart management through payment integration and order status tracking. I coordinated with the mobile and backend teams to ensure the ordering experience was consistent across platforms and reliable during high-traffic periods.</p><p>The module integrates with the same NestJS backend and payment gateway layer powering the broader BOS platform, enabling merchants to manage orders alongside their inventory and transactions in one unified dashboard.</p><p>Contributed to operational efficiency for merchants by digitizing the order-to-payment workflow.</p>",
+    "updatedAt": "2026-05-02T02:47:46.074Z"
   },
   {
     "summary": "Developed attendance and workforce kiosk capabilities within the GreatDay ecosystem.",
@@ -210,7 +182,6 @@
     ],
     "role": "Senior Software Developer",
     "endDate": "2021-08-01",
-    "description": "<p>GreatDay Kiosk supports workplace attendance and operational check-in workflows. I contributed to feature implementation, quality review, and release stabilization to ensure robust use in daily operations.</p>",
     "source": "seed",
     "title": "GreatDay Kiosk",
     "url": "",
@@ -221,7 +192,6 @@
     "slug": "greatday-kiosk",
     "startDate": "2019-01-01",
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:40.116Z",
     "order": 5,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20kiosk%2FScreenshot%202025-07-17%20at%2015.40.17.png?alt=media&token=3ff835a6-e163-4500-a21e-9a47b7500f41",
@@ -229,7 +199,9 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20kiosk%2Funnamed%20(1).jpeg?alt=media&token=befd44b5-436c-41b5-b4ab-f214773aaeae",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20kiosk%2Funnamed%20(2).jpeg?alt=media&token=cc5b8fd6-9ccd-4352-80f2-a3001e13a2eb",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20kiosk%2Funnamed%20(3).jpeg?alt=media&token=24f48ffa-a2d8-45fa-bf8b-2f8f2d1f02c1"
-    ]
+    ],
+    "description": "<p>GreatDay Kiosk supports workplace attendance and operational check-in workflows. I contributed to feature implementation, quality review, and release stabilization to ensure robust use in daily operations.</p>",
+    "updatedAt": "2026-05-02T02:47:46.613Z"
   },
   {
     "summary": "Built and maintained internal CMS tooling to support operational content and admin workflows.",
@@ -243,7 +215,6 @@
     ],
     "role": "Tech Lead",
     "endDate": "",
-    "description": "<p>This internal CMS project was designed to streamline back-office configuration and content operations. I managed implementation quality and delivery cadence so internal teams could operate faster with clearer administrative control.</p>",
     "source": "seed",
     "title": "Youtap Internal CMS",
     "url": "",
@@ -254,7 +225,6 @@
     "slug": "youtap-internal-cms",
     "startDate": "2021-08-01",
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:40.035Z",
     "order": 5,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/intools%2FScreenshot%202025-07-17%20at%2014.51.01.png?alt=media&token=febe6760-6f74-4b24-88b4-2156119b1c8b",
@@ -270,7 +240,9 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/intools%2FScreenshot%202025-07-17%20at%2014.52.03.png?alt=media&token=a974742a-10e7-48c3-9322-e378001f87bd",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/intools%2FScreenshot%202025-07-17%20at%2014.52.09.png?alt=media&token=037ca4bb-5c2a-48de-ac77-d9351e6514ee",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/intools%2FScreenshot%202025-07-17%20at%2014.52.17.png?alt=media&token=0ed4ced0-154a-42d3-894c-afc82fe36f31"
-    ]
+    ],
+    "description": "<p>This internal CMS project was designed to streamline back-office configuration and content operations. I managed implementation quality and delivery cadence so internal teams could operate faster with clearer administrative control.</p>",
+    "updatedAt": "2026-05-02T02:47:47.186Z"
   },
   {
     "summary": "Delivered supporting products in the GreatDay ecosystem for attendance and workforce operations.",
@@ -285,7 +257,6 @@
     ],
     "role": "Senior Software Developer",
     "endDate": "2021-08-01",
-    "description": "<p>I worked on multiple products in the GreatDay suite, including Lite, Kiosk, and Thermal services. The work involved feature implementation, quality assurance, and delivery coordination to keep releases stable and aligned with business requirements.</p>",
     "source": "seed",
     "title": "GreatDay Lite, Kiosk & Thermal",
     "url": "",
@@ -296,14 +267,15 @@
     "slug": "greatday-lite-kiosk-thermal",
     "startDate": "2019-01-01",
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.236Z",
     "order": 6,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20lite%2FScreenshot%202025-07-17%20at%2015.39.26.png?alt=media&token=52bfb241-bb60-40e8-a41a-2944f94f55bd",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20lite%2FScreenshot%202025-07-17%20at%2015.39.20.png?alt=media&token=db794bcb-08f5-48d5-98b4-7b329b01e4d5",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20lite%2FScreenshot%202025-07-17%20at%2015.39.30.png?alt=media&token=5e038fbc-13e8-4463-b59c-fc7f198ab431",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20lite%2FScreenshot%202025-07-17%20at%2015.39.35.png?alt=media&token=d84050f2-b654-4b37-b31d-67caa1585d2d"
-    ]
+    ],
+    "description": "<p>I worked on multiple products in the GreatDay suite, including Lite, Kiosk, and Thermal services. The work involved feature implementation, quality assurance, and delivery coordination to keep releases stable and aligned with business requirements.</p>",
+    "updatedAt": "2026-05-02T02:47:47.732Z"
   },
   {
     "summary": "Managed and delivered an ecommerce ecosystem spanning internal system, warehouse, store management, and customer storefront.",
@@ -317,7 +289,6 @@
     ],
     "role": "Project Manager",
     "endDate": "2019-11-01",
-    "description": "<p>This project bundle includes internal management, warehouse operations, store management, and ecommerce channels. I handled planning, team coordination, timeline control, and hands-on development. The solution focused on connecting operational workflows with customer-facing commerce experiences.</p>",
     "source": "seed",
     "title": "Siafu Shop Ecommerce Suite",
     "url": "",
@@ -328,14 +299,15 @@
     "slug": "siafu-shop-ecommerce-suite",
     "startDate": "2019-02-01",
     "highlightProject": true,
-    "updatedAt": "2026-04-22T16:19:38.308Z",
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/siafu%2Fscreencapture-demo-siafu-trilogysmartlabs-2023-05-18-16_08_51.png?alt=media&token=c8438f97-d351-4449-b21c-79b6f78ac618",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/siafu%2FScreenshot%202023-05-18%20at%2016.01.19.png?alt=media&token=aaf24cab-0661-49cc-81f8-b9424f3b2eb6",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/siafu%2FScreenshot%202023-05-18%20at%2016.04.48.png?alt=media&token=bda9d14d-fa63-4da6-b26c-692cb6c3157f",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/siafu%2Funnamed.webp?alt=media&token=3490915f-8280-471a-972d-1781f66bf8ad"
     ],
-    "order": 9
+    "order": 9,
+    "description": "<p>This project bundle includes internal management, warehouse operations, store management, and ecommerce channels. I handled planning, team coordination, timeline control, and hands-on development. The solution focused on connecting operational workflows with customer-facing commerce experiences.</p>",
+    "updatedAt": "2026-05-02T02:47:48.273Z"
   },
   {
     "summary": "Built Android mobile experience for Gurihmart with a focus on usability and stable transactional flows.",
@@ -347,7 +319,6 @@
     ],
     "role": "Mobile Developer",
     "endDate": "2026-01-01",
-    "description": "<p>Gurihmart is an Android mobile application for a retail business, built with Kotlin to support in-store operations and customer transactions. I was responsible for the front-end implementation as a Mobile Developer.</p><p>The app included product browsing, cart management, and checkout flows with payment integration. I focused on building a clean, intuitive interface and ensuring transaction reliability, which is critical for retail use cases.</p><p>Delivered a stable, performant Android application that supported the client's daily sales operations.</p>",
     "source": "seed",
     "title": "Gurihmart Mobile Android",
     "url": "",
@@ -357,7 +328,6 @@
     "isFeatured": true,
     "slug": "gurihmart-mobile-android",
     "startDate": "2025-01-01",
-    "updatedAt": "2026-04-22T16:19:40.396Z",
     "highlightProject": false,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/gurihmart%2FScreenshot%202026-04-23%20at%2000.50.04.png?alt=media&token=d5ebea67-03f9-45a0-b0e6-fa946b53062d",
@@ -366,7 +336,9 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/gurihmart%2FScreenshot%202026-04-23%20at%2000.50.24.png?alt=media&token=7307b948-66ad-437e-ad60-87c4b9e67296",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/gurihmart%2FScreenshot%202026-04-23%20at%2000.50.28.png?alt=media&token=84e965c1-0ce0-436c-b6b2-b596eb976bc9"
     ],
-    "order": 10
+    "order": 10,
+    "description": "<p>Gurihmart is an Android mobile application for a retail business, built with Kotlin to support in-store operations and customer transactions. I was responsible for the front-end implementation as a Mobile Developer.</p><p>The app included product browsing, cart management, and checkout flows with payment integration. I focused on building a clean, intuitive interface and ensuring transaction reliability, which is critical for retail use cases.</p><p>Delivered a stable, performant Android application that supported the client's daily sales operations.</p>",
+    "updatedAt": "2026-05-02T02:47:48.803Z"
   },
   {
     "summary": "Developed front-end features for the APCCA event web experience using React.",
@@ -379,7 +351,6 @@
     "role": "Frontend Developer",
     "highlightProject": false,
     "endDate": "2021-10-01",
-    "description": "<p>APCCA is an event web platform delivered as part of a client engagement project. I was responsible for building the front-end features and interactive components that supported the event experience.</p><p>Built with React and Next.js, the project involved implementing event registration flows, schedule displays, and content pages under a tight timeline. I worked directly with the design team to ensure pixel-perfect delivery and smooth user interactions across devices.</p><p>This project strengthened my ability to deliver production-quality front-end work within fixed project timelines while coordinating with multiple stakeholders.</p>",
     "source": "seed",
     "title": "APCCA",
     "url": "",
@@ -389,7 +360,6 @@
     "isFeatured": false,
     "slug": "apcca-web",
     "startDate": "2021-09-01",
-    "updatedAt": "2026-04-22T16:19:40.595Z",
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/APCCA%2FScreenshot%202022-12-22%20at%2021.21.14.png?alt=media&token=faa2f569-1492-457c-ab0d-2efe04fa287f",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/APCCA%2FScreenshot%202022-12-22%20at%2021.21.25.png?alt=media&token=a89aa0c3-6a24-42e2-8288-f01d0d4db6da",
@@ -402,7 +372,9 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/APCCA%2FScreenshot%202022-12-22%20at%2021.22.59.png?alt=media&token=32711c05-be36-4230-a39d-20e75c47b941",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/APCCA%2FScreenshot%202022-12-22%20at%2021.23.09.png?alt=media&token=b6d8dfd8-c6c1-4adf-a2f2-164f93d5c5eb"
     ],
-    "order": 12
+    "order": 12,
+    "description": "<p>APCCA is an event web platform delivered as part of a client engagement project. I was responsible for building the front-end features and interactive components that supported the event experience.</p><p>Built with React and Next.js, the project involved implementing event registration flows, schedule displays, and content pages under a tight timeline. I worked directly with the design team to ensure pixel-perfect delivery and smooth user interactions across devices.</p><p>This project strengthened my ability to deliver production-quality front-end work within fixed project timelines while coordinating with multiple stakeholders.</p>",
+    "updatedAt": "2026-05-02T02:47:49.354Z"
   },
   {
     "summary": "Built interactive event web pages and front-end modules for Army Open House.",
@@ -415,7 +387,6 @@
     "role": "Frontend Developer",
     "highlightProject": false,
     "endDate": "2022-05-01",
-    "description": "<p>Army Open House is a public-facing event microsite that required high-traffic-ready front-end delivery. I built the interactive pages and campaign modules that handled the event's promotional and informational needs.</p><p>The site was built with React and Next.js, featuring dynamic content sections, countdown timers, and responsive layouts optimized for both mobile and desktop visitors. Load performance was a key consideration given the traffic spikes typical of event launches.</p><p>I delivered all front-end components on schedule and handled post-launch bug fixes during the event period.</p>",
     "source": "seed",
     "title": "Army Open House",
     "url": "",
@@ -425,7 +396,6 @@
     "isFeatured": false,
     "slug": "army-open-house-web",
     "startDate": "2022-04-01",
-    "updatedAt": "2026-04-22T16:19:40.709Z",
     "order": 12,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/army%20open%20house%2FScreenshot%202022-12-22%20at%2021.12.57.png?alt=media&token=6b7a9ced-ac68-45e4-94b5-67d5748759f5",
@@ -438,7 +408,9 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/army%20open%20house%2FScreenshot%202022-12-22%20at%2021.17.00.png?alt=media&token=b80fea23-9800-485c-9b7b-24ce5a252a48",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/army%20open%20house%2FScreenshot%202022-12-22%20at%2021.17.10.png?alt=media&token=8c093d08-f102-4d9d-a245-78c0066e185f",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/army%20open%20house%2FScreenshot%202022-12-22%20at%2021.17.31.png?alt=media&token=3a7ed383-2e04-4eab-bfd6-68f16c05bb39"
-    ]
+    ],
+    "description": "<p>Army Open House is a public-facing event microsite that required high-traffic-ready front-end delivery. I built the interactive pages and campaign modules that handled the event's promotional and informational needs.</p><p>The site was built with React and Next.js, featuring dynamic content sections, countdown timers, and responsive layouts optimized for both mobile and desktop visitors. Load performance was a key consideration given the traffic spikes typical of event launches.</p><p>I delivered all front-end components on schedule and handled post-launch bug fixes during the event period.</p>",
+    "updatedAt": "2026-05-02T02:47:49.924Z"
   },
   {
     "summary": "Developed a campaign microsite experience with React-based front-end delivery.",
@@ -451,7 +423,6 @@
     "role": "Frontend Developer",
     "highlightProject": false,
     "endDate": "2021-12-01",
-    "description": "<p>FB4fan is a brand campaign microsite built for a client engagement. I developed the front-end from design mockups, implementing the interactive experience using React and Next.js.</p><p>The project involved building a fan engagement interface with dynamic content, user interaction features, and social sharing integration. I worked closely with the backend team to wire up API-driven content updates and ensured smooth transitions between pages.</p><p>Delivered on time with all interactive features functioning correctly across targeted browsers and devices.</p>",
     "source": "seed",
     "title": "FB4fan",
     "url": "",
@@ -461,7 +432,6 @@
     "isFeatured": false,
     "slug": "fb4fan-web",
     "startDate": "2021-11-01",
-    "updatedAt": "2026-04-22T16:19:40.776Z",
     "order": 15,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/fb4fan%2FScreenshot%202022-12-22%20at%2021.02.27.png?alt=media&token=308edfd8-9b53-4be9-9c8a-623ea989503e",
@@ -470,7 +440,9 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/fb4fan%2FScreenshot%202022-12-22%20at%2021.03.15.png?alt=media&token=d5c7fc5d-dce8-4094-b145-bfe1f4fa860a",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/fb4fan%2FScreenshot%202022-12-22%20at%2021.03.23.png?alt=media&token=178bd1b0-4fc0-4e1a-a28f-78d7b7ab36bf",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/fb4fan%2FScreenshot%202022-12-22%20at%2021.03.31.png?alt=media&token=0417dcec-5575-478d-8f61-f5e4bac6d190"
-    ]
+    ],
+    "description": "<p>FB4fan is a brand campaign microsite built for a client engagement. I developed the front-end from design mockups, implementing the interactive experience using React and Next.js.</p><p>The project involved building a fan engagement interface with dynamic content, user interaction features, and social sharing integration. I worked closely with the backend team to wire up API-driven content updates and ensured smooth transitions between pages.</p><p>Delivered on time with all interactive features functioning correctly across targeted browsers and devices.</p>",
+    "updatedAt": "2026-05-02T02:47:50.499Z"
   },
   {
     "summary": "Implemented event and content web interfaces for HTX campaign delivery.",
@@ -483,7 +455,6 @@
     "role": "Frontend Developer",
     "highlightProject": false,
     "endDate": "2021-12-01",
-    "description": "<p>HTX is a campaign web platform delivered as part of a client project. I was responsible for implementing the front-end interfaces and interactive elements that made up the user experience.</p><p>Built with React and Next.js, the project included content-rich pages, interactive media sections, and campaign-specific call-to-action flows. I ensured the site was fully responsive and optimized for fast initial load times.</p><p>Completed within the project timeline with all features matching the approved designs.</p>",
     "source": "seed",
     "title": "HTX",
     "url": "",
@@ -493,14 +464,15 @@
     "isFeatured": false,
     "slug": "htx-web",
     "startDate": "2021-10-01",
-    "updatedAt": "2026-04-22T16:19:40.868Z",
     "order": 16,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/htx%2FScreenshot%202022-12-22%20at%2020.47.57.png?alt=media&token=507ed7fd-4a23-4036-84e1-35db1daec0e0",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/htx%2FScreenshot%202022-12-22%20at%2020.48.06.png?alt=media&token=650ac9d9-a53c-46b9-ac47-d3e161cf6d30",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/htx%2FScreenshot%202022-12-22%20at%2020.48.16.png?alt=media&token=a94f8444-3ea2-46f6-944c-ee50a5991777",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/htx%2FScreenshot%202022-12-22%20at%2020.48.49.png?alt=media&token=dea6176f-2027-43b3-af30-f0bf6a716d00"
-    ]
+    ],
+    "description": "<p>HTX is a campaign web platform delivered as part of a client project. I was responsible for implementing the front-end interfaces and interactive elements that made up the user experience.</p><p>Built with React and Next.js, the project included content-rich pages, interactive media sections, and campaign-specific call-to-action flows. I ensured the site was fully responsive and optimized for fast initial load times.</p><p>Completed within the project timeline with all features matching the approved designs.</p>",
+    "updatedAt": "2026-05-02T02:47:51.038Z"
   },
   {
     "summary": "Built responsive web front-end experiences for Hideout campaign execution.",
@@ -513,7 +485,6 @@
     "role": "Frontend Developer",
     "highlightProject": false,
     "endDate": "2021-10-01",
-    "description": "<p>Hideout is a campaign microsite built to support an event activation. I developed the front-end using React and Next.js, translating designs into fully functional, responsive web pages.</p><p>The scope included building interactive sections, media galleries, and campaign-specific user flows. I managed the component architecture to keep the codebase maintainable as requirements evolved during the project.</p><p>Delivered all pages and interactive modules on schedule with clean, well-structured code.</p>",
     "source": "seed",
     "title": "Hideout",
     "url": "",
@@ -523,7 +494,6 @@
     "isFeatured": false,
     "slug": "hideout-web",
     "startDate": "2021-08-01",
-    "updatedAt": "2026-04-22T16:19:40.931Z",
     "order": 17,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/hydeout%2FScreenshot%202022-12-22%20at%2020.50.44.png?alt=media&token=261c03f1-1abe-4460-97d5-845c832b34b3",
@@ -531,10 +501,31 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/hydeout%2FScreenshot%202022-12-22%20at%2020.51.40.png?alt=media&token=8c1ea953-5b52-4686-92c0-28bba08c4c97",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/hydeout%2FScreenshot%202022-12-22%20at%2020.51.54.png?alt=media&token=87cff383-8961-4d83-899d-939d027e9688",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/hydeout%2FScreenshot%202022-12-22%20at%2020.52.32.png?alt=media&token=f0d17d0c-1593-49a8-93bd-d570e13f713e"
-    ]
+    ],
+    "description": "<p>Hideout is a campaign microsite built to support an event activation. I developed the front-end using React and Next.js, translating designs into fully functional, responsive web pages.</p><p>The scope included building interactive sections, media galleries, and campaign-specific user flows. I managed the component architecture to keep the codebase maintainable as requirements evolved during the project.</p><p>Delivered all pages and interactive modules on schedule with clean, well-structured code.</p>",
+    "updatedAt": "2026-05-02T02:47:51.570Z"
   },
   {
     "summary": "Delivered React-based campaign web development for YSL activation.",
+    "periodLabel": "Sep 2021 - Oct 2021",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "role": "Frontend Developer",
+    "highlightProject": false,
+    "endDate": "2021-10-01",
+    "source": "seed",
+    "title": "YSL",
+    "url": "",
+    "createdAt": "2026-04-22T16:19:41.475Z",
+    "imageFolder": "ysl-web",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "ysl-web",
+    "startDate": "2021-09-01",
+    "description": "<p>YSL is a brand campaign microsite where I built the front-end using React and Next.js. The project required translating a visually rich brand campaign into a responsive, performant web experience.</p><p>I implemented the interactive campaign pages, media galleries, and promotional sections. Close attention was paid to matching the brand's visual standards and ensuring smooth animations and transitions.</p><p>Delivered on time with all campaign features functioning correctly across desktop and mobile devices.</p>",
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.02.png?alt=media&token=374698f9-3058-446c-990d-2593c0985d85",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.08.png?alt=media&token=e64b6bfd-f627-4761-aa87-c49f0f2d2f69",
@@ -549,36 +540,11 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.51.png?alt=media&token=1b77e168-7e45-4651-8819-1111988fcaa8",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.57.png?alt=media&token=8ae1eb68-6429-490e-9314-c389f58b518f"
     ],
-    "periodLabel": "Sep 2021 - Oct 2021",
-    "stack": [
-      "React",
-      "TypeScript",
-      "Next.js"
-    ],
-    "role": "Frontend Developer",
-    "highlightProject": false,
-    "endDate": "2021-10-01",
-    "description": "<p>YSL is a brand campaign microsite where I built the front-end using React and Next.js. The project required translating a visually rich brand campaign into a responsive, performant web experience.</p><p>I implemented the interactive campaign pages, media galleries, and promotional sections. Close attention was paid to matching the brand's visual standards and ensuring smooth animations and transitions.</p><p>Delivered on time with all campaign features functioning correctly across desktop and mobile devices.</p>",
-    "source": "seed",
-    "title": "YSL",
-    "url": "",
-    "createdAt": "2026-04-22T16:19:41.475Z",
-    "imageFolder": "ysl-web",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "ysl-web",
-    "startDate": "2021-09-01",
     "order": 17,
-    "updatedAt": "2026-04-22T16:19:41.475Z"
+    "updatedAt": "2026-05-02T02:47:52.124Z"
   },
   {
     "summary": "Developed conference web experience for SATLF using React stack.",
-    "image": [
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.45.38.png?alt=media&token=7574c442-2c5d-4f32-894a-31845b99c8d6",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.45.52.png?alt=media&token=bfdd663b-8947-499e-8403-16d69b2aaa17",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.46.15.png?alt=media&token=4f41d706-08bf-4054-9406-c3fdfe5dc599",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.46.29.png?alt=media&token=cdb02bb9-df4f-4d5a-a9a8-586460f4f4a0"
-    ],
     "periodLabel": "Feb 2022 - Mar 2022",
     "stack": [
       "React",
@@ -588,7 +554,6 @@
     "role": "Frontend Developer",
     "highlightProject": false,
     "endDate": "2022-03-01",
-    "description": "<p>SATLF is a conference web platform delivered for a client event. I built the front-end using React and Next.js, creating the pages and interactive features that supported the conference experience.</p><p>The project included speaker line-up displays, session schedules, registration flows, and an attendee information hub. I implemented dynamic schedule filtering and search functionality to help attendees navigate the conference program efficiently.</p><p>Delivered within the project timeline with a fully responsive design and all interactive features working correctly.</p>",
     "source": "seed",
     "title": "SATLF",
     "url": "",
@@ -598,11 +563,37 @@
     "isFeatured": false,
     "slug": "satlf-web",
     "startDate": "2022-02-01",
+    "description": "<p>SATLF is a conference web platform delivered for a client event. I built the front-end using React and Next.js, creating the pages and interactive features that supported the conference experience.</p><p>The project included speaker line-up displays, session schedules, registration flows, and an attendee information hub. I implemented dynamic schedule filtering and search functionality to help attendees navigate the conference program efficiently.</p><p>Delivered within the project timeline with a fully responsive design and all interactive features working correctly.</p>",
+    "image": [
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.45.38.png?alt=media&token=7574c442-2c5d-4f32-894a-31845b99c8d6",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.45.52.png?alt=media&token=bfdd663b-8947-499e-8403-16d69b2aaa17",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.46.15.png?alt=media&token=4f41d706-08bf-4054-9406-c3fdfe5dc599",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.46.29.png?alt=media&token=cdb02bb9-df4f-4d5a-a9a8-586460f4f4a0"
+    ],
     "order": 18,
-    "updatedAt": "2026-04-22T16:19:41.072Z"
+    "updatedAt": "2026-05-02T02:47:52.656Z"
   },
   {
     "summary": "Developed front-end experience for Women in Sport event platform.",
+    "periodLabel": "Oct 2021 - Nov 2021",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "role": "Frontend Developer",
+    "highlightProject": false,
+    "endDate": "2021-11-01",
+    "source": "seed",
+    "title": "Women in Sport",
+    "url": "",
+    "createdAt": "2026-04-22T16:19:41.412Z",
+    "imageFolder": "women-in-sport-web",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "women-in-sport-web",
+    "startDate": "2021-10-01",
+    "description": "<p>Women in Sport is an event web platform built to support a campaign focused on female athletes and sports participation. I developed the front-end using React and Next.js.</p><p>The scope included content-rich pages, event schedules, participant profiles, and interactive campaign sections. I worked to ensure the site was visually engaging and performed well on mobile devices, which were the primary audience channel.</p><p>Delivered on schedule with all pages matching approved designs and all interactive features working correctly.</p>",
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.06.13.png?alt=media&token=b3f1696b-990e-4dda-a1ce-48ae63e202ce",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.06.26.png?alt=media&token=0c1ba2fa-d87a-4122-8d1d-e1476eae037f",
@@ -615,36 +606,10 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.09.59.png?alt=media&token=7f8aa4da-dcea-4471-a9f9-ebb073977fa6",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.10.45.png?alt=media&token=699c9000-2ec7-40e7-b2a9-f06ffddea509"
     ],
-    "periodLabel": "Oct 2021 - Nov 2021",
-    "stack": [
-      "React",
-      "TypeScript",
-      "Next.js"
-    ],
-    "role": "Frontend Developer",
-    "highlightProject": false,
-    "endDate": "2021-11-01",
-    "description": "<p>Women in Sport is an event web platform built to support a campaign focused on female athletes and sports participation. I developed the front-end using React and Next.js.</p><p>The scope included content-rich pages, event schedules, participant profiles, and interactive campaign sections. I worked to ensure the site was visually engaging and performed well on mobile devices, which were the primary audience channel.</p><p>Delivered on schedule with all pages matching approved designs and all interactive features working correctly.</p>",
-    "source": "seed",
-    "title": "Women in Sport",
-    "url": "",
-    "createdAt": "2026-04-22T16:19:41.412Z",
-    "imageFolder": "women-in-sport-web",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "women-in-sport-web",
-    "startDate": "2021-10-01",
     "order": 19,
-    "updatedAt": "2026-04-22T16:19:41.412Z"
+    "updatedAt": "2026-05-02T02:47:53.197Z"
   },
   {
-    "summary": "Implemented React-based web UI delivery for TAIF event platform.",
-    "image": [
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.09.png?alt=media&token=836d9c59-a16d-4d96-a844-fdff8693ce0c",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.34.png?alt=media&token=b7d4c9e3-838c-4e31-9716-88075bea87f5",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.41.png?alt=media&token=9b4c5d2b-58a8-451b-8925-50c3a7a27537",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.50.png?alt=media&token=9580e6e4-fcf7-4112-b168-b13c3b143547"
-    ],
     "periodLabel": "Jan 2022 - Feb 2022",
     "stack": [
       "React",
@@ -654,7 +619,6 @@
     "role": "Frontend Developer",
     "highlightProject": false,
     "endDate": "2022-02-01",
-    "description": "<p>TAIF is an event web platform where I implemented the front-end using React and Next.js. The project involved building pages that supported the event's information and registration needs.</p><p>I developed the component structure, responsive layouts, and interactive elements from design mockups. Performance optimization and cross-browser compatibility were part of the delivery requirements.</p><p>Completed on schedule with all features functioning correctly across target devices and browsers.</p>",
     "source": "seed",
     "title": "TAIF",
     "url": "",
@@ -664,11 +628,38 @@
     "isFeatured": false,
     "slug": "taif-web",
     "startDate": "2022-01-01",
+    "summary": "Implemented React-based web UI delivery for TAIF event platform.",
+    "description": "<p>TAIF is an event web platform where I implemented the front-end using React and Next.js. The project involved building pages that supported the event's information and registration needs.</p><p>I developed the component structure, responsive layouts, and interactive elements from design mockups. Performance optimization and cross-browser compatibility were part of the delivery requirements.</p><p>Completed on schedule with all features functioning correctly across target devices and browsers.</p>",
+    "image": [
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.09.png?alt=media&token=836d9c59-a16d-4d96-a844-fdff8693ce0c",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.34.png?alt=media&token=b7d4c9e3-838c-4e31-9716-88075bea87f5",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.41.png?alt=media&token=9b4c5d2b-58a8-451b-8925-50c3a7a27537",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.50.png?alt=media&token=9580e6e4-fcf7-4112-b168-b13c3b143547"
+    ],
     "order": 20,
-    "updatedAt": "2026-04-22T16:19:41.238Z"
+    "updatedAt": "2026-05-02T02:47:53.726Z"
   },
   {
     "summary": "Delivered front-end pages and campaign interactions for NARS web initiative.",
+    "periodLabel": "Aug 2021 - Oct 2021",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "role": "Frontend Developer",
+    "highlightProject": false,
+    "endDate": "2021-10-01",
+    "source": "seed",
+    "title": "NARS",
+    "url": "",
+    "createdAt": "2026-04-22T16:19:40.992Z",
+    "imageFolder": "nars-web",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "nars-web",
+    "startDate": "2021-08-01",
+    "description": "<p>NARS is a campaign web project where I built the front-end interfaces and interactive components using React and Next.js.</p><p>The scope covered campaign landing pages with interactive elements, product showcase sections, and campaign-specific user journeys. I worked from design files and coordinated with the backend to ensure API data was correctly represented in the interface.</p><p>Delivered on schedule with all interactive features tested and functional across supported devices.</p>",
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.43.11.png?alt=media&token=848ceae5-f943-4863-8774-88d65f0428e7",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.39.16.png?alt=media&token=19192909-832b-49de-8fdb-a93c672e2a43",
@@ -684,27 +675,8 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.44.08.png?alt=media&token=67a34235-a48b-4c3a-92dd-2b7055606772",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.44.18.png?alt=media&token=5da19000-0d6e-4e4a-bf1b-7e017d152458"
     ],
-    "periodLabel": "Aug 2021 - Oct 2021",
-    "stack": [
-      "React",
-      "TypeScript",
-      "Next.js"
-    ],
-    "role": "Frontend Developer",
-    "highlightProject": false,
-    "endDate": "2021-10-01",
-    "description": "<p>NARS is a campaign web project where I built the front-end interfaces and interactive components using React and Next.js.</p><p>The scope covered campaign landing pages with interactive elements, product showcase sections, and campaign-specific user journeys. I worked from design files and coordinated with the backend to ensure API data was correctly represented in the interface.</p><p>Delivered on schedule with all interactive features tested and functional across supported devices.</p>",
-    "source": "seed",
-    "title": "NARS",
-    "url": "",
-    "createdAt": "2026-04-22T16:19:40.992Z",
-    "imageFolder": "nars-web",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "nars-web",
-    "startDate": "2021-08-01",
     "order": 21,
-    "updatedAt": "2026-04-22T16:19:40.992Z"
+    "updatedAt": "2026-05-02T02:47:54.294Z"
   },
   {
     "summary": "Built and delivered frontend features for a service platform while coordinating engineering execution.",
@@ -718,7 +690,6 @@
     ],
     "role": "Frontend Developer",
     "endDate": "2022-11-01",
-    "description": "<p>I worked on feature delivery and frontend development for MOCUCIMOBILKU using Angular and TypeScript, with backend collaboration across NestJS services. The project emphasized responsive user flows, reliable API integration, and predictable milestone execution.</p>",
     "source": "seed",
     "title": "MOCUCIMOBILKU Platform",
     "url": "",
@@ -728,121 +699,71 @@
     "isFeatured": true,
     "slug": "mocucimobilku-platform",
     "startDate": "2022-07-01",
-    "updatedAt": "2026-04-22T16:19:39.055Z",
     "highlightProject": false,
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/fb4fan%2FScreenshot%202022-12-22%20at%2020.26.57.png?alt=media&token=81f7f1ad-a786-4eea-bec5-c387072d922e"
     ],
-    "order": 22
+    "description": "<p>I worked on feature delivery and frontend development for MOCUCIMOBILKU using Angular and TypeScript, with backend collaboration across NestJS services. The project emphasized responsive user flows, reliable API integration, and predictable milestone execution.</p>",
+    "order": 22,
+    "updatedAt": "2026-05-02T02:47:55.996Z"
   },
   {
-    "summary": "Managed infrastructure migration for a production website with minimal disruption.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=PTAR+Migration"
-    ],
-    "periodLabel": "Sep 2022 - Oct 2022",
+    "summary": "Built front-end campaign pages and user journeys for Singapore Day web activation.",
+    "periodLabel": "2022",
     "stack": [
-      "Server Migration",
-      "Deployment",
-      "Website Reliability"
+      "React",
+      "TypeScript",
+      "Next.js"
     ],
-    "role": "Project Manager",
-    "endDate": "2022-10-01",
-    "description": "<p>I led planning and execution of a website migration to a new server environment, including deployment sequencing, risk handling, and post-migration validation. The objective was a stable transition with consistent performance and minimal downtime.</p>",
+    "role": "Frontend Developer",
+    "highlightProject": false,
+    "endDate": "2022-07-01",
     "source": "seed",
-    "title": "PTAR Website Migration to New Server",
+    "title": "Singapore Day",
     "url": "",
-    "createdAt": "2026-04-20T11:17:46.792Z",
-    "imageFolder": "ptar-website-server-migration",
+    "createdAt": "2026-04-22T16:19:41.176Z",
+    "imageFolder": "singapore-day-web",
     "company": "Project Delivery (Client Account)",
     "isFeatured": false,
-    "slug": "ptar-website-server-migration",
-    "startDate": "2022-09-01",
+    "slug": "singapore-day-web",
+    "startDate": "2022-06-01",
+    "description": "<p>Singapore Day is a web activation project for a brand campaign. I developed the front-end pages and user journeys using React and Next.js, translating the campaign concept into an engaging web experience.</p><p>The work included interactive content sections, media displays, and campaign-specific call-to-action flows. I ensured the site was performant on mobile devices, which were the primary access point for the target audience.</p><p>All pages and features were delivered on schedule and matched the approved designs closely.</p>",
+    "image": [
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/singapore%20day%2FScreenshot%202022-12-22%20at%2020.33.45.png?alt=media&token=d03bfe93-d48d-45db-b9d9-b12d6154611b",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/singapore%20day%2FScreenshot%202022-12-22%20at%2020.37.43.png?alt=media&token=ecc694ec-fe86-4de0-94d5-7062f7512f78",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/singapore%20day%2Fimg.png?alt=media&token=0502a164-bc6c-4747-8721-0cc8006bd4e0"
+    ],
+    "order": 22,
+    "updatedAt": "2026-05-02T02:48:02.034Z"
+  },
+  {
+    "summary": "Built and refined web front-end modules for Zodiac web campaign delivery.",
+    "periodLabel": "2022",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "role": "Frontend Developer",
+    "highlightProject": false,
+    "endDate": "2022-04-01",
+    "source": "seed",
+    "title": "Zodiac Web",
+    "url": "",
+    "createdAt": "2026-04-22T16:19:41.587Z",
+    "imageFolder": "zodiac-web",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "zodiac-web",
+    "startDate": "2022-03-01",
+    "description": "<p>Zodiac is a campaign web project where I built and refined the front-end modules using React and Next.js. The work involved implementing campaign pages with interactive elements and brand-consistent styling.</p><p>I developed multiple page templates, interactive components, and media sections from design mockups. The project required attention to detail to match the campaign's visual identity precisely.</p><p>Delivered all modules on schedule with clean, maintainable code and no critical bugs at launch.</p>",
+    "image": [
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/zodiac%20web%2FScreenshot%202022-12-22%20at%2020.57.23.png?alt=media&token=bde280e0-68f6-4bbb-8304-2745c34f11a6",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/zodiac%20web%2FScreenshot%202022-12-22%20at%2020.57.38.png?alt=media&token=34d6564f-81a2-42b1-a7bf-8ebfefbda1cc",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/zodiac%20web%2FScreenshot%202022-12-22%20at%2020.58.05.png?alt=media&token=765ba995-71db-4ecf-828e-94d44cfed077"
+    ],
     "order": 23,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:39.304Z"
-  },
-  {
-    "summary": "Delivered structured content and layout improvements for a live corporate website.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Amman+Content+Update"
-    ],
-    "periodLabel": "Jul 2022 - Aug 2022",
-    "stack": [
-      "WordPress",
-      "Content Management",
-      "UI Layout"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-08-01",
-    "description": "<p>This project focused on improving content quality and page layout consistency for AMMAN&#39;s website. I managed team execution and review cycles to ensure updates remained aligned with brand direction and production standards.</p>",
-    "source": "seed",
-    "title": "Content Update and Layout - AMMAN Website",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:46.937Z",
-    "imageFolder": "amman-content-layout-update",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "amman-content-layout-update",
-    "startDate": "2022-07-01",
-    "order": 24,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:39.363Z"
-  },
-  {
-    "summary": "Managed one-year maintenance program for ongoing website stability and feature evolution.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Amman+Maintenance"
-    ],
-    "periodLabel": "Jul 2021 - Jul 2022",
-    "stack": [
-      "WordPress",
-      "PHP",
-      "Vue",
-      "Maintenance Operations"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-07-01",
-    "description": "<p>I coordinated maintenance operations, client communication, and continuous improvements for a production WordPress website over a one-year cycle. The scope included issue handling, enhancement planning, and quality governance for reliable long-term performance.</p>",
-    "source": "seed",
-    "title": "1 Year Maintenance - Amman WordPress Website",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:47.130Z",
-    "imageFolder": "amman-one-year-maintenance",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "amman-one-year-maintenance",
-    "startDate": "2021-07-01",
-    "order": 25,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:39.435Z"
-  },
-  {
-    "summary": "Drove enhancement delivery for intranet portal workflows and internal user experience.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Intranet+Portal"
-    ],
-    "periodLabel": "May 2022 - Jul 2022",
-    "stack": [
-      "Portal Development",
-      "Frontend Delivery",
-      "Project Management"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-07-01",
-    "description": "<p>This engagement focused on improving an internal portal through targeted feature upgrades and better usability. I led planning and execution to ensure enhancements delivered measurable operational value while maintaining release quality.</p>",
-    "source": "seed",
-    "title": "Intranet Web Portal Enhancement",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:47.287Z",
-    "imageFolder": "intranet-web-portal-enhancement",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "intranet-web-portal-enhancement",
-    "startDate": "2022-05-01",
-    "order": 26,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:39.544Z"
+    "updatedAt": "2026-05-02T02:48:07.409Z"
   },
   {
     "summary": "Built a custom marketing system with structured workflow and client-oriented delivery.",
@@ -857,9 +778,7 @@
     ],
     "role": "Software Developer",
     "endDate": "2017-06-01",
-    "description": "<p>This system streamlined marketing operations and internal process management for the business team. I contributed both as developer and team lead, ensuring requirements were translated into a practical and maintainable software solution.</p>",
     "source": "seed",
-    "title": "Marketing System - PT Gunung Harta Solution",
     "url": "",
     "createdAt": "2026-04-20T11:11:00.933Z",
     "imageFolder": "marketing-system-gunung-harta",
@@ -868,8 +787,10 @@
     "slug": "marketing-system-gunung-harta",
     "startDate": "2017-04-01",
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.525Z",
-    "order": 27
+    "description": "<p>This system streamlined marketing operations and internal process management for the business team. I contributed both as developer and team lead, ensuring requirements were translated into a practical and maintainable software solution.</p>",
+    "order": 27,
+    "updatedAt": "2026-05-02T02:47:59.842Z",
+    "title": "PT Gunung Harta Solution"
   },
   {
     "summary": "Developed a tourism information platform to support local promotion and operational data management.",
@@ -884,7 +805,6 @@
     ],
     "role": "Software Developer",
     "endDate": "2017-12-01",
-    "description": "<p>This project delivered a web-based tourism information system with practical content and operational workflows. I was involved in requirements analysis, development, and quality review to ensure stable usage and maintainability.</p>",
     "source": "seed",
     "title": "Tourism System - Sawahlunto",
     "url": "",
@@ -895,8 +815,9 @@
     "slug": "pariwisata-sawahlunto-system",
     "startDate": "2016-02-01",
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.779Z",
-    "order": 28
+    "description": "<p>This project delivered a web-based tourism information system with practical content and operational workflows. I was involved in requirements analysis, development, and quality review to ensure stable usage and maintainability.</p>",
+    "order": 28,
+    "updatedAt": "2026-05-02T02:48:00.399Z"
   },
   {
     "summary": "Delivered a government information system with structured data and workflow management.",
@@ -911,7 +832,6 @@
     ],
     "role": "Software Developer",
     "endDate": "2018-12-01",
-    "description": "<p>The project was built to support institutional administration and data operations in a public sector context. I handled implementation and technical leadership tasks, including requirement review, delivery planning, and code quality control.</p>",
     "source": "seed",
     "title": "Government Information System - Raja Ampat",
     "url": "",
@@ -922,8 +842,9 @@
     "slug": "government-information-system-raja-ampat",
     "startDate": "2017-01-01",
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.644Z",
-    "order": 29
+    "description": "<p>The project was built to support institutional administration and data operations in a public sector context. I handled implementation and technical leadership tasks, including requirement review, delivery planning, and code quality control.</p>",
+    "order": 29,
+    "updatedAt": "2026-05-02T02:48:00.958Z"
   },
   {
     "summary": "Delivered a web portal project with end-to-end planning, execution, and stakeholder alignment.",
@@ -938,7 +859,6 @@
     ],
     "role": "Project Manager",
     "endDate": "2022-07-01",
-    "description": "<p>Kirby Web Portal required tight coordination between requirements, implementation, and release timeline. I managed team progress and delivery quality while ensuring the final output supported practical business workflows.</p>",
     "source": "seed",
     "title": "Kirby Web Portal",
     "url": "",
@@ -948,38 +868,10 @@
     "isFeatured": false,
     "slug": "kirby-web-portal",
     "startDate": "2022-05-01",
+    "highlightProject": false,
+    "description": "<p>Kirby Web Portal required tight coordination between requirements, implementation, and release timeline. I managed team progress and delivery quality while ensuring the final output supported practical business workflows.</p>",
     "order": 30,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:39.610Z"
-  },
-  {
-    "summary": "Built front-end campaign pages and user journeys for Singapore Day web activation.",
-    "image": [
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/singapore%20day%2FScreenshot%202022-12-22%20at%2020.33.45.png?alt=media&token=d03bfe93-d48d-45db-b9d9-b12d6154611b",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/singapore%20day%2FScreenshot%202022-12-22%20at%2020.37.43.png?alt=media&token=ecc694ec-fe86-4de0-94d5-7062f7512f78",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/singapore%20day%2Fimg.png?alt=media&token=0502a164-bc6c-4747-8721-0cc8006bd4e0"
-    ],
-    "periodLabel": "2022",
-    "stack": [
-      "React",
-      "TypeScript",
-      "Next.js"
-    ],
-    "role": "Frontend Developer",
-    "highlightProject": false,
-    "endDate": "2022-07-01",
-    "description": "<p>Singapore Day is a web activation project for a brand campaign. I developed the front-end pages and user journeys using React and Next.js, translating the campaign concept into an engaging web experience.</p><p>The work included interactive content sections, media displays, and campaign-specific call-to-action flows. I ensured the site was performant on mobile devices, which were the primary access point for the target audience.</p><p>All pages and features were delivered on schedule and matched the approved designs closely.</p>",
-    "source": "seed",
-    "title": "Singapore Day",
-    "url": "",
-    "createdAt": "2026-04-22T16:19:41.176Z",
-    "imageFolder": "singapore-day-web",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "singapore-day-web",
-    "startDate": "2022-06-01",
-    "order": 22,
-    "updatedAt": "2026-04-22T16:19:41.176Z"
+    "updatedAt": "2026-05-02T02:48:01.498Z"
   },
   {
     "summary": "Built an internal operational system to improve organizational process visibility and reporting.",
@@ -994,7 +886,6 @@
     ],
     "role": "Software Developer",
     "endDate": "2017-12-01",
-    "description": "<p>The project focused on internal process digitization and information flow for institutional operations. I contributed to requirement translation, application development, and release quality checks in collaboration with team stakeholders.</p>",
     "source": "seed",
     "title": "Internal System - Center of Study for Indonesian Leadership",
     "url": "",
@@ -1005,8 +896,9 @@
     "slug": "csil-internal-system",
     "startDate": "2016-02-01",
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.838Z",
-    "order": 32
+    "description": "<p>The project focused on internal process digitization and information flow for institutional operations. I contributed to requirement translation, application development, and release quality checks in collaboration with team stakeholders.</p>",
+    "order": 32,
+    "updatedAt": "2026-05-02T02:48:02.561Z"
   },
   {
     "summary": "Built healthcare operational software to support hospital workflow and information handling.",
@@ -1021,9 +913,7 @@
     ],
     "role": "Software Developer",
     "endDate": "2018-12-01",
-    "description": "<p>This system focused on practical hospital operations and information processing for day-to-day workflow needs. I worked on implementation delivery and maintained alignment between functional requirements and technical execution.</p>",
     "source": "seed",
-    "title": "Hospital Information System - Benmari",
     "url": "",
     "createdAt": "2026-04-20T11:11:01.188Z",
     "imageFolder": "hospital-system-benmari",
@@ -1032,36 +922,10 @@
     "slug": "hospital-system-benmari",
     "startDate": "2017-01-01",
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.713Z",
-    "order": 33
-  },
-  {
-    "summary": "Managed a full website delivery lifecycle for a WordPress-based enterprise web presence.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Amman+WordPress"
-    ],
-    "periodLabel": "Jul 2022 - Nov 2022",
-    "stack": [
-      "WordPress",
-      "PHP",
-      "JavaScript",
-      "CSS"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-11-01",
-    "description": "<p>This project covered planning, delivery coordination, and implementation oversight for a corporate WordPress website. I handled requirement alignment, team timeline management, and quality checkpoints to ensure smooth launch and maintainable long-term operations.</p>",
-    "source": "seed",
-    "title": "Amman WordPress Based Website",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:46.223Z",
-    "imageFolder": "amman-wordpress-website",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": true,
-    "slug": "amman-wordpress-website",
-    "startDate": "2022-07-01",
-    "updatedAt": "2026-04-22T16:19:38.981Z",
-    "highlightProject": false,
-    "order": 34
+    "description": "<p>This system focused on practical hospital operations and information processing for day-to-day workflow needs. I worked on implementation delivery and maintained alignment between functional requirements and technical execution.</p>",
+    "order": 33,
+    "updatedAt": "2026-05-02T02:48:03.098Z",
+    "title": "Hospital Benmari"
   },
   {
     "summary": "Led a mobile learning initiative with coordinated team delivery and iterative feature releases.",
@@ -1078,7 +942,6 @@
     ],
     "role": "Project Manager",
     "endDate": "2019-11-01",
-    "description": "<p>The learning mobile app project focused on combining practical content delivery with a scalable technical foundation. I managed implementation flow, requirement alignment, and quality review to ensure stable releases and maintainable code.</p>",
     "source": "seed",
     "title": "Learning Project Mobile Apps",
     "url": "",
@@ -1089,8 +952,9 @@
     "slug": "mobile-learning-app",
     "startDate": "2019-02-01",
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.384Z",
-    "order": 35
+    "description": "<p>The learning mobile app project focused on combining practical content delivery with a scalable technical foundation. I managed implementation flow, requirement alignment, and quality review to ensure stable releases and maintainable code.</p>",
+    "order": 35,
+    "updatedAt": "2026-05-02T02:48:04.160Z"
   },
   {
     "summary": "Contributed to enterprise application development with a focus on Angular implementation.",
@@ -1103,7 +967,6 @@
     ],
     "role": "Software Developer",
     "endDate": "2018-12-01",
-    "description": "<p>At Visionet Data International, I worked on the Engine 5 application and delivered features based on business requirements. The role strengthened my experience in enterprise software delivery and maintainable frontend development practices.</p>",
     "source": "seed",
     "title": "Engine 5 Application",
     "url": "",
@@ -1114,8 +977,9 @@
     "slug": "engine5-app",
     "startDate": "2017-12-01",
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.452Z",
-    "order": 36
+    "description": "<p>At Visionet Data International, I worked on the Engine 5 application and delivered features based on business requirements. The role strengthened my experience in enterprise software delivery and maintainable frontend development practices.</p>",
+    "order": 36,
+    "updatedAt": "2026-05-02T02:48:04.687Z"
   },
   {
     "summary": "Delivered thermal and attendance-support workflows for workforce operations in GreatDay.",
@@ -1133,7 +997,6 @@
     ],
     "role": "Senior Software Developer",
     "endDate": "2021-08-01",
-    "description": "<p>GreatDay Thermal was built to support operational attendance scenarios that required hardware-assisted checks and stable data handling. I worked on implementation and quality improvements to keep the module dependable for enterprise usage.</p>",
     "source": "seed",
     "title": "GreatDay Thermal",
     "url": "",
@@ -1143,9 +1006,10 @@
     "isFeatured": false,
     "slug": "greatday-thermal",
     "startDate": "2019-01-01",
-    "order": 37,
     "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:40.182Z"
+    "description": "<p>GreatDay Thermal was built to support operational attendance scenarios that required hardware-assisted checks and stable data handling. I worked on implementation and quality improvements to keep the module dependable for enterprise usage.</p>",
+    "order": 37,
+    "updatedAt": "2026-05-02T02:48:05.223Z"
   },
   {
     "summary": "Led redesign and implementation of a public-facing enterprise website for stronger brand and communication impact.",
@@ -1160,7 +1024,6 @@
     ],
     "role": "Project Manager",
     "endDate": "2022-11-01",
-    "description": "<p>This initiative included redesign planning, development execution, and production implementation for PTAR&#39;s public website. I coordinated cross-functional delivery, managed project timeline, and ensured the final output met both visual quality and operational maintainability standards.</p>",
     "source": "seed",
     "title": "PTAR Public Website Redesign, Development & Implementation",
     "url": "",
@@ -1170,9 +1033,10 @@
     "isFeatured": true,
     "slug": "ptar-public-website-redesign",
     "startDate": "2022-09-01",
-    "updatedAt": "2026-04-22T16:19:39.149Z",
     "highlightProject": false,
-    "order": 38
+    "description": "<p>This initiative included redesign planning, development execution, and production implementation for PTAR&#39;s public website. I coordinated cross-functional delivery, managed project timeline, and ensured the final output met both visual quality and operational maintainability standards.</p>",
+    "order": 38,
+    "updatedAt": "2026-05-02T02:48:05.783Z"
   },
   {
     "summary": "Developing a web portal for loyalty campaign workflows and campaign execution management.",
@@ -1187,7 +1051,6 @@
     ],
     "role": "Frontend Developer",
     "endDate": "",
-    "description": "<p>oneNZ Loyalty Campaign Portal is a web-based platform for managing loyalty campaign workflows, from campaign creation and participant tracking to reward fulfillment and reporting. I am leading the front-end development effort on this ongoing project.</p><p>Built with React and TypeScript, the portal provides campaign managers with a dashboard to configure campaigns, monitor participation metrics, and manage reward distributions. I am responsible for the component architecture, state management, and integration with the campaign backend APIs.</p><p>The portal is designed to handle high volumes of campaign activity with real-time updates and a clean, efficient user experience for campaign operators.</p>",
     "source": "seed",
     "title": "Loyalty Campaign Portal oneNZ",
     "url": "",
@@ -1197,12 +1060,12 @@
     "isFeatured": true,
     "slug": "loyalty-campaign-portal-onenz",
     "startDate": "2026-01-01",
+    "highlightProject": false,
+    "description": "<p>oneNZ Loyalty Campaign Portal is a web-based platform for managing loyalty campaign workflows, from campaign creation and participant tracking to reward fulfillment and reporting. I am leading the front-end development effort on this ongoing project.</p><p>Built with React and TypeScript, the portal provides campaign managers with a dashboard to configure campaigns, monitor participation metrics, and manage reward distributions. I am responsible for the component architecture, state management, and integration with the campaign backend APIs.</p><p>The portal is designed to handle high volumes of campaign activity with real-time updates and a clean, efficient user experience for campaign operators.</p>",
     "order": 39,
-    "updatedAt": "2026-04-22T16:19:40.472Z",
-    "highlightProject": false
+    "updatedAt": "2026-05-02T02:48:06.318Z"
   },
   {
-    "summary": "Built Youtap POS Mobile, a next-generation POS mobile application for merchant operations and daily transactions, part of the Youtap POS ecosystem serving 500K+ merchants across Indonesia.",
     "image": [
       "https://placehold.co/1600x900/0d111a/FFAE00?text=Youtap+POS+Flutter"
     ],
@@ -1214,7 +1077,6 @@
     ],
     "role": "Mobile Developer",
     "endDate": "",
-    "description": "<p>Youtap POS Mobile is a next-generation point-of-sale mobile application built with Flutter, powering merchant daily operations across Indonesia's POS ecosystem. The product targets Retail, FnB, and Service business types, and is part of the broader Youtap POS platform that has been adopted by over 500,000 merchants.</p><p>The app covers core POS capabilities including digital cashier functions, product catalog management, cart and checkout flows, split bill handling, barcode scanning, transaction recording, and receipt generation. Merchants can manage multiple users (cashiers), track daily transaction reports, handle payment cancellations, and customize receipts for branding purposes.</p><p>Built with Flutter and Dart targeting both Android and iOS from a single codebase. I implemented core POS screens, integrated with the payment gateway layer, and ensured transaction flows were smooth and reliable for high-frequency merchant use. The app connects to the broader Youtap ecosystem including inventory management, e-menu, and online ordering modules.</p>",
     "source": "seed",
     "title": "Youtap POS Mobile",
     "url": "",
@@ -1224,37 +1086,10 @@
     "isFeatured": true,
     "slug": "youtap-pos-mobile-flutter",
     "startDate": "2026-01-01",
-    "order": 40,
-    "updatedAt": "2026-04-22T16:19:40.533Z",
-    "highlightProject": false
-  },
-  {
-    "summary": "Built and refined web front-end modules for Zodiac web campaign delivery.",
-    "image": [
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/zodiac%20web%2FScreenshot%202022-12-22%20at%2020.57.23.png?alt=media&token=bde280e0-68f6-4bbb-8304-2745c34f11a6",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/zodiac%20web%2FScreenshot%202022-12-22%20at%2020.57.38.png?alt=media&token=34d6564f-81a2-42b1-a7bf-8ebfefbda1cc",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/zodiac%20web%2FScreenshot%202022-12-22%20at%2020.58.05.png?alt=media&token=765ba995-71db-4ecf-828e-94d44cfed077"
-    ],
-    "periodLabel": "2022",
-    "stack": [
-      "React",
-      "TypeScript",
-      "Next.js"
-    ],
-    "role": "Frontend Developer",
     "highlightProject": false,
-    "endDate": "2022-04-01",
-    "description": "<p>Zodiac is a campaign web project where I built and refined the front-end modules using React and Next.js. The work involved implementing campaign pages with interactive elements and brand-consistent styling.</p><p>I developed multiple page templates, interactive components, and media sections from design mockups. The project required attention to detail to match the campaign's visual identity precisely.</p><p>Delivered all modules on schedule with clean, maintainable code and no critical bugs at launch.</p>",
-    "source": "seed",
-    "title": "Zodiac Web",
-    "url": "",
-    "createdAt": "2026-04-22T16:19:41.587Z",
-    "imageFolder": "zodiac-web",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "zodiac-web",
-    "startDate": "2022-03-01",
-    "order": 23,
-    "updatedAt": "2026-04-22T16:19:41.587Z"
+    "summary": "Built Youtap POS Mobile, a next-generation POS mobile application for merchant operations and daily transactions, part of the Youtap POS ecosystem serving 500K+ merchants across Indonesia.",
+    "description": "<p>Youtap POS Mobile is a next-generation point-of-sale mobile application built with Flutter, powering merchant daily operations across Indonesia's POS ecosystem. The product targets Retail, FnB, and Service business types, and is part of the broader Youtap POS platform that has been adopted by over 500,000 merchants.</p><p>The app covers core POS capabilities including digital cashier functions, product catalog management, cart and checkout flows, split bill handling, barcode scanning, transaction recording, and receipt generation. Merchants can manage multiple users (cashiers), track daily transaction reports, handle payment cancellations, and customize receipts for branding purposes.</p><p>Built with Flutter and Dart targeting both Android and iOS from a single codebase. I implemented core POS screens, integrated with the payment gateway layer, and ensured transaction flows were smooth and reliable for high-frequency merchant use. The app connects to the broader Youtap ecosystem including inventory management, e-menu, and online ordering modules.</p>",
+    "order": 40,
+    "updatedAt": "2026-05-02T02:48:06.857Z"
   }
 ]
