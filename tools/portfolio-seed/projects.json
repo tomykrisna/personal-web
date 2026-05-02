@@ -74,7 +74,7 @@
     "endDate": "",
     "source": "seed",
     "title": "Youtap Portal",
-    "url": "",
+    "url": "https://www.youtap.id/",
     "createdAt": "2026-04-20T11:10:58.738Z",
     "imageFolder": "youtap-portal",
     "company": "Youtap Indonesia",
@@ -101,7 +101,7 @@
       "MySQL"
     ],
     "description": "<p>Youtap Portal is the internal operations dashboard used by Youtap Indonesia to manage merchant lifecycle, platform monitoring, and administrative tasks. While the BOS apps serve merchants directly, this portal empowers the internal ops team to onboard new merchants, resolve issues, and keep the platform running smoothly.</p><p>As Tech Lead, I drove the technical roadmap and cross-team delivery across frontend and backend. The frontend is built with React, while critical backend services are written in Golang for high-performance processing. I introduced role-based access control to separate merchant-facing admins from platform super-admins, built a real-time platform health dashboard, and set up automated alerting for transaction anomalies and system thresholds.</p><p>Supports hundreds of internal users across operations, finance, and support teams with <strong>99.9% uptime</strong>.</p>",
-    "updatedAt": "2026-05-02T02:47:44.710Z"
+    "updatedAt": "2026-05-02T08:25:00.000Z"
   },
   {
     "periodLabel": "2019 - 2021",
@@ -118,7 +118,7 @@
     "endDate": "2021-08-01",
     "source": "seed",
     "title": "GreatDay HR Platform",
-    "url": "",
+    "url": "https://greatdayhr.com/id-id/",
     "createdAt": "2026-04-20T11:10:59.645Z",
     "imageFolder": "greatday-hr-platform",
     "company": "PT People Intelligence Indonesia",
@@ -136,7 +136,7 @@
     ],
     "summary": "Contributed to GreatDay HR, a comprehensive HRIS platform serving 3,000+ companies across Asia, covering core HR, recruitment, attendance, payroll, and performance modules.",
     "description": "<p>GreatDay HR is a comprehensive HRIS platform developed by PT People Intelligence Indonesia, serving <strong>3,000+ companies across Asia</strong>. The platform covers core HR, recruitment, attendance, payroll, and performance management modules.</p><p>As Senior Software Developer, I contributed to feature delivery and technical supervision across both mobile and backend components. I led the development of attendance tracking with geofencing, leave workflow automation, and payroll integration modules. I also supported requirement analysis, code quality reviews, and release readiness with the engineering team.</p><p>Mobile apps built with Ionic served field employees, while the backend was powered by a microservices architecture using NestJS and Node.js, with Kotlin and Java services handling legacy system integrations.</p>",
-    "updatedAt": "2026-05-02T02:47:45.513Z"
+    "updatedAt": "2026-05-02T08:20:00.000Z"
   },
   {
     "periodLabel": "2021 - Present",
@@ -150,7 +150,7 @@
     "endDate": "",
     "source": "seed",
     "title": "Youtap Online Order",
-    "url": "",
+    "url": "https://www.youtap.id/",
     "createdAt": "2026-04-20T11:10:59.210Z",
     "imageFolder": "youtap-online-order",
     "company": "Youtap Indonesia",
@@ -168,7 +168,7 @@
     "order": 4,
     "summary": "Built Youtap Online Order, the digital ordering module within the BOS ecosystem that enables merchants to accept and manage customer orders through mobile and web channels.",
     "description": "<p>Digital ordering module within the Youtap BOS ecosystem, enabling merchants to accept and manage customer orders across mobile and web channels. Integrated with the NestJS backend and 70+ payment gateway providers to deliver a seamless order-to-payment experience.</p><p>As Tech Lead, I owned end-to-end delivery of the ordering flow, from menu display and cart management through payment processing and order status tracking. Coordinated cross-team development to ensure consistent user experience and reliable performance during high-traffic periods.</p><p>The module extended BOS beyond inventory and payment into customer-facing commerce, supporting hundreds of thousands of daily transactions across the merchant network.</p>",
-    "updatedAt": "2026-05-02T08:10:00.000Z"
+    "updatedAt": "2026-05-02T08:25:00.000Z"
   },
   {
     "summary": "Developed attendance and workforce kiosk capabilities within the GreatDay ecosystem.",
@@ -184,7 +184,7 @@
     "endDate": "2021-08-01",
     "source": "seed",
     "title": "GreatDay Kiosk",
-    "url": "",
+    "url": "https://greatdayhr.com/id-id/",
     "createdAt": "2026-04-20T11:23:07.410Z",
     "imageFolder": "greatday-kiosk",
     "company": "PT People Intelligence Indonesia",
@@ -200,8 +200,8 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20kiosk%2Funnamed%20(2).jpeg?alt=media&token=cc5b8fd6-9ccd-4352-80f2-a3001e13a2eb",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20kiosk%2Funnamed%20(3).jpeg?alt=media&token=24f48ffa-a2d8-45fa-bf8b-2f8f2d1f02c1"
     ],
-    "description": "<p>GreatDay Kiosk supports workplace attendance and operational check-in workflows. I contributed to feature implementation, quality review, and release stabilization to ensure robust use in daily operations.</p>",
-    "updatedAt": "2026-05-02T02:47:46.613Z"
+    "description": "<p>GreatDay Kiosk is a self-service attendance and check-in solution for workplaces, allowing employees to clock in and manage attendance directly through kiosk terminals. Part of the GreatDay HR suite serving 3,000+ companies across Asia.</p><p>As Senior Software Developer, I contributed to kiosk-specific workflows including facial recognition or ID-based check-in, shift management integration, and real-time sync with the central HRIS backend. Ensured reliable performance in high-traffic workplace scenarios.</p>",
+    "updatedAt": "2026-05-02T08:20:00.000Z"
   },
   {
     "summary": "Built and maintained internal CMS tooling to support operational content and admin workflows.",
@@ -259,7 +259,7 @@
     "endDate": "2021-08-01",
     "source": "seed",
     "title": "GreatDay Lite, Kiosk & Thermal",
-    "url": "",
+    "url": "https://greatdayhr.com/id-id/",
     "createdAt": "2026-04-20T11:11:00.240Z",
     "imageFolder": "greatday-lite-kiosk-thermal",
     "company": "PT People Intelligence Indonesia",
@@ -274,8 +274,8 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20lite%2FScreenshot%202025-07-17%20at%2015.39.30.png?alt=media&token=5e038fbc-13e8-4463-b59c-fc7f198ab431",
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/greatday%20lite%2FScreenshot%202025-07-17%20at%2015.39.35.png?alt=media&token=d84050f2-b654-4b37-b31d-67caa1585d2d"
     ],
-    "description": "<p>I worked on multiple products in the GreatDay suite, including Lite, Kiosk, and Thermal services. The work involved feature implementation, quality assurance, and delivery coordination to keep releases stable and aligned with business requirements.</p>",
-    "updatedAt": "2026-05-02T02:47:47.732Z"
+    "description": "<p>GreatDay Lite, Kiosk, and Thermal are specialized attendance solutions within the GreatDay HR suite, each tailored to different operational environments. Lite serves general attendance tracking, Kiosk handles self-service terminal check-ins, and Thermal supports temperature-based attendance logging for regulated industries.</p><p>As Senior Software Developer, I built and maintained cross-platform attendance modules across all three products, integrating with the central NestJS backend and ensuring consistent data synchronization with the broader HRIS platform serving 3,000+ companies.</p>",
+    "updatedAt": "2026-05-02T08:20:00.000Z"
   },
   {
     "summary": "Managed and delivered an ecommerce ecosystem spanning internal system, warehouse, store management, and customer storefront.",
@@ -1006,7 +1006,7 @@
     "endDate": "2021-08-01",
     "source": "seed",
     "title": "GreatDay Thermal",
-    "url": "",
+    "url": "https://greatdayhr.com/id-id/",
     "createdAt": "2026-04-20T11:23:07.624Z",
     "imageFolder": "greatday-thermal",
     "company": "PT People Intelligence Indonesia",
@@ -1016,7 +1016,7 @@
     "highlightProject": false,
     "description": "<p>GreatDay Thermal was built to support operational attendance scenarios that required hardware-assisted checks and stable data handling. I worked on implementation and quality improvements to keep the module dependable for enterprise usage.</p>",
     "order": 37,
-    "updatedAt": "2026-05-02T02:48:05.223Z"
+    "updatedAt": "2026-05-02T08:20:00.000Z"
   },
   {
     "summary": "Led redesign and implementation of a public-facing enterprise website for stronger brand and communication impact.",
