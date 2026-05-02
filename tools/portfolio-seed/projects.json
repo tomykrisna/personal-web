@@ -315,13 +315,15 @@
     "stack": [
       "Android",
       "Kotlin",
+      "Java",
+      "Golang",
       "Mobile App"
     ],
     "role": "Mobile Developer",
     "endDate": "2026-01-01",
     "source": "seed",
     "title": "Gurihmart Mobile Android",
-    "url": "",
+    "url": "https://play.google.com/store/apps/details?id=edts.gurih.android&hl=id",
     "createdAt": "2026-04-20T11:37:03.246Z",
     "imageFolder": "gurihmart-mobile-android",
     "company": "Gurihmart",
@@ -338,7 +340,7 @@
     ],
     "order": 10,
     "description": "<p>Gurihmart is an Android mobile application for a retail business, built with Kotlin to support in-store operations and customer transactions. I was responsible for the front-end implementation as a Mobile Developer.</p><p>The app included product browsing, cart management, and checkout flows with payment integration. I focused on building a clean, intuitive interface and ensuring transaction reliability, which is critical for retail use cases.</p><p>Delivered a stable, performant Android application that supported the client's daily sales operations.</p>",
-    "updatedAt": "2026-05-02T02:47:48.803Z"
+    "updatedAt": "2026-05-02T07:55:00.000Z"
   },
   {
     "summary": "Developed front-end features for the APCCA event web experience using React.",
