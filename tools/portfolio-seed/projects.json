@@ -369,35 +369,6 @@
     "order": 10
   },
   {
-    "summary": "Built and delivered frontend features for a service platform while coordinating engineering execution.",
-    "periodLabel": "Jul 2022 - Nov 2022",
-    "stack": [
-      "TypeScript",
-      "Angular",
-      "NestJS",
-      "Ionic",
-      "MySQL"
-    ],
-    "role": "Frontend Developer",
-    "endDate": "2022-11-01",
-    "description": "<p>I worked on feature delivery and frontend development for MOCUCIMOBILKU using Angular and TypeScript, with backend collaboration across NestJS services. The project emphasized responsive user flows, reliable API integration, and predictable milestone execution.</p>",
-    "source": "seed",
-    "title": "MOCUCIMOBILKU Platform",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:46.384Z",
-    "imageFolder": "mocucimobilku-platform",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": true,
-    "slug": "mocucimobilku-platform",
-    "startDate": "2022-07-01",
-    "updatedAt": "2026-04-22T16:19:39.055Z",
-    "highlightProject": false,
-    "image": [
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/fb4fan%2FScreenshot%202022-12-22%20at%2020.26.57.png?alt=media&token=81f7f1ad-a786-4eea-bec5-c387072d922e"
-    ],
-    "order": 11
-  },
-  {
     "summary": "Developed front-end features for the APCCA event web experience using React.",
     "periodLabel": "2021",
     "stack": [
@@ -563,468 +534,138 @@
     ]
   },
   {
-    "summary": "Managed infrastructure migration for a production website with minimal disruption.",
+    "summary": "Delivered React-based campaign web development for YSL activation.",
     "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=PTAR+Migration"
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.02.png?alt=media&token=374698f9-3058-446c-990d-2593c0985d85",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.08.png?alt=media&token=e64b6bfd-f627-4761-aa87-c49f0f2d2f69",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.30.png?alt=media&token=50003fcd-1c40-430e-9544-573509bc1f4e",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.36.png?alt=media&token=01076f01-31da-4422-8ab7-d33693c97299",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.44.png?alt=media&token=c2f2d283-e5f2-4ea1-8383-679f595ff540",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.57.png?alt=media&token=50a80733-5545-41cc-b3f2-e0f00701afbf",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.04.png?alt=media&token=dd04fa53-2bd8-4cc5-8bef-a6966d21e902",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.09.png?alt=media&token=9d9feef1-41a8-40eb-8f73-1057176c62c9",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.16.png?alt=media&token=f6e78a7a-fff9-437e-8969-f43d219b8c1e",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.35.png?alt=media&token=bb0529df-9edc-4357-9fab-6276be915c6f",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.51.png?alt=media&token=1b77e168-7e45-4651-8819-1111988fcaa8",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.57.png?alt=media&token=8ae1eb68-6429-490e-9314-c389f58b518f"
     ],
-    "periodLabel": "Sep 2022 - Oct 2022",
-    "stack": [
-      "Server Migration",
-      "Deployment",
-      "Website Reliability"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-10-01",
-    "description": "<p>I led planning and execution of a website migration to a new server environment, including deployment sequencing, risk handling, and post-migration validation. The objective was a stable transition with consistent performance and minimal downtime.</p>",
-    "source": "seed",
-    "title": "PTAR Website Migration to New Server",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:46.792Z",
-    "imageFolder": "ptar-website-server-migration",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "ptar-website-server-migration",
-    "startDate": "2022-09-01",
-    "order": 17,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:39.304Z"
-  },
-  {
-    "summary": "Delivered structured content and layout improvements for a live corporate website.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Amman+Content+Update"
-    ],
-    "periodLabel": "Jul 2022 - Aug 2022",
-    "stack": [
-      "WordPress",
-      "Content Management",
-      "UI Layout"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-08-01",
-    "description": "<p>This project focused on improving content quality and page layout consistency for AMMAN&#39;s website. I managed team execution and review cycles to ensure updates remained aligned with brand direction and production standards.</p>",
-    "source": "seed",
-    "title": "Content Update and Layout - AMMAN Website",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:46.937Z",
-    "imageFolder": "amman-content-layout-update",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "amman-content-layout-update",
-    "startDate": "2022-07-01",
-    "order": 18,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:39.363Z"
-  },
-  {
-    "summary": "Managed one-year maintenance program for ongoing website stability and feature evolution.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Amman+Maintenance"
-    ],
-    "periodLabel": "Jul 2021 - Jul 2022",
-    "stack": [
-      "WordPress",
-      "PHP",
-      "Vue",
-      "Maintenance Operations"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-07-01",
-    "description": "<p>I coordinated maintenance operations, client communication, and continuous improvements for a production WordPress website over a one-year cycle. The scope included issue handling, enhancement planning, and quality governance for reliable long-term performance.</p>",
-    "source": "seed",
-    "title": "1 Year Maintenance - Amman WordPress Website",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:47.130Z",
-    "imageFolder": "amman-one-year-maintenance",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "amman-one-year-maintenance",
-    "startDate": "2021-07-01",
-    "order": 19,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:39.435Z"
-  },
-  {
-    "summary": "Drove enhancement delivery for intranet portal workflows and internal user experience.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Intranet+Portal"
-    ],
-    "periodLabel": "May 2022 - Jul 2022",
-    "stack": [
-      "Portal Development",
-      "Frontend Delivery",
-      "Project Management"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-07-01",
-    "description": "<p>This engagement focused on improving an internal portal through targeted feature upgrades and better usability. I led planning and execution to ensure enhancements delivered measurable operational value while maintaining release quality.</p>",
-    "source": "seed",
-    "title": "Intranet Web Portal Enhancement",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:47.287Z",
-    "imageFolder": "intranet-web-portal-enhancement",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "intranet-web-portal-enhancement",
-    "startDate": "2022-05-01",
-    "order": 20,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:39.544Z"
-  },
-  {
-    "summary": "Built a custom marketing system with structured workflow and client-oriented delivery.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Marketing+System"
-    ],
-    "periodLabel": "2017",
-    "stack": [
-      "PHP",
-      "Laravel",
-      "MySQL"
-    ],
-    "role": "Software Developer",
-    "endDate": "2017-06-01",
-    "description": "<p>This system streamlined marketing operations and internal process management for the business team. I contributed both as developer and team lead, ensuring requirements were translated into a practical and maintainable software solution.</p>",
-    "source": "seed",
-    "title": "Marketing System - PT Gunung Harta Solution",
-    "url": "",
-    "createdAt": "2026-04-20T11:11:00.933Z",
-    "imageFolder": "marketing-system-gunung-harta",
-    "company": "CV Sakral Technology",
-    "isFeatured": false,
-    "slug": "marketing-system-gunung-harta",
-    "startDate": "2017-04-01",
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.525Z",
-    "order": 20
-  },
-  {
-    "summary": "Developed a tourism information platform to support local promotion and operational data management.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Tourism+System"
-    ],
-    "periodLabel": "2016 - 2017",
-    "stack": [
-      "PHP",
-      "Angular",
-      "Java"
-    ],
-    "role": "Software Developer",
-    "endDate": "2017-12-01",
-    "description": "<p>This project delivered a web-based tourism information system with practical content and operational workflows. I was involved in requirements analysis, development, and quality review to ensure stable usage and maintainability.</p>",
-    "source": "seed",
-    "title": "Tourism System - Sawahlunto",
-    "url": "",
-    "createdAt": "2026-04-20T11:11:01.331Z",
-    "imageFolder": "pariwisata-sawahlunto-system",
-    "company": "Jasa Web Malang",
-    "isFeatured": false,
-    "slug": "pariwisata-sawahlunto-system",
-    "startDate": "2016-02-01",
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.779Z",
-    "order": 20
-  },
-  {
-    "summary": "Delivered a government information system with structured data and workflow management.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Government+System"
-    ],
-    "periodLabel": "2017 - 2018",
-    "stack": [
-      "Node.js",
-      "Angular",
-      "MySQL"
-    ],
-    "role": "Software Developer",
-    "endDate": "2018-12-01",
-    "description": "<p>The project was built to support institutional administration and data operations in a public sector context. I handled implementation and technical leadership tasks, including requirement review, delivery planning, and code quality control.</p>",
-    "source": "seed",
-    "title": "Government Information System - Raja Ampat",
-    "url": "",
-    "createdAt": "2026-04-20T11:11:01.039Z",
-    "imageFolder": "government-information-system-raja-ampat",
-    "company": "CV Sakral Technology",
-    "isFeatured": false,
-    "slug": "government-information-system-raja-ampat",
-    "startDate": "2017-01-01",
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.644Z",
-    "order": 21
-  },
-  {
-    "summary": "Delivered a web portal project with end-to-end planning, execution, and stakeholder alignment.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Kirby+Web+Portal"
-    ],
-    "periodLabel": "May 2022 - Jul 2022",
-    "stack": [
-      "Web Portal",
-      "Delivery Management",
-      "Frontend Coordination"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-07-01",
-    "description": "<p>Kirby Web Portal required tight coordination between requirements, implementation, and release timeline. I managed team progress and delivery quality while ensuring the final output supported practical business workflows.</p>",
-    "source": "seed",
-    "title": "Kirby Web Portal",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:47.400Z",
-    "imageFolder": "kirby-web-portal",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "kirby-web-portal",
-    "startDate": "2022-05-01",
-    "order": 21,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:39.610Z"
-  },
-  {
-    "summary": "Built an internal operational system to improve organizational process visibility and reporting.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Internal+System"
-    ],
-    "periodLabel": "2016 - 2017",
-    "stack": [
-      "PHP",
-      "Angular",
-      "Java"
-    ],
-    "role": "Software Developer",
-    "endDate": "2017-12-01",
-    "description": "<p>The project focused on internal process digitization and information flow for institutional operations. I contributed to requirement translation, application development, and release quality checks in collaboration with team stakeholders.</p>",
-    "source": "seed",
-    "title": "Internal System - Center of Study for Indonesian Leadership",
-    "url": "",
-    "createdAt": "2026-04-20T11:11:01.443Z",
-    "imageFolder": "csil-internal-system",
-    "company": "Jasa Web Malang",
-    "isFeatured": false,
-    "slug": "csil-internal-system",
-    "startDate": "2016-02-01",
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.838Z",
-    "order": 23
-  },
-  {
-    "summary": "Built healthcare operational software to support hospital workflow and information handling.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Hospital+System"
-    ],
-    "periodLabel": "2017 - 2018",
-    "stack": [
-      "Node.js",
-      "Angular",
-      "MySQL"
-    ],
-    "role": "Software Developer",
-    "endDate": "2018-12-01",
-    "description": "<p>This system focused on practical hospital operations and information processing for day-to-day workflow needs. I worked on implementation delivery and maintained alignment between functional requirements and technical execution.</p>",
-    "source": "seed",
-    "title": "Hospital Information System - Benmari",
-    "url": "",
-    "createdAt": "2026-04-20T11:11:01.188Z",
-    "imageFolder": "hospital-system-benmari",
-    "company": "CV Sakral Technology",
-    "isFeatured": false,
-    "slug": "hospital-system-benmari",
-    "startDate": "2017-01-01",
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.713Z",
-    "order": 23
-  },
-  {
-    "summary": "Managed a full website delivery lifecycle for a WordPress-based enterprise web presence.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Amman+WordPress"
-    ],
-    "periodLabel": "Jul 2022 - Nov 2022",
-    "stack": [
-      "WordPress",
-      "PHP",
-      "JavaScript",
-      "CSS"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-11-01",
-    "description": "<p>This project covered planning, delivery coordination, and implementation oversight for a corporate WordPress website. I handled requirement alignment, team timeline management, and quality checkpoints to ensure smooth launch and maintainable long-term operations.</p>",
-    "source": "seed",
-    "title": "Amman WordPress Based Website",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:46.223Z",
-    "imageFolder": "amman-wordpress-website",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": true,
-    "slug": "amman-wordpress-website",
-    "startDate": "2022-07-01",
-    "updatedAt": "2026-04-22T16:19:38.981Z",
-    "highlightProject": false,
-    "order": 24
-  },
-  {
-    "summary": "Led a mobile learning initiative with coordinated team delivery and iterative feature releases.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Mobile+Learning+App"
-    ],
-    "periodLabel": "2019",
-    "stack": [
-      "Ionic",
-      "Angular",
-      "NestJS",
-      "TypeScript",
-      "MySQL"
-    ],
-    "role": "Project Manager",
-    "endDate": "2019-11-01",
-    "description": "<p>The learning mobile app project focused on combining practical content delivery with a scalable technical foundation. I managed implementation flow, requirement alignment, and quality review to ensure stable releases and maintainable code.</p>",
-    "source": "seed",
-    "title": "Learning Project Mobile Apps",
-    "url": "",
-    "createdAt": "2026-04-20T11:11:00.590Z",
-    "imageFolder": "mobile-learning-app",
-    "company": "PT People Intelligence Indonesia",
-    "isFeatured": false,
-    "slug": "mobile-learning-app",
-    "startDate": "2019-02-01",
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.384Z",
-    "order": 25
-  },
-  {
-    "summary": "Contributed to enterprise application development with a focus on Angular implementation.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Engine+5"
-    ],
-    "periodLabel": "2017 - 2018",
-    "stack": [
-      "Angular"
-    ],
-    "role": "Software Developer",
-    "endDate": "2018-12-01",
-    "description": "<p>At Visionet Data International, I worked on the Engine 5 application and delivered features based on business requirements. The role strengthened my experience in enterprise software delivery and maintainable frontend development practices.</p>",
-    "source": "seed",
-    "title": "Engine 5 Application",
-    "url": "",
-    "createdAt": "2026-04-20T11:11:00.802Z",
-    "imageFolder": "engine5-app",
-    "company": "Visionet Data International",
-    "isFeatured": false,
-    "slug": "engine5-app",
-    "startDate": "2017-12-01",
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:38.452Z",
-    "order": 26
-  },
-  {
-    "summary": "Delivered thermal and attendance-support workflows for workforce operations in GreatDay.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=GreatDay+Thermal"
-    ],
-    "periodLabel": "2019 - 2021",
-    "stack": [
-      "Angular",
-      "Ionic",
-      "Node.js",
-      "NestJS",
-      "Kotlin",
-      "MySQL"
-    ],
-    "role": "Senior Software Developer",
-    "endDate": "2021-08-01",
-    "description": "<p>GreatDay Thermal was built to support operational attendance scenarios that required hardware-assisted checks and stable data handling. I worked on implementation and quality improvements to keep the module dependable for enterprise usage.</p>",
-    "source": "seed",
-    "title": "GreatDay Thermal",
-    "url": "",
-    "createdAt": "2026-04-20T11:23:07.624Z",
-    "imageFolder": "greatday-thermal",
-    "company": "PT People Intelligence Indonesia",
-    "isFeatured": false,
-    "slug": "greatday-thermal",
-    "startDate": "2019-01-01",
-    "order": 26,
-    "highlightProject": false,
-    "updatedAt": "2026-04-22T16:19:40.182Z"
-  },
-  {
-    "summary": "Led redesign and implementation of a public-facing enterprise website for stronger brand and communication impact.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=PTAR+Public+Website"
-    ],
-    "periodLabel": "Sep 2022 - Nov 2022",
-    "stack": [
-      "WordPress",
-      "Frontend Architecture",
-      "Content Strategy"
-    ],
-    "role": "Project Manager",
-    "endDate": "2022-11-01",
-    "description": "<p>This initiative included redesign planning, development execution, and production implementation for PTAR&#39;s public website. I coordinated cross-functional delivery, managed project timeline, and ensured the final output met both visual quality and operational maintainability standards.</p>",
-    "source": "seed",
-    "title": "PTAR Public Website Redesign, Development & Implementation",
-    "url": "",
-    "createdAt": "2026-04-20T11:17:46.572Z",
-    "imageFolder": "ptar-public-website-redesign",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": true,
-    "slug": "ptar-public-website-redesign",
-    "startDate": "2022-09-01",
-    "updatedAt": "2026-04-22T16:19:39.149Z",
-    "highlightProject": false,
-    "order": 26
-  },
-  {
-    "summary": "Developing a web portal for loyalty campaign workflows and campaign execution management.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Loyalty+Portal+oneNZ"
-    ],
-    "periodLabel": "Jan 2026 - Present",
+    "periodLabel": "Sep 2021 - Oct 2021",
     "stack": [
       "React",
       "TypeScript",
-      "Web"
+      "Next.js"
     ],
     "role": "Frontend Developer",
-    "endDate": "",
-    "description": "<p>oneNZ Loyalty Campaign Portal is a web-based platform for managing loyalty campaign workflows, from campaign creation and participant tracking to reward fulfillment and reporting. I am leading the front-end development effort on this ongoing project.</p><p>Built with React and TypeScript, the portal provides campaign managers with a dashboard to configure campaigns, monitor participation metrics, and manage reward distributions. I am responsible for the component architecture, state management, and integration with the campaign backend APIs.</p><p>The portal is designed to handle high volumes of campaign activity with real-time updates and a clean, efficient user experience for campaign operators.</p>",
+    "highlightProject": false,
+    "endDate": "2021-10-01",
+    "description": "<p>YSL is a brand campaign microsite where I built the front-end using React and Next.js. The project required translating a visually rich brand campaign into a responsive, performant web experience.</p><p>I implemented the interactive campaign pages, media galleries, and promotional sections. Close attention was paid to matching the brand's visual standards and ensuring smooth animations and transitions.</p><p>Delivered on time with all campaign features functioning correctly across desktop and mobile devices.</p>",
     "source": "seed",
-    "title": "Loyalty Campaign Portal oneNZ",
+    "title": "YSL",
     "url": "",
-    "createdAt": "2026-04-20T11:37:03.413Z",
-    "imageFolder": "loyalty-campaign-portal-onenz",
-    "company": "oneNZ",
-    "isFeatured": true,
-    "slug": "loyalty-campaign-portal-onenz",
-    "startDate": "2026-01-01",
-    "order": 28,
-    "updatedAt": "2026-04-22T16:19:40.472Z",
-    "highlightProject": false
+    "createdAt": "2026-04-22T16:19:41.475Z",
+    "imageFolder": "ysl-web",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "ysl-web",
+    "startDate": "2021-09-01",
+    "order": 17,
+    "updatedAt": "2026-04-22T16:19:41.475Z"
   },
   {
-    "summary": "Built Youtap POS Mobile, a next-generation POS mobile application for merchant operations and daily transactions, part of the Youtap POS ecosystem serving 500K+ merchants across Indonesia.",
+    "summary": "Developed conference web experience for SATLF using React stack.",
     "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Youtap+POS+Flutter"
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.45.38.png?alt=media&token=7574c442-2c5d-4f32-894a-31845b99c8d6",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.45.52.png?alt=media&token=bfdd663b-8947-499e-8403-16d69b2aaa17",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.46.15.png?alt=media&token=4f41d706-08bf-4054-9406-c3fdfe5dc599",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.46.29.png?alt=media&token=cdb02bb9-df4f-4d5a-a9a8-586460f4f4a0"
     ],
-    "periodLabel": "Jan 2026 - Present",
+    "periodLabel": "Feb 2022 - Mar 2022",
     "stack": [
-      "Flutter",
-      "Dart",
-      "Mobile App"
+      "React",
+      "TypeScript",
+      "Next.js"
     ],
-    "role": "Mobile Developer",
-    "endDate": "",
-    "description": "<p>Youtap POS Mobile is a next-generation point-of-sale mobile application built with Flutter, powering merchant daily operations across Indonesia's POS ecosystem. The product targets Retail, FnB, and Service business types, and is part of the broader Youtap POS platform that has been adopted by over 500,000 merchants.</p><p>The app covers core POS capabilities including digital cashier functions, product catalog management, cart and checkout flows, split bill handling, barcode scanning, transaction recording, and receipt generation. Merchants can manage multiple users (cashiers), track daily transaction reports, handle payment cancellations, and customize receipts for branding purposes.</p><p>Built with Flutter and Dart targeting both Android and iOS from a single codebase. I implemented core POS screens, integrated with the payment gateway layer, and ensured transaction flows were smooth and reliable for high-frequency merchant use. The app connects to the broader Youtap ecosystem including inventory management, e-menu, and online ordering modules.</p>",
+    "role": "Frontend Developer",
+    "highlightProject": false,
+    "endDate": "2022-03-01",
+    "description": "<p>SATLF is a conference web platform delivered for a client event. I built the front-end using React and Next.js, creating the pages and interactive features that supported the conference experience.</p><p>The project included speaker line-up displays, session schedules, registration flows, and an attendee information hub. I implemented dynamic schedule filtering and search functionality to help attendees navigate the conference program efficiently.</p><p>Delivered within the project timeline with a fully responsive design and all interactive features working correctly.</p>",
     "source": "seed",
-    "title": "Youtap POS Mobile",
+    "title": "SATLF",
     "url": "",
-    "createdAt": "2026-04-20T11:37:03.776Z",
-    "imageFolder": "youtap-pos-mobile-flutter",
-    "company": "Youtap Indonesia",
-    "isFeatured": true,
-    "slug": "youtap-pos-mobile-flutter",
-    "startDate": "2026-01-01",
-    "order": 29,
-    "updatedAt": "2026-04-22T16:19:40.533Z",
-    "highlightProject": false
+    "createdAt": "2026-04-22T16:19:41.072Z",
+    "imageFolder": "satlf-web",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "satlf-web",
+    "startDate": "2022-02-01",
+    "order": 18,
+    "updatedAt": "2026-04-22T16:19:41.072Z"
+  },
+  {
+    "summary": "Developed front-end experience for Women in Sport event platform.",
+    "image": [
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.06.13.png?alt=media&token=b3f1696b-990e-4dda-a1ce-48ae63e202ce",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.06.26.png?alt=media&token=0c1ba2fa-d87a-4122-8d1d-e1476eae037f",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.06.39.png?alt=media&token=77adbe2a-dc2f-49a7-b8ea-96d266b72ff6",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.06.53.png?alt=media&token=bbabf67a-1911-43f9-8dbf-01ed3dc349e7",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.07.02.png?alt=media&token=6f8db1dd-34ef-4dcd-935b-522636e83fac",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.07.15.png?alt=media&token=504cf952-a541-4304-98f7-86fedb2f2fed",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.07.23.png?alt=media&token=6eb25fbd-60d6-4c4a-935c-91f0f0f25c19",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.07.34.png?alt=media&token=f277f4a6-e75c-43a4-89b7-dfc8b1a63322",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.09.59.png?alt=media&token=7f8aa4da-dcea-4471-a9f9-ebb073977fa6",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.10.45.png?alt=media&token=699c9000-2ec7-40e7-b2a9-f06ffddea509"
+    ],
+    "periodLabel": "Oct 2021 - Nov 2021",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "role": "Frontend Developer",
+    "highlightProject": false,
+    "endDate": "2021-11-01",
+    "description": "<p>Women in Sport is an event web platform built to support a campaign focused on female athletes and sports participation. I developed the front-end using React and Next.js.</p><p>The scope included content-rich pages, event schedules, participant profiles, and interactive campaign sections. I worked to ensure the site was visually engaging and performed well on mobile devices, which were the primary audience channel.</p><p>Delivered on schedule with all pages matching approved designs and all interactive features working correctly.</p>",
+    "source": "seed",
+    "title": "Women in Sport",
+    "url": "",
+    "createdAt": "2026-04-22T16:19:41.412Z",
+    "imageFolder": "women-in-sport-web",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "women-in-sport-web",
+    "startDate": "2021-10-01",
+    "order": 19,
+    "updatedAt": "2026-04-22T16:19:41.412Z"
+  },
+  {
+    "summary": "Implemented React-based web UI delivery for TAIF event platform.",
+    "image": [
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.09.png?alt=media&token=836d9c59-a16d-4d96-a844-fdff8693ce0c",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.34.png?alt=media&token=b7d4c9e3-838c-4e31-9716-88075bea87f5",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.41.png?alt=media&token=9b4c5d2b-58a8-451b-8925-50c3a7a27537",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.50.png?alt=media&token=9580e6e4-fcf7-4112-b168-b13c3b143547"
+    ],
+    "periodLabel": "Jan 2022 - Feb 2022",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Next.js"
+    ],
+    "role": "Frontend Developer",
+    "highlightProject": false,
+    "endDate": "2022-02-01",
+    "description": "<p>TAIF is an event web platform where I implemented the front-end using React and Next.js. The project involved building pages that supported the event's information and registration needs.</p><p>I developed the component structure, responsive layouts, and interactive elements from design mockups. Performance optimization and cross-browser compatibility were part of the delivery requirements.</p><p>Completed on schedule with all features functioning correctly across target devices and browsers.</p>",
+    "source": "seed",
+    "title": "TAIF",
+    "url": "",
+    "createdAt": "2026-04-22T16:19:41.238Z",
+    "imageFolder": "taif-web",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "taif-web",
+    "startDate": "2022-01-01",
+    "order": 20,
+    "updatedAt": "2026-04-22T16:19:41.238Z"
   },
   {
     "summary": "Delivered front-end pages and campaign interactions for NARS web initiative.",
@@ -1066,34 +707,250 @@
     "updatedAt": "2026-04-22T16:19:40.992Z"
   },
   {
-    "summary": "Developed conference web experience for SATLF using React stack.",
-    "image": [
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.45.38.png?alt=media&token=7574c442-2c5d-4f32-894a-31845b99c8d6",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.45.52.png?alt=media&token=bfdd663b-8947-499e-8403-16d69b2aaa17",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.46.15.png?alt=media&token=4f41d706-08bf-4054-9406-c3fdfe5dc599",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/satlf%2FScreenshot%202022-12-22%20at%2020.46.29.png?alt=media&token=cdb02bb9-df4f-4d5a-a9a8-586460f4f4a0"
-    ],
-    "periodLabel": "Feb 2022 - Mar 2022",
+    "summary": "Built and delivered frontend features for a service platform while coordinating engineering execution.",
+    "periodLabel": "Jul 2022 - Nov 2022",
     "stack": [
-      "React",
       "TypeScript",
-      "Next.js"
+      "Angular",
+      "NestJS",
+      "Ionic",
+      "MySQL"
     ],
     "role": "Frontend Developer",
-    "highlightProject": false,
-    "endDate": "2022-03-01",
-    "description": "<p>SATLF is a conference web platform delivered for a client event. I built the front-end using React and Next.js, creating the pages and interactive features that supported the conference experience.</p><p>The project included speaker line-up displays, session schedules, registration flows, and an attendee information hub. I implemented dynamic schedule filtering and search functionality to help attendees navigate the conference program efficiently.</p><p>Delivered within the project timeline with a fully responsive design and all interactive features working correctly.</p>",
+    "endDate": "2022-11-01",
+    "description": "<p>I worked on feature delivery and frontend development for MOCUCIMOBILKU using Angular and TypeScript, with backend collaboration across NestJS services. The project emphasized responsive user flows, reliable API integration, and predictable milestone execution.</p>",
     "source": "seed",
-    "title": "SATLF",
+    "title": "MOCUCIMOBILKU Platform",
     "url": "",
-    "createdAt": "2026-04-22T16:19:41.072Z",
-    "imageFolder": "satlf-web",
+    "createdAt": "2026-04-20T11:17:46.384Z",
+    "imageFolder": "mocucimobilku-platform",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": true,
+    "slug": "mocucimobilku-platform",
+    "startDate": "2022-07-01",
+    "updatedAt": "2026-04-22T16:19:39.055Z",
+    "highlightProject": false,
+    "image": [
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/fb4fan%2FScreenshot%202022-12-22%20at%2020.26.57.png?alt=media&token=81f7f1ad-a786-4eea-bec5-c387072d922e"
+    ],
+    "order": 22
+  },
+  {
+    "summary": "Managed infrastructure migration for a production website with minimal disruption.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=PTAR+Migration"
+    ],
+    "periodLabel": "Sep 2022 - Oct 2022",
+    "stack": [
+      "Server Migration",
+      "Deployment",
+      "Website Reliability"
+    ],
+    "role": "Project Manager",
+    "endDate": "2022-10-01",
+    "description": "<p>I led planning and execution of a website migration to a new server environment, including deployment sequencing, risk handling, and post-migration validation. The objective was a stable transition with consistent performance and minimal downtime.</p>",
+    "source": "seed",
+    "title": "PTAR Website Migration to New Server",
+    "url": "",
+    "createdAt": "2026-04-20T11:17:46.792Z",
+    "imageFolder": "ptar-website-server-migration",
     "company": "Project Delivery (Client Account)",
     "isFeatured": false,
-    "slug": "satlf-web",
-    "startDate": "2022-02-01",
-    "order": 18,
-    "updatedAt": "2026-04-22T16:19:41.072Z"
+    "slug": "ptar-website-server-migration",
+    "startDate": "2022-09-01",
+    "order": 23,
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:39.304Z"
+  },
+  {
+    "summary": "Delivered structured content and layout improvements for a live corporate website.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Amman+Content+Update"
+    ],
+    "periodLabel": "Jul 2022 - Aug 2022",
+    "stack": [
+      "WordPress",
+      "Content Management",
+      "UI Layout"
+    ],
+    "role": "Project Manager",
+    "endDate": "2022-08-01",
+    "description": "<p>This project focused on improving content quality and page layout consistency for AMMAN&#39;s website. I managed team execution and review cycles to ensure updates remained aligned with brand direction and production standards.</p>",
+    "source": "seed",
+    "title": "Content Update and Layout - AMMAN Website",
+    "url": "",
+    "createdAt": "2026-04-20T11:17:46.937Z",
+    "imageFolder": "amman-content-layout-update",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "amman-content-layout-update",
+    "startDate": "2022-07-01",
+    "order": 24,
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:39.363Z"
+  },
+  {
+    "summary": "Managed one-year maintenance program for ongoing website stability and feature evolution.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Amman+Maintenance"
+    ],
+    "periodLabel": "Jul 2021 - Jul 2022",
+    "stack": [
+      "WordPress",
+      "PHP",
+      "Vue",
+      "Maintenance Operations"
+    ],
+    "role": "Project Manager",
+    "endDate": "2022-07-01",
+    "description": "<p>I coordinated maintenance operations, client communication, and continuous improvements for a production WordPress website over a one-year cycle. The scope included issue handling, enhancement planning, and quality governance for reliable long-term performance.</p>",
+    "source": "seed",
+    "title": "1 Year Maintenance - Amman WordPress Website",
+    "url": "",
+    "createdAt": "2026-04-20T11:17:47.130Z",
+    "imageFolder": "amman-one-year-maintenance",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "amman-one-year-maintenance",
+    "startDate": "2021-07-01",
+    "order": 25,
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:39.435Z"
+  },
+  {
+    "summary": "Drove enhancement delivery for intranet portal workflows and internal user experience.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Intranet+Portal"
+    ],
+    "periodLabel": "May 2022 - Jul 2022",
+    "stack": [
+      "Portal Development",
+      "Frontend Delivery",
+      "Project Management"
+    ],
+    "role": "Project Manager",
+    "endDate": "2022-07-01",
+    "description": "<p>This engagement focused on improving an internal portal through targeted feature upgrades and better usability. I led planning and execution to ensure enhancements delivered measurable operational value while maintaining release quality.</p>",
+    "source": "seed",
+    "title": "Intranet Web Portal Enhancement",
+    "url": "",
+    "createdAt": "2026-04-20T11:17:47.287Z",
+    "imageFolder": "intranet-web-portal-enhancement",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "intranet-web-portal-enhancement",
+    "startDate": "2022-05-01",
+    "order": 26,
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:39.544Z"
+  },
+  {
+    "summary": "Built a custom marketing system with structured workflow and client-oriented delivery.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Marketing+System"
+    ],
+    "periodLabel": "2017",
+    "stack": [
+      "PHP",
+      "Laravel",
+      "MySQL"
+    ],
+    "role": "Software Developer",
+    "endDate": "2017-06-01",
+    "description": "<p>This system streamlined marketing operations and internal process management for the business team. I contributed both as developer and team lead, ensuring requirements were translated into a practical and maintainable software solution.</p>",
+    "source": "seed",
+    "title": "Marketing System - PT Gunung Harta Solution",
+    "url": "",
+    "createdAt": "2026-04-20T11:11:00.933Z",
+    "imageFolder": "marketing-system-gunung-harta",
+    "company": "CV Sakral Technology",
+    "isFeatured": false,
+    "slug": "marketing-system-gunung-harta",
+    "startDate": "2017-04-01",
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:38.525Z",
+    "order": 27
+  },
+  {
+    "summary": "Developed a tourism information platform to support local promotion and operational data management.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Tourism+System"
+    ],
+    "periodLabel": "2016 - 2017",
+    "stack": [
+      "PHP",
+      "Angular",
+      "Java"
+    ],
+    "role": "Software Developer",
+    "endDate": "2017-12-01",
+    "description": "<p>This project delivered a web-based tourism information system with practical content and operational workflows. I was involved in requirements analysis, development, and quality review to ensure stable usage and maintainability.</p>",
+    "source": "seed",
+    "title": "Tourism System - Sawahlunto",
+    "url": "",
+    "createdAt": "2026-04-20T11:11:01.331Z",
+    "imageFolder": "pariwisata-sawahlunto-system",
+    "company": "Jasa Web Malang",
+    "isFeatured": false,
+    "slug": "pariwisata-sawahlunto-system",
+    "startDate": "2016-02-01",
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:38.779Z",
+    "order": 28
+  },
+  {
+    "summary": "Delivered a government information system with structured data and workflow management.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Government+System"
+    ],
+    "periodLabel": "2017 - 2018",
+    "stack": [
+      "Node.js",
+      "Angular",
+      "MySQL"
+    ],
+    "role": "Software Developer",
+    "endDate": "2018-12-01",
+    "description": "<p>The project was built to support institutional administration and data operations in a public sector context. I handled implementation and technical leadership tasks, including requirement review, delivery planning, and code quality control.</p>",
+    "source": "seed",
+    "title": "Government Information System - Raja Ampat",
+    "url": "",
+    "createdAt": "2026-04-20T11:11:01.039Z",
+    "imageFolder": "government-information-system-raja-ampat",
+    "company": "CV Sakral Technology",
+    "isFeatured": false,
+    "slug": "government-information-system-raja-ampat",
+    "startDate": "2017-01-01",
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:38.644Z",
+    "order": 29
+  },
+  {
+    "summary": "Delivered a web portal project with end-to-end planning, execution, and stakeholder alignment.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Kirby+Web+Portal"
+    ],
+    "periodLabel": "May 2022 - Jul 2022",
+    "stack": [
+      "Web Portal",
+      "Delivery Management",
+      "Frontend Coordination"
+    ],
+    "role": "Project Manager",
+    "endDate": "2022-07-01",
+    "description": "<p>Kirby Web Portal required tight coordination between requirements, implementation, and release timeline. I managed team progress and delivery quality while ensuring the final output supported practical business workflows.</p>",
+    "source": "seed",
+    "title": "Kirby Web Portal",
+    "url": "",
+    "createdAt": "2026-04-20T11:17:47.400Z",
+    "imageFolder": "kirby-web-portal",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": false,
+    "slug": "kirby-web-portal",
+    "startDate": "2022-05-01",
+    "order": 30,
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:39.610Z"
   },
   {
     "summary": "Built front-end campaign pages and user journeys for Singapore Day web activation.",
@@ -1121,112 +978,255 @@
     "isFeatured": false,
     "slug": "singapore-day-web",
     "startDate": "2022-06-01",
-    "order": 22,
+    "order": 31,
     "updatedAt": "2026-04-22T16:19:41.176Z"
   },
   {
-    "summary": "Implemented React-based web UI delivery for TAIF event platform.",
+    "summary": "Built an internal operational system to improve organizational process visibility and reporting.",
     "image": [
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.09.png?alt=media&token=836d9c59-a16d-4d96-a844-fdff8693ce0c",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.34.png?alt=media&token=b7d4c9e3-838c-4e31-9716-88075bea87f5",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.41.png?alt=media&token=9b4c5d2b-58a8-451b-8925-50c3a7a27537",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.50.png?alt=media&token=9580e6e4-fcf7-4112-b168-b13c3b143547"
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Internal+System"
     ],
-    "periodLabel": "Jan 2022 - Feb 2022",
+    "periodLabel": "2016 - 2017",
     "stack": [
-      "React",
-      "TypeScript",
-      "Next.js"
+      "PHP",
+      "Angular",
+      "Java"
     ],
-    "role": "Frontend Developer",
-    "highlightProject": false,
-    "endDate": "2022-02-01",
-    "description": "<p>TAIF is an event web platform where I implemented the front-end using React and Next.js. The project involved building pages that supported the event's information and registration needs.</p><p>I developed the component structure, responsive layouts, and interactive elements from design mockups. Performance optimization and cross-browser compatibility were part of the delivery requirements.</p><p>Completed on schedule with all features functioning correctly across target devices and browsers.</p>",
+    "role": "Software Developer",
+    "endDate": "2017-12-01",
+    "description": "<p>The project focused on internal process digitization and information flow for institutional operations. I contributed to requirement translation, application development, and release quality checks in collaboration with team stakeholders.</p>",
     "source": "seed",
-    "title": "TAIF",
+    "title": "Internal System - Center of Study for Indonesian Leadership",
     "url": "",
-    "createdAt": "2026-04-22T16:19:41.238Z",
-    "imageFolder": "taif-web",
-    "company": "Project Delivery (Client Account)",
+    "createdAt": "2026-04-20T11:11:01.443Z",
+    "imageFolder": "csil-internal-system",
+    "company": "Jasa Web Malang",
     "isFeatured": false,
-    "slug": "taif-web",
-    "startDate": "2022-01-01",
-    "order": 20,
-    "updatedAt": "2026-04-22T16:19:41.238Z"
+    "slug": "csil-internal-system",
+    "startDate": "2016-02-01",
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:38.838Z",
+    "order": 32
   },
   {
-    "summary": "Developed front-end experience for Women in Sport event platform.",
+    "summary": "Built healthcare operational software to support hospital workflow and information handling.",
     "image": [
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.06.13.png?alt=media&token=b3f1696b-990e-4dda-a1ce-48ae63e202ce",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.06.26.png?alt=media&token=0c1ba2fa-d87a-4122-8d1d-e1476eae037f",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.06.39.png?alt=media&token=77adbe2a-dc2f-49a7-b8ea-96d266b72ff6",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.06.53.png?alt=media&token=bbabf67a-1911-43f9-8dbf-01ed3dc349e7",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.07.02.png?alt=media&token=6f8db1dd-34ef-4dcd-935b-522636e83fac",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.07.15.png?alt=media&token=504cf952-a541-4304-98f7-86fedb2f2fed",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.07.23.png?alt=media&token=6eb25fbd-60d6-4c4a-935c-91f0f0f25c19",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.07.34.png?alt=media&token=f277f4a6-e75c-43a4-89b7-dfc8b1a63322",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.09.59.png?alt=media&token=7f8aa4da-dcea-4471-a9f9-ebb073977fa6",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/woman%20in%20sport%2FScreenshot%202022-12-22%20at%2021.10.45.png?alt=media&token=699c9000-2ec7-40e7-b2a9-f06ffddea509"
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Hospital+System"
     ],
-    "periodLabel": "Oct 2021 - Nov 2021",
+    "periodLabel": "2017 - 2018",
     "stack": [
-      "React",
-      "TypeScript",
-      "Next.js"
+      "Node.js",
+      "Angular",
+      "MySQL"
     ],
-    "role": "Frontend Developer",
-    "highlightProject": false,
-    "endDate": "2021-11-01",
-    "description": "<p>Women in Sport is an event web platform built to support a campaign focused on female athletes and sports participation. I developed the front-end using React and Next.js.</p><p>The scope included content-rich pages, event schedules, participant profiles, and interactive campaign sections. I worked to ensure the site was visually engaging and performed well on mobile devices, which were the primary audience channel.</p><p>Delivered on schedule with all pages matching approved designs and all interactive features working correctly.</p>",
+    "role": "Software Developer",
+    "endDate": "2018-12-01",
+    "description": "<p>This system focused on practical hospital operations and information processing for day-to-day workflow needs. I worked on implementation delivery and maintained alignment between functional requirements and technical execution.</p>",
     "source": "seed",
-    "title": "Women in Sport",
+    "title": "Hospital Information System - Benmari",
     "url": "",
-    "createdAt": "2026-04-22T16:19:41.412Z",
-    "imageFolder": "women-in-sport-web",
-    "company": "Project Delivery (Client Account)",
+    "createdAt": "2026-04-20T11:11:01.188Z",
+    "imageFolder": "hospital-system-benmari",
+    "company": "CV Sakral Technology",
     "isFeatured": false,
-    "slug": "women-in-sport-web",
-    "startDate": "2021-10-01",
-    "order": 19,
-    "updatedAt": "2026-04-22T16:19:41.412Z"
+    "slug": "hospital-system-benmari",
+    "startDate": "2017-01-01",
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:38.713Z",
+    "order": 33
   },
   {
-    "summary": "Delivered React-based campaign web development for YSL activation.",
+    "summary": "Managed a full website delivery lifecycle for a WordPress-based enterprise web presence.",
     "image": [
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.02.png?alt=media&token=374698f9-3058-446c-990d-2593c0985d85",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.08.png?alt=media&token=e64b6bfd-f627-4761-aa87-c49f0f2d2f69",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.30.png?alt=media&token=50003fcd-1c40-430e-9544-573509bc1f4e",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.36.png?alt=media&token=01076f01-31da-4422-8ab7-d33693c97299",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.44.png?alt=media&token=c2f2d283-e5f2-4ea1-8383-679f595ff540",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.54.57.png?alt=media&token=50a80733-5545-41cc-b3f2-e0f00701afbf",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.04.png?alt=media&token=dd04fa53-2bd8-4cc5-8bef-a6966d21e902",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.09.png?alt=media&token=9d9feef1-41a8-40eb-8f73-1057176c62c9",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.16.png?alt=media&token=f6e78a7a-fff9-437e-8969-f43d219b8c1e",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.35.png?alt=media&token=bb0529df-9edc-4357-9fab-6276be915c6f",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.51.png?alt=media&token=1b77e168-7e45-4651-8819-1111988fcaa8",
-      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/ysl%2FScreenshot%202022-12-22%20at%2020.55.57.png?alt=media&token=8ae1eb68-6429-490e-9314-c389f58b518f"
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Amman+WordPress"
     ],
-    "periodLabel": "Sep 2021 - Oct 2021",
+    "periodLabel": "Jul 2022 - Nov 2022",
+    "stack": [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "CSS"
+    ],
+    "role": "Project Manager",
+    "endDate": "2022-11-01",
+    "description": "<p>This project covered planning, delivery coordination, and implementation oversight for a corporate WordPress website. I handled requirement alignment, team timeline management, and quality checkpoints to ensure smooth launch and maintainable long-term operations.</p>",
+    "source": "seed",
+    "title": "Amman WordPress Based Website",
+    "url": "",
+    "createdAt": "2026-04-20T11:17:46.223Z",
+    "imageFolder": "amman-wordpress-website",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": true,
+    "slug": "amman-wordpress-website",
+    "startDate": "2022-07-01",
+    "updatedAt": "2026-04-22T16:19:38.981Z",
+    "highlightProject": false,
+    "order": 34
+  },
+  {
+    "summary": "Led a mobile learning initiative with coordinated team delivery and iterative feature releases.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Mobile+Learning+App"
+    ],
+    "periodLabel": "2019",
+    "stack": [
+      "Ionic",
+      "Angular",
+      "NestJS",
+      "TypeScript",
+      "MySQL"
+    ],
+    "role": "Project Manager",
+    "endDate": "2019-11-01",
+    "description": "<p>The learning mobile app project focused on combining practical content delivery with a scalable technical foundation. I managed implementation flow, requirement alignment, and quality review to ensure stable releases and maintainable code.</p>",
+    "source": "seed",
+    "title": "Learning Project Mobile Apps",
+    "url": "",
+    "createdAt": "2026-04-20T11:11:00.590Z",
+    "imageFolder": "mobile-learning-app",
+    "company": "PT People Intelligence Indonesia",
+    "isFeatured": false,
+    "slug": "mobile-learning-app",
+    "startDate": "2019-02-01",
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:38.384Z",
+    "order": 35
+  },
+  {
+    "summary": "Contributed to enterprise application development with a focus on Angular implementation.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Engine+5"
+    ],
+    "periodLabel": "2017 - 2018",
+    "stack": [
+      "Angular"
+    ],
+    "role": "Software Developer",
+    "endDate": "2018-12-01",
+    "description": "<p>At Visionet Data International, I worked on the Engine 5 application and delivered features based on business requirements. The role strengthened my experience in enterprise software delivery and maintainable frontend development practices.</p>",
+    "source": "seed",
+    "title": "Engine 5 Application",
+    "url": "",
+    "createdAt": "2026-04-20T11:11:00.802Z",
+    "imageFolder": "engine5-app",
+    "company": "Visionet Data International",
+    "isFeatured": false,
+    "slug": "engine5-app",
+    "startDate": "2017-12-01",
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:38.452Z",
+    "order": 36
+  },
+  {
+    "summary": "Delivered thermal and attendance-support workflows for workforce operations in GreatDay.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=GreatDay+Thermal"
+    ],
+    "periodLabel": "2019 - 2021",
+    "stack": [
+      "Angular",
+      "Ionic",
+      "Node.js",
+      "NestJS",
+      "Kotlin",
+      "MySQL"
+    ],
+    "role": "Senior Software Developer",
+    "endDate": "2021-08-01",
+    "description": "<p>GreatDay Thermal was built to support operational attendance scenarios that required hardware-assisted checks and stable data handling. I worked on implementation and quality improvements to keep the module dependable for enterprise usage.</p>",
+    "source": "seed",
+    "title": "GreatDay Thermal",
+    "url": "",
+    "createdAt": "2026-04-20T11:23:07.624Z",
+    "imageFolder": "greatday-thermal",
+    "company": "PT People Intelligence Indonesia",
+    "isFeatured": false,
+    "slug": "greatday-thermal",
+    "startDate": "2019-01-01",
+    "order": 37,
+    "highlightProject": false,
+    "updatedAt": "2026-04-22T16:19:40.182Z"
+  },
+  {
+    "summary": "Led redesign and implementation of a public-facing enterprise website for stronger brand and communication impact.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=PTAR+Public+Website"
+    ],
+    "periodLabel": "Sep 2022 - Nov 2022",
+    "stack": [
+      "WordPress",
+      "Frontend Architecture",
+      "Content Strategy"
+    ],
+    "role": "Project Manager",
+    "endDate": "2022-11-01",
+    "description": "<p>This initiative included redesign planning, development execution, and production implementation for PTAR&#39;s public website. I coordinated cross-functional delivery, managed project timeline, and ensured the final output met both visual quality and operational maintainability standards.</p>",
+    "source": "seed",
+    "title": "PTAR Public Website Redesign, Development & Implementation",
+    "url": "",
+    "createdAt": "2026-04-20T11:17:46.572Z",
+    "imageFolder": "ptar-public-website-redesign",
+    "company": "Project Delivery (Client Account)",
+    "isFeatured": true,
+    "slug": "ptar-public-website-redesign",
+    "startDate": "2022-09-01",
+    "updatedAt": "2026-04-22T16:19:39.149Z",
+    "highlightProject": false,
+    "order": 38
+  },
+  {
+    "summary": "Developing a web portal for loyalty campaign workflows and campaign execution management.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Loyalty+Portal+oneNZ"
+    ],
+    "periodLabel": "Jan 2026 - Present",
     "stack": [
       "React",
       "TypeScript",
-      "Next.js"
+      "Web"
     ],
     "role": "Frontend Developer",
-    "highlightProject": false,
-    "endDate": "2021-10-01",
-    "description": "<p>YSL is a brand campaign microsite where I built the front-end using React and Next.js. The project required translating a visually rich brand campaign into a responsive, performant web experience.</p><p>I implemented the interactive campaign pages, media galleries, and promotional sections. Close attention was paid to matching the brand's visual standards and ensuring smooth animations and transitions.</p><p>Delivered on time with all campaign features functioning correctly across desktop and mobile devices.</p>",
+    "endDate": "",
+    "description": "<p>oneNZ Loyalty Campaign Portal is a web-based platform for managing loyalty campaign workflows, from campaign creation and participant tracking to reward fulfillment and reporting. I am leading the front-end development effort on this ongoing project.</p><p>Built with React and TypeScript, the portal provides campaign managers with a dashboard to configure campaigns, monitor participation metrics, and manage reward distributions. I am responsible for the component architecture, state management, and integration with the campaign backend APIs.</p><p>The portal is designed to handle high volumes of campaign activity with real-time updates and a clean, efficient user experience for campaign operators.</p>",
     "source": "seed",
-    "title": "YSL",
+    "title": "Loyalty Campaign Portal oneNZ",
     "url": "",
-    "createdAt": "2026-04-22T16:19:41.475Z",
-    "imageFolder": "ysl-web",
-    "company": "Project Delivery (Client Account)",
-    "isFeatured": false,
-    "slug": "ysl-web",
-    "startDate": "2021-09-01",
-    "order": 17,
-    "updatedAt": "2026-04-22T16:19:41.475Z"
+    "createdAt": "2026-04-20T11:37:03.413Z",
+    "imageFolder": "loyalty-campaign-portal-onenz",
+    "company": "oneNZ",
+    "isFeatured": true,
+    "slug": "loyalty-campaign-portal-onenz",
+    "startDate": "2026-01-01",
+    "order": 39,
+    "updatedAt": "2026-04-22T16:19:40.472Z",
+    "highlightProject": false
+  },
+  {
+    "summary": "Built Youtap POS Mobile, a next-generation POS mobile application for merchant operations and daily transactions, part of the Youtap POS ecosystem serving 500K+ merchants across Indonesia.",
+    "image": [
+      "https://placehold.co/1600x900/0d111a/FFAE00?text=Youtap+POS+Flutter"
+    ],
+    "periodLabel": "Jan 2026 - Present",
+    "stack": [
+      "Flutter",
+      "Dart",
+      "Mobile App"
+    ],
+    "role": "Mobile Developer",
+    "endDate": "",
+    "description": "<p>Youtap POS Mobile is a next-generation point-of-sale mobile application built with Flutter, powering merchant daily operations across Indonesia's POS ecosystem. The product targets Retail, FnB, and Service business types, and is part of the broader Youtap POS platform that has been adopted by over 500,000 merchants.</p><p>The app covers core POS capabilities including digital cashier functions, product catalog management, cart and checkout flows, split bill handling, barcode scanning, transaction recording, and receipt generation. Merchants can manage multiple users (cashiers), track daily transaction reports, handle payment cancellations, and customize receipts for branding purposes.</p><p>Built with Flutter and Dart targeting both Android and iOS from a single codebase. I implemented core POS screens, integrated with the payment gateway layer, and ensured transaction flows were smooth and reliable for high-frequency merchant use. The app connects to the broader Youtap ecosystem including inventory management, e-menu, and online ordering modules.</p>",
+    "source": "seed",
+    "title": "Youtap POS Mobile",
+    "url": "",
+    "createdAt": "2026-04-20T11:37:03.776Z",
+    "imageFolder": "youtap-pos-mobile-flutter",
+    "company": "Youtap Indonesia",
+    "isFeatured": true,
+    "slug": "youtap-pos-mobile-flutter",
+    "startDate": "2026-01-01",
+    "order": 40,
+    "updatedAt": "2026-04-22T16:19:40.533Z",
+    "highlightProject": false
   },
   {
     "summary": "Built and refined web front-end modules for Zodiac web campaign delivery.",
