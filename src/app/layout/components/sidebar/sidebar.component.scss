@@ -1,0 +1,29 @@
+:host ::ng-deep .personal-contact-box {
+  p.sidebar-profile-role {
+    margin: 0.35rem 0 1rem;
+    color: #ffcb69;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    opacity: 1;
+  }
+
+  p.sidebar-profile-bio {
+    opacity: 0.9;
+    text-align: justify;
+    text-align-last: left;
+    hyphens: auto;
+  }
+}
+
+:host ::ng-deep .about-main-boxes {
+  .about-profile-role {
+    margin: 0.35rem 0 0;
+    color: #ffcb69;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+  }
+}

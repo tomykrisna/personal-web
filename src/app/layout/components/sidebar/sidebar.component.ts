@@ -1,4 +1,4 @@
-import {Component, HostListener, OnDestroy, OnInit} from '@angular/core';
+import {AfterViewInit, Component, HostListener, OnDestroy, OnInit} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
 import {GsapRevealDirective} from '../../../directives/gsap-reveal.directive';
 import {CommonModule} from '@angular/common';
@@ -11,6 +11,7 @@ import {FormsModule} from '@angular/forms';
 import {PortfolioSectionComponent} from '../portfolio-section/portfolio-section.component';
 import {PortfolioDetailModalComponent} from '../portfolio-detail-modal/portfolio-detail-modal.component';
 import {PortfolioProjectViewModel} from '../../../services/portfolio.mapper';
+import {ScrollTrigger} from 'gsap/ScrollTrigger';
 
 @Component({
   selector: 'app-sidebar',
@@ -28,9 +29,18 @@ import {PortfolioProjectViewModel} from '../../../services/portfolio.mapper';
   styleUrl: './sidebar.component.scss',
   providers: [ScrollToService],
 })
-export class SidebarComponent implements OnInit, OnDestroy {
+export class SidebarComponent implements OnInit, AfterViewInit, OnDestroy {
   currentSection = 'list-item-1';
   year = new Date().getFullYear();
+  private readonly refreshAosAndScrollTrigger = (): void => {
+    aos.refresh();
+    ScrollTrigger.refresh();
+  };
+  private readonly onPageShowPersisted = (event: PageTransitionEvent): void => {
+    if (event.persisted) {
+      this.refreshAosAndScrollTrigger();
+    }
+  };
   sectionIds = [
     'list-item-1',
     'list-item-2',
@@ -53,11 +63,25 @@ export class SidebarComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    aos.init();
-    this.portfolioSignalService.getPortfolio()
+    aos.init({
+      once: true,
+      duration: 800,
+      offset: 120,
+      easing: 'ease-out',
+      debounceDelay: 50,
+      throttleDelay: 99
+    });
+    this.portfolioSignalService.getPortfolio();
+  }
+
+  ngAfterViewInit(): void {
+    queueMicrotask(() => this.refreshAosAndScrollTrigger());
+    setTimeout(() => this.refreshAosAndScrollTrigger(), 150);
+    window.addEventListener('pageshow', this.onPageShowPersisted);
   }
 
   ngOnDestroy(): void {
+    window.removeEventListener('pageshow', this.onPageShowPersisted);
     document.body.style.overflow = '';
     this.unlockBackgroundScroll();
   }
