@@ -1112,7 +1112,19 @@
     "startDate": "2024-01-01",
     "endDate": null,
     "url": "https://fifgroup.co.id/",
-    "image": [],
+    "image": [
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.28.54.png?alt=media&token=e0952699-6a21-46d2-bf86-7f9dbd8e7476",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.29.03.png?alt=media&token=1be27ba0-7d38-4b52-b87b-95a861c12608",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.29.14.png?alt=media&token=89e0f7b2-ccca-4d5e-932e-41b29f9793a1",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.29.22.png?alt=media&token=6d9bdf2b-c8ed-447f-b4ec-dd9f480e15a6",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.29.29.png?alt=media&token=81b63503-a8fb-4a31-aa47-e49d9435dd8b",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.29.43.png?alt=media&token=1e0d723b-1555-47e4-bc7d-4d2a4516d65d",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.29.48.png?alt=media&token=5b7692dd-4fad-48a7-825e-c6b2be55ec64",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.29.54.png?alt=media&token=93bfb401-ee53-4e5e-bc97-2dae1a4de26b",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.30.01.png?alt=media&token=11c50827-fb55-4e66-b9e6-5a482fc6e117",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.30.06.png?alt=media&token=18eb2154-c835-4f38-9192-51d4158f4a55",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/FIFGROUP%2FScreenshot%202026-05-02%20at%2014.30.14.png?alt=media&token=c3ed3e80-0d99-4f46-820f-4a09ca025676"
+    ],
     "imageFolder": "fifgroup-website",
     "isFeatured": true,
     "highlightProject": true,
@@ -1120,6 +1132,6 @@
     "slug": "fifgroup-website",
     "source": "seed",
     "createdAt": "2026-05-02T07:45:00.000Z",
-    "updatedAt": "2026-05-02T07:45:00.000Z"
+    "updatedAt": "2026-05-02T07:50:00.000Z"
   }
 ]
