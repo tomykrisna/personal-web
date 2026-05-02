@@ -1029,7 +1029,19 @@
   {
     "summary": "Delivered front-end pages and campaign interactions for NARS web initiative.",
     "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=NARS"
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.43.11.png?alt=media&token=848ceae5-f943-4863-8774-88d65f0428e7",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.39.16.png?alt=media&token=19192909-832b-49de-8fdb-a93c672e2a43",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.39.31.png?alt=media&token=038fbee9-e109-4377-9d9c-87b546e5d030",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.39.51.png?alt=media&token=88874e1d-f842-434f-b045-4584e4e04e5a",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.41.35.png?alt=media&token=8ad5a428-ff25-45f9-9b05-976a9bd6cfd0",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.41.44.png?alt=media&token=bc14a8d0-78ee-4d30-866b-122e7c039a59",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.41.50.png?alt=media&token=4f8149f6-5400-433d-baf7-641b710516c4",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.41.58.png?alt=media&token=bccb0291-a343-470c-abf4-898b273fc8e4",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.42.09.png?alt=media&token=2bf2a64a-2dac-4d2d-b126-7988d3f78d69",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.42.16.png?alt=media&token=dcd5f691-1251-49f1-8ca2-655f2412f4f9",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.43.02.png?alt=media&token=8798fbef-ab1a-4065-91a7-f72e6e33a15f",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.44.08.png?alt=media&token=67a34235-a48b-4c3a-92dd-2b7055606772",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.44.18.png?alt=media&token=5da19000-0d6e-4e4a-bf1b-7e017d152458"
     ],
     "periodLabel": "Aug 2021 - Oct 2021",
     "stack": [
@@ -1050,7 +1062,7 @@
     "isFeatured": false,
     "slug": "nars-web",
     "startDate": "2021-08-01",
-    "order": 35,
+    "order": 21,
     "updatedAt": "2026-04-22T16:19:40.992Z"
   },
   {
