@@ -1113,7 +1113,10 @@
   {
     "summary": "Implemented React-based web UI delivery for TAIF event platform.",
     "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=TAIF"
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.09.png?alt=media&token=836d9c59-a16d-4d96-a844-fdff8693ce0c",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.34.png?alt=media&token=b7d4c9e3-838c-4e31-9716-88075bea87f5",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.41.png?alt=media&token=9b4c5d2b-58a8-451b-8925-50c3a7a27537",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/taif%2FScreenshot%202022-12-22%20at%2020.32.50.png?alt=media&token=9580e6e4-fcf7-4112-b168-b13c3b143547"
     ],
     "periodLabel": "Jan 2022 - Feb 2022",
     "stack": [
@@ -1134,7 +1137,7 @@
     "isFeatured": false,
     "slug": "taif-web",
     "startDate": "2022-01-01",
-    "order": 38,
+    "order": 20,
     "updatedAt": "2026-04-22T16:19:41.238Z"
   },
   {
