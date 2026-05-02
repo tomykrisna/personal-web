@@ -767,30 +767,29 @@
   },
   {
     "summary": "Built a custom marketing system with structured workflow and client-oriented delivery.",
-    "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Marketing+System"
-    ],
+    "image": [],
     "periodLabel": "2017",
     "stack": [
+      "WordPress",
       "PHP",
-      "Laravel",
-      "MySQL"
+      "MySQL",
+      "Google Play Store Integration"
     ],
-    "role": "Software Developer",
+    "role": "Developer & Project Manager",
     "endDate": "2017-06-01",
     "source": "seed",
-    "url": "",
+    "url": "https://www.gununghartasolutions.com/",
     "createdAt": "2026-04-20T11:11:00.933Z",
-    "imageFolder": "marketing-system-gunung-harta",
-    "company": "CV Sakral Technology",
+    "imageFolder": "gunung-harta-transport",
+    "company": "PT Gunung Harta Transport Solutions",
     "isFeatured": false,
-    "slug": "marketing-system-gunung-harta",
+    "slug": "gunung-harta-transport-solutions",
     "startDate": "2017-04-01",
     "highlightProject": false,
-    "description": "<p>This system streamlined marketing operations and internal process management for the business team. I contributed both as developer and team lead, ensuring requirements were translated into a practical and maintainable software solution.</p>",
-    "order": 27,
-    "updatedAt": "2026-05-02T02:47:59.842Z",
-    "title": "PT Gunung Harta Solution"
+    "description": "<p>Website resmi perusahaan bus wisata dan travel terpercaya di Malang. Dikembangkan menggunakan WordPress dengan fitur utama: halaman profil perusahaan, layanan Bus Malam dan Pengiriman Paket, galeri armada (JETBUS 5 SHD Combi, JETBUS 5 SHD Scania, Volvo B11R, JETBUS 3 SDD Green Platinum), sistem booking tiket online, serta halaman kontak. Sebagai Developer dan Project Manager, saya bertanggung jawab penuh dalam pengembangan website dari fase planning hingga deployment, termasuk koordinasi dengan stakeholder klien dan management konten website.</p>",
+    "order": 23,
+    "updatedAt": "2026-05-02T07:25:00.000Z",
+    "title": "Gunung Harta Transport Solutions"
   },
   {
     "summary": "Developed a tourism information platform to support local promotion and operational data management.",
