@@ -767,13 +767,19 @@
   },
   {
     "summary": "Built a custom marketing system with structured workflow and client-oriented delivery.",
-    "image": [],
+    "image": [
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/Gunung%20harta%2FScreenshot%202026-05-02%20at%2014.04.18.png?alt=media&token=17dc96b9-8a1a-4a18-abcb-10744b27843e",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/Gunung%20harta%2FScreenshot%202026-05-02%20at%2014.04.27.png?alt=media&token=c6a92ce9-d4ea-4699-a6b5-b3f53cbacf47",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/Gunung%20harta%2FScreenshot%202026-05-02%20at%2014.04.30.png?alt=media&token=64fcdf20-e4b9-46eb-a35a-a1dfa576d3cf",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/Gunung%20harta%2FScreenshot%202026-05-02%20at%2014.04.37.png?alt=media&token=02aa1877-72f6-43a0-b743-feee24fba9c7",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/Gunung%20harta%2FScreenshot%202026-05-02%20at%2014.04.45.png?alt=media&token=3dd43895-0090-4223-9303-d0d32b4aa7ef",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/Gunung%20harta%2FScreenshot%202026-05-02%20at%2014.04.53.png?alt=media&token=371e49c0-271e-404c-971f-f3c943ac5d60",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/Gunung%20harta%2FScreenshot%202026-05-02%20at%2014.05.01.png?alt=media&token=c08c88bc-5f46-4e3c-be50-cc8ba25b4c3f",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/Gunung%20harta%2FScreenshot%202026-05-02%20at%2014.05.07.png?alt=media&token=13065297-c2ea-427a-90dd-45ed00d20adb"
+    ],
     "periodLabel": "2017",
     "stack": [
-      "WordPress",
-      "PHP",
-      "MySQL",
-      "Google Play Store Integration"
+      "WordPress"
     ],
     "role": "Developer & Project Manager",
     "endDate": "2017-06-01",
@@ -786,9 +792,9 @@
     "slug": "gunung-harta-transport-solutions",
     "startDate": "2017-04-01",
     "highlightProject": false,
-    "description": "<p>Website resmi perusahaan bus wisata dan travel terpercaya di Malang. Dikembangkan menggunakan WordPress dengan fitur utama: halaman profil perusahaan, layanan Bus Malam dan Pengiriman Paket, galeri armada (JETBUS 5 SHD Combi, JETBUS 5 SHD Scania, Volvo B11R, JETBUS 3 SDD Green Platinum), sistem booking tiket online, serta halaman kontak. Sebagai Developer dan Project Manager, saya bertanggung jawab penuh dalam pengembangan website dari fase planning hingga deployment, termasuk koordinasi dengan stakeholder klien dan management konten website.</p>",
+    "description": "<p>Official website for a trusted tourism and travel bus company based in Malang, East Java. Developed using WordPress with key features including company profile pages, Bus Malam (overnight bus) and package delivery services, fleet gallery (JETBUS 5 SHD Combi, JETBUS 5 SHD Scania, Volvo B11R, JETBUS 3 SDD Green Platinum), online ticket booking system, and contact information. Served as both Developer and Project Manager, responsible for the full development lifecycle from planning through deployment, including stakeholder coordination and content management.</p>",
     "order": 23,
-    "updatedAt": "2026-05-02T07:25:00.000Z",
+    "updatedAt": "2026-05-02T07:35:00.000Z",
     "title": "Gunung Harta Transport Solutions"
   },
   {
