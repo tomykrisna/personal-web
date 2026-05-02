@@ -167,8 +167,8 @@
     ],
     "order": 4,
     "summary": "Built Youtap Online Order, the digital ordering module within the BOS ecosystem that enables merchants to accept and manage customer orders through mobile and web channels.",
-    "description": "<p>Youtap Online Order is the digital ordering module within the Youtap BOS ecosystem, allowing merchants to accept and manage customer orders through mobile and web channels. This extends the BOS platform beyond inventory and payment into the actual customer-facing ordering experience.</p><p>As Tech Lead, I owned the end-to-end delivery of the ordering flow, from menu display and cart management through payment integration and order status tracking. I coordinated with the mobile and backend teams to ensure the ordering experience was consistent across platforms and reliable during high-traffic periods.</p><p>The module integrates with the same NestJS backend and payment gateway layer powering the broader BOS platform, enabling merchants to manage orders alongside their inventory and transactions in one unified dashboard.</p><p>Contributed to operational efficiency for merchants by digitizing the order-to-payment workflow.</p>",
-    "updatedAt": "2026-05-02T02:47:46.074Z"
+    "description": "<p>Digital ordering module within the Youtap BOS ecosystem, enabling merchants to accept and manage customer orders across mobile and web channels. Integrated with the NestJS backend and 70+ payment gateway providers to deliver a seamless order-to-payment experience.</p><p>As Tech Lead, I owned end-to-end delivery of the ordering flow, from menu display and cart management through payment processing and order status tracking. Coordinated cross-team development to ensure consistent user experience and reliable performance during high-traffic periods.</p><p>The module extended BOS beyond inventory and payment into customer-facing commerce, supporting hundreds of thousands of daily transactions across the merchant network.</p>",
+    "updatedAt": "2026-05-02T08:10:00.000Z"
   },
   {
     "summary": "Developed attendance and workforce kiosk capabilities within the GreatDay ecosystem.",
@@ -306,8 +306,8 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/siafu%2Funnamed.webp?alt=media&token=3490915f-8280-471a-972d-1781f66bf8ad"
     ],
     "order": 9,
-    "description": "<p>This project bundle includes internal management, warehouse operations, store management, and ecommerce channels. I handled planning, team coordination, timeline control, and hands-on development. The solution focused on connecting operational workflows with customer-facing commerce experiences.</p>",
-    "updatedAt": "2026-05-02T02:47:48.273Z"
+    "description": "<p>End-to-end commerce and operations suite for Siafu Shop, consolidating inventory management, warehouse operations, store management, and customer-facing ecommerce into a unified platform. Built with Angular on the frontend and NestJS microservices on the backend, with Kotlin services handling legacy system integrations.</p><p>As Project Manager and Lead Developer, I oversaw full project delivery from client requirements through deployment. Managed a cross-functional team across frontend, backend, and mobile, coordinated timelines with stakeholders, and ensured reliable release cycles for a business-critical internal system.</p><p>The platform digitized core retail operations for the client, streamlining order fulfillment, stock visibility, and multi-channel sales management.</p>",
+    "updatedAt": "2026-05-02T08:10:00.000Z"
   },
   {
     "summary": "Built Android mobile experience for Gurihmart with a focus on usability and stable transactional flows.",
@@ -705,9 +705,9 @@
     "image": [
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/fb4fan%2FScreenshot%202022-12-22%20at%2020.26.57.png?alt=media&token=81f7f1ad-a786-4eea-bec5-c387072d922e"
     ],
-    "description": "<p>I worked on feature delivery and frontend development for MOCUCIMOBILKU using Angular and TypeScript, with backend collaboration across NestJS services. The project emphasized responsive user flows, reliable API integration, and predictable milestone execution.</p>",
+    "description": "<p>Multi-platform vehicle financing portal developed for Astra Honda's MOCUCIMOBILKU program, enabling dealers and customers to process financing applications online. Built with Angular and Ionic for cross-platform frontend coverage, with NestJS handling backend application workflows and data processing.</p><p>As Frontend Developer, I led UI development and ensured consistent cross-platform experience between web and mobile. Coordinated with backend teams to maintain reliable API integration and predictable milestone delivery for a high-visibility automotive fintech product under the Astra Group umbrella.</p>",
     "order": 22,
-    "updatedAt": "2026-05-02T02:47:55.996Z"
+    "updatedAt": "2026-05-02T08:10:00.000Z"
   },
   {
     "summary": "Built front-end campaign pages and user journeys for Singapore Day web activation.",
