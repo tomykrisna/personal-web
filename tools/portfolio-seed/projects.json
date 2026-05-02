@@ -1231,7 +1231,9 @@
   {
     "summary": "Built and refined web front-end modules for Zodiac web campaign delivery.",
     "image": [
-      "https://placehold.co/1600x900/0d111a/FFAE00?text=Zodiac+Web"
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/zodiac%20web%2FScreenshot%202022-12-22%20at%2020.57.23.png?alt=media&token=bde280e0-68f6-4bbb-8304-2745c34f11a6",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/zodiac%20web%2FScreenshot%202022-12-22%20at%2020.57.38.png?alt=media&token=34d6564f-81a2-42b1-a7bf-8ebfefbda1cc",
+      "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/zodiac%20web%2FScreenshot%202022-12-22%20at%2020.58.05.png?alt=media&token=765ba995-71db-4ecf-828e-94d44cfed077"
     ],
     "periodLabel": "2022",
     "stack": [
@@ -1252,7 +1254,7 @@
     "isFeatured": false,
     "slug": "zodiac-web",
     "startDate": "2022-03-01",
-    "order": 41,
+    "order": 23,
     "updatedAt": "2026-04-22T16:19:41.587Z"
   }
 ]
