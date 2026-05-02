@@ -32,7 +32,7 @@
     "highlightProject": true,
     "summary": "Architected and led end-to-end delivery of Youtap BOS, a comprehensive merchant operations platform powering over 500,000 merchants across Android, iOS, and Web, handling product management, real-time inventory, and high-volume transaction workflows.",
     "description": "<p>Youtap BOS is an omnichannel business operations platform built for PT. Mitra Digital Sukses under Salim Group, serving <strong>over 500,000 merchants</strong> across 510+ cities in Indonesia.</p><p>As Tech Lead, I owned the full technical lifecycle from microservices architecture on NestJS to cross-platform delivery on Ionic and Angular. I defined service boundaries, led cross-functional engineering teams, and maintained release quality through continuous delivery checkpoints.</p><p>The platform powers critical merchant operations: product catalog management, <strong>real-time inventory tracking</strong> across multiple warehouses, <strong>multi-payment gateway integration</strong> with 70+ providers under a unified API layer, transaction processing, and a reporting engine that delivers actionable business intelligence.</p><p>Shipped continuous feature releases while maintaining <strong>99.9% uptime</strong> for half a million daily active merchants.</p>",
-    "updatedAt": "2026-05-02T02:47:42.694Z"
+    "updatedAt": "2026-05-02T08:30:00.000Z"
   },
   {
     "periodLabel": "2021 - Present",
@@ -66,7 +66,7 @@
     "order": 2,
     "summary": "Built and maintained the web counterpart of Youtap BOS, delivering the same merchant operations platform through a responsive Angular interface that serves over 500,000 merchants alongside the mobile apps.",
     "description": "<p>Youtap BOS Web is the browser-based interface of the Youtap BOS platform, built with Angular and the same NestJS backend powering the mobile apps. It gives merchants and operations teams full control over product management, inventory, transactions, and business reporting on desktop.</p><p>I led the web engineering team, owning architecture decisions and delivery cadence. Since the web app shares services with the mobile apps, I ensured consistent behavior across platforms by establishing shared component libraries, unified API contracts, and cross-team code review practices.</p><p>Shipped continuous UI and feature updates while maintaining <strong>99.9% uptime</strong> across all platforms.</p>",
-    "updatedAt": "2026-05-02T02:47:44.158Z"
+    "updatedAt": "2026-05-02T08:30:00.000Z"
   },
   {
     "periodLabel": "2021 - Present",
@@ -101,7 +101,7 @@
       "MySQL"
     ],
     "description": "<p>Youtap Portal is the internal operations dashboard used by Youtap Indonesia to manage merchant lifecycle, platform monitoring, and administrative tasks. While the BOS apps serve merchants directly, this portal empowers the internal ops team to onboard new merchants, resolve issues, and keep the platform running smoothly.</p><p>As Tech Lead, I drove the technical roadmap and cross-team delivery across frontend and backend. The frontend is built with React, while critical backend services are written in Golang for high-performance processing. I introduced role-based access control to separate merchant-facing admins from platform super-admins, built a real-time platform health dashboard, and set up automated alerting for transaction anomalies and system thresholds.</p><p>Supports hundreds of internal users across operations, finance, and support teams with <strong>99.9% uptime</strong>.</p>",
-    "updatedAt": "2026-05-02T08:25:00.000Z"
+    "updatedAt": "2026-05-02T08:30:00.000Z"
   },
   {
     "periodLabel": "2019 - 2021",
@@ -168,7 +168,7 @@
     "order": 4,
     "summary": "Built Youtap Online Order, the digital ordering module within the BOS ecosystem that enables merchants to accept and manage customer orders through mobile and web channels.",
     "description": "<p>Digital ordering module within the Youtap BOS ecosystem, enabling merchants to accept and manage customer orders across mobile and web channels. Integrated with the NestJS backend and 70+ payment gateway providers to deliver a seamless order-to-payment experience.</p><p>As Tech Lead, I owned end-to-end delivery of the ordering flow, from menu display and cart management through payment processing and order status tracking. Coordinated cross-team development to ensure consistent user experience and reliable performance during high-traffic periods.</p><p>The module extended BOS beyond inventory and payment into customer-facing commerce, supporting hundreds of thousands of daily transactions across the merchant network.</p>",
-    "updatedAt": "2026-05-02T08:25:00.000Z"
+    "updatedAt": "2026-05-02T08:30:00.000Z"
   },
   {
     "summary": "Developed attendance and workforce kiosk capabilities within the GreatDay ecosystem.",
@@ -242,7 +242,7 @@
       "https://firebasestorage.googleapis.com/v0/b/toms-personal-web.firebasestorage.app/o/intools%2FScreenshot%202025-07-17%20at%2014.52.17.png?alt=media&token=0ed4ced0-154a-42d3-894c-afc82fe36f31"
     ],
     "description": "<p>This internal CMS project was designed to streamline back-office configuration and content operations. I managed implementation quality and delivery cadence so internal teams could operate faster with clearer administrative control.</p>",
-    "updatedAt": "2026-05-02T02:47:47.186Z"
+    "updatedAt": "2026-05-02T08:30:00.000Z"
   },
   {
     "summary": "Delivered supporting products in the GreatDay ecosystem for attendance and workforce operations.",
@@ -1097,7 +1097,7 @@
     "summary": "Built Youtap POS Mobile, a next-generation POS mobile application for merchant operations and daily transactions, part of the Youtap POS ecosystem serving 500K+ merchants across Indonesia.",
     "description": "<p>Youtap POS Mobile is a next-generation point-of-sale mobile application built with Flutter, powering merchant daily operations across Indonesia's POS ecosystem. The product targets Retail, FnB, and Service business types, and is part of the broader Youtap POS platform that has been adopted by over 500,000 merchants.</p><p>The app covers core POS capabilities including digital cashier functions, product catalog management, cart and checkout flows, split bill handling, barcode scanning, transaction recording, and receipt generation. Merchants can manage multiple users (cashiers), track daily transaction reports, handle payment cancellations, and customize receipts for branding purposes.</p><p>Built with Flutter and Dart targeting both Android and iOS from a single codebase. I implemented core POS screens, integrated with the payment gateway layer, and ensured transaction flows were smooth and reliable for high-frequency merchant use. The app connects to the broader Youtap ecosystem including inventory management, e-menu, and online ordering modules.</p>",
     "order": 40,
-    "updatedAt": "2026-05-02T02:48:06.857Z"
+    "updatedAt": "2026-05-02T08:30:00.000Z"
   },
   {
     "title": "FIFGROUP Website",
